@@ -1,0 +1,255 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-edit" {$bodyattrs}>
+	{BEGIN body}{$header}
+	<BR><FONT size="4">Kandungan 
+ dan penerima surat.&nbsp;(</FONT> 
+{$event surat_snippet1}<FONT size="4">)</FONT> 
+<P><FONT size="2">Sila lengkapkan maklumat dibawah.</FONT> </P>
+<P><BR></P>
+<HR>
+
+<P><BR></P>
+<P>
+<P><BR></P>
+<TABLE class="runner-toptable" style="width: 80%;" cellpadding="0">
+  <TBODY>
+  <TR class="runner-footer">
+    <TD class="runner-bottom" colspan="3">
+      <P><STRONG><FONT size="3"><FONT color="#4b0082" size="2">1. Maklumat       
+            Surat</FONT>&nbsp;<A class="rnr-button button" id="Kemaskini1" href="#" typeid="ib"> Kemaskini </A> 
+      </FONT></STRONG> </P>
+      <P></P>
+      {$event surat_snippet22} 
+      <P></P>
+      <HR>
+
+      <P><BR></P></TD></TR>
+  <TR class="runner-footer" style="height: auto;">
+    <TD class="runner-bottom" colspan="3">
+      <P><STRONG><FONT size="3"><FONT color="#4b0082" size="2">2. Maklumat       
+            Penghantar Asal</FONT></FONT></STRONG> </P>
+      <P></P>
+      {$event surat_snippet23} 
+      <P></P>
+      <P>
+      <HR>
+
+      <P></P>
+      <P><BR></P>
+      <P><BR></P></TD></TR>
+  <TR class="runner-footer" style="height: 174px;">
+    <TD class="runner-bottom" colspan="3">
+      <P><FONT color="#4b0082" size="2"><STRONG>3. Imbasan Digital             
+      Surat</STRONG></FONT> </P>
+      <P></P>
+      {$event surat_snippet24} 
+      <P></P>
+      <P><BR></P>
+      <P></P>
+      <P></P>
+      <P><A class="rnr-button button" id="New_Button" href="#" typeid="ib">&nbsp;&nbsp;Pilih&nbsp;Dokumen&nbsp;&nbsp;</A> 
+      </P>
+      <P> 
+      <HR>
+
+      <P></P>
+      <P><STRONG><FONT size="3"><BR></FONT></STRONG> </P>
+      <P><BR></P>
+      <P><STRONG><FONT color="#4b0082" size="2">4. Penerima             
+      Surat</FONT></STRONG> </P>
+      <P></P>
+      <P></P>
+      {$event surat_snippet25} 
+      <P></P>
+      <P align="right"><BR></P>
+      <P align="right"></P>
+      <P align="right"></P>
+      <P align="right"><A class="rnr-button button" id="New_Button11" href="#" typeid="ib"> 
+      &nbsp;Hantar&nbsp;surat&nbsp;ke&nbsp;pegawai&nbsp;lain.&nbsp;(Tambah&nbsp;Penerima)&nbsp; 
+      </A> </P>
+      <P>
+      <P>
+      <HR>
+    </TD></TR></TBODY></TABLE>
+<P><BR></P>
+<P></P>
+<P>{BEGIN back_button}<a href="#" class="rnr-button" {$backbutton_attrs}>Kembali ke senarai</a>
+	{END back_button}</P>
+<P><BR></P>
+<P>{BEGIN back_button}<SPAN class="runner-btnframe"><SPAN class="runner-btnleft"></SPAN> <SPAN class="runner-btnright"></SPAN> </SPAN> {END back_button}</P>
+{BEGIN container_edit}<FONT face="Tahoma"></FONT><FONT face="Tahoma"></FONT><FONT face="Tahoma"></FONT><FONT 
+face="Tahoma"></FONT><FONT face="Tahoma"></FONT><FONT face="Tahoma"></FONT><FONT 
+face="Tahoma"></FONT><FONT face="Tahoma"></FONT><FONT face="Tahoma"></FONT><FONT 
+face="Tahoma"></FONT><FONT face="Tahoma"></FONT><FONT face="Tahoma"></FONT> 
+<TABLE align="left" class="runner-c runner-c-edit" style="display: none;" cellpadding="0">
+  <TBODY>
+  <TR class="runner-toprow style2 header">
+    <TD class="runner-cl" style="width: 3px;"><IMG src="images/spacer.gif"> </TD>
+    <TD class="runner-cc" style="width: 679px;"><FONT face="Tahoma"></FONT> 
+      <DIV class="runner-b-editheader {$brickclass_editheader}"><FONT face="Tahoma">Surat, 
+                  Kemaskini rekod [ Pilihan:</FONT> 
+      {$show_key1}<FONT face="Tahoma">]</FONT> </DIV><FONT 
+      face="Tahoma"></FONT> </TD>
+    <TD class="runner-cr" style="width: 2px;"><IMG src="images/spacer.gif"> </TD></TR>
+  {BEGIN message_block}<TR class="runner-row style1 runner-b-message {$brickclass_message}">
+    <TD class="runner-cl" style="width: 3px;"><FONT face="Tahoma"></FONT> </TD>
+    <TD class="runner-cc runner-brickcontents" style="width: 679px;">
+      <DIV class="runner-message">
+      {$message}</div></TD>
+    <TD class="runner-cr" style="width: 2px;"><FONT face="Tahoma"></FONT> 
+  </TD></TR>
+  {END message_block}
+
+
+
+
+<TR class="runner-row style1 runner-b-wrapper {$wrapperclass_fields}">
+    <TD class="runner-cl" style="width: 3px;"><FONT face="Tahoma"></FONT> </TD>
+    <TD class="runner-cc runner-brickcontents runner-wrapper" style="width: 679px;">
+      {BEGIN container_fields}<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-editfields {$brickclass_editfields}"><table class="fieldGrid">
+	{BEGIN tarikhKemasukkan_fieldblock}<tr class="{$fielddispclass_tarikhKemasukkan}" data-fieldname="tarikhKemasukkan">
+	<td class="rnr-label">
+		{BEGIN tarikhKemasukkan_label}{$label surat tarikhKemasukkan}{END tarikhKemasukkan_label}
+	</td>
+	<td class="rnr-control style3">
+		<FONT face="Tahoma"></FONT> 
+            {$tarikhKemasukkan_editcontrol}&nbsp;
+	<FONT 
+            face="Tahoma">&nbsp;</FONT> </td>
+</tr>
+{END tarikhKemasukkan_fieldblock}
+	{BEGIN Imbas_fieldblock}<TR class="runner-toprow header style1 runner-b-editfields">
+          <TD class="runner-cl"><FONT face="Tahoma"><IMG src="images/spacer.gif"></FONT> </TD>
+          <TD class="runner-cc runner-cc1">
+            <DIV class="fieldlabel_Imbas {$fielddispclass_Imbas}">{BEGIN Imbas_label} Imbas {END Imbas_label}
+	</DIV></td>
+	<TD class="runner-cc alt runner-fixedcell">
+            <DIV class="fieldcontrol_Imbas {$fielddispclass_Imbas}">
+            {$Imbas_editcontrol}&nbsp;
+	</DIV></TD>
+          <TD class="runner-cr alt"><FONT face="Tahoma"><IMG src="images/spacer.gif"></FONT> </td>
+</tr>
+{END Imbas_fieldblock}
+	{BEGIN tarikhSurat_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+          <TD class="runner-cl"><FONT face="Tahoma"></FONT> </TD>
+          <TD class="runner-cc runner-cc1">
+            <DIV class="fieldlabel_tarikhSurat {$fielddispclass_tarikhSurat}">{BEGIN tarikhSurat_label} Tarikh Surat {END tarikhSurat_label}
+	</DIV></td>
+	<TD class="runner-cc alt runner-fixedcell">
+            <DIV class="fieldcontrol_tarikhSurat {$fielddispclass_tarikhSurat}">
+            {$tarikhSurat_editcontrol}&nbsp;
+	</DIV></TD>
+          <TD class="runner-cr alt"><FONT face="Tahoma"></FONT> </td>
+</tr>
+{END tarikhSurat_fieldblock}
+	{BEGIN tarikhTerima_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+          <TD class="runner-cl"><FONT face="Tahoma"></FONT> </TD>
+          <TD class="runner-cc runner-cc1">
+            <DIV class="fieldlabel_tarikhTerima {$fielddispclass_tarikhTerima}">{BEGIN tarikhTerima_label} Tarikh Terima {END tarikhTerima_label}
+	</DIV></td>
+	<TD class="runner-cc alt runner-fixedcell">
+            <DIV class="fieldcontrol_tarikhTerima {$fielddispclass_tarikhTerima}">
+            {$tarikhTerima_editcontrol}&nbsp;
+	</DIV></TD>
+          <TD class="runner-cr alt"><FONT face="Tahoma"></FONT> </td>
+</tr>
+{END tarikhTerima_fieldblock}
+	{BEGIN rujukanSurat_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+          <TD class="runner-cl"><FONT face="Tahoma"></FONT> </TD>
+          <TD class="runner-cc runner-cc1">
+            <DIV class="fieldlabel_rujukanSurat {$fielddispclass_rujukanSurat}">{BEGIN rujukanSurat_label} No Rujukan Surat {END rujukanSurat_label}
+	</DIV></td>
+	<TD class="runner-cc alt runner-fixedcell">
+            <DIV class="fieldcontrol_rujukanSurat {$fielddispclass_rujukanSurat}">
+            {$rujukanSurat_editcontrol}&nbsp;
+	</DIV></TD>
+          <TD class="runner-cr alt"><FONT face="Tahoma"></FONT> </td>
+</tr>
+{END rujukanSurat_fieldblock}
+	{BEGIN RingkasanKandungan_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+          <TD class="runner-cl"><FONT face="Tahoma"></FONT> </TD>
+          <TD class="runner-cc runner-cc1">
+            <DIV class="fieldlabel_RingkasanKandungan {$fielddispclass_RingkasanKandungan}">{BEGIN RingkasanKandungan_label} Ringkasan Kandungan {END RingkasanKandungan_label}
+	</DIV></td>
+	<TD class="runner-cc alt runner-fixedcell">
+            <DIV class="fieldcontrol_RingkasanKandungan {$fielddispclass_RingkasanKandungan}">
+            {$RingkasanKandungan_editcontrol}&nbsp;
+	</DIV></TD>
+          <TD class="runner-cr alt"><FONT face="Tahoma"></FONT> </td>
+</tr>
+{END RingkasanKandungan_fieldblock}
+	{BEGIN Jenis_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+          <TD class="runner-cl"><FONT face="Tahoma"></FONT> </TD>
+          <TD class="runner-cc runner-cc1">
+            <DIV class="fieldlabel_Jenis {$fielddispclass_Jenis}">{BEGIN Jenis_label} Jenis {END Jenis_label}
+	</DIV></td>
+	<TD class="runner-cc alt runner-fixedcell">
+            <DIV class="fieldcontrol_Jenis {$fielddispclass_Jenis}" style="display: none;">
+            {$Jenis_editcontrol}&nbsp;
+	</DIV></TD>
+          <TD class="runner-cr alt"><FONT face="Tahoma"></FONT> </td>
+</tr>
+{END Jenis_fieldblock}
+	{BEGIN kategori_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+          <TD class="runner-cl"><FONT face="Tahoma"></FONT> </TD>
+          <TD class="runner-cc runner-cc1">
+            <DIV class="fieldlabel_kategori {$fielddispclass_kategori}">{BEGIN kategori_label} Kategori {END kategori_label}
+	</DIV></td>
+	<TD class="runner-cc alt runner-fixedcell">
+            <DIV class="fieldcontrol_kategori {$fielddispclass_kategori}">
+            {$kategori_editcontrol}&nbsp;
+	</DIV></TD>
+          <TD class="runner-cr alt"><FONT face="Tahoma"></FONT> </td>
+</tr>
+{END kategori_fieldblock}
+	<tr>
+	<td colspan="2">
+		{$Section PTG1}&nbsp;	
+	</td>
+</tr>
+
+	<tr>
+	<td colspan="2">
+		{$Section Agensi1}&nbsp;	
+	</td>
+</tr>
+
+</table></div>
+
+
+{BEGIN editbuttons}{END editbuttons}
+
+
+</div>
+{END container_fields}
+
+</TD>
+    <TD class="runner-cr" style="width: 2px;"><FONT face="Tahoma"></FONT> 
+  </TD></TR>
+  <TR class="{$cfooterclass_edit}">
+    <TD class="runner-cl" style="width: 3px;"><FONT face="Tahoma"><IMG src="images/spacer.gif"></FONT> </TD>
+    <TD class="runner-cc" style="width: 687px;"><FONT face="Tahoma"></FONT> 
+</TD>
+    <TD class="runner-cr" style="width: 2px;"><FONT face="Tahoma"><IMG src="images/spacer.gif"></FONT> </TD></TR></TBODY></TABLE>{END container_edit}
+{$footer}
+	{END body}
+	</body>
+</html>

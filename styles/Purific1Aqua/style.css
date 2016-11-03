@@ -1,0 +1,1322 @@
+.Purific1Aqua.rnr-s-empty > .rnr-c
+{
+background:none;
+
+}
+.Purific1Aqua.rnr-s-empty > .rnr-c .rnr-leftbricks
+{
+margin-left: 10px;
+}
+.Purific1Aqua.rnr-s-empty > .rnr-c .rnr-rightbricks
+{
+margin-right: 10px;
+}
+.Purific1Aqua.rnr-s-empty > :not(.runner-c) > *.style1,
+.Purific1Aqua.rnr-s-empty > * > :not(.rnr-b-wrapper) .style1
+{
+color: #004080;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-empty > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-empty > * > :not(.rnr-b-wrapper) .style1,
+.Purific1Aqua.rnr-s-empty > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-empty > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.Purific1Aqua.rnr-s-empty > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.Purific1Aqua.rnr-s-empty > :not(.runner-c) > *.style2,
+.Purific1Aqua.rnr-s-empty > * > :not(.rnr-b-wrapper) .style2
+{
+color: #000000;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-empty > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-empty > * > :not(.rnr-b-wrapper) .style2,
+.Purific1Aqua.rnr-s-empty > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-empty > :not(.runner-c) > *.style3,
+.Purific1Aqua.rnr-s-empty > * > :not(.rnr-b-wrapper) .style3
+{
+color: #696969;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-empty > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-empty > * > :not(.rnr-b-wrapper) .style3,
+.Purific1Aqua.rnr-s-empty > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-menu > .rnr-c
+{
+border: solid #84B8E3 1px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;
+}
+.Purific1Aqua.rnr-s-menu > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 1px; padding-left: 1px;
+border-bottom-left-radius: 1px; padding-left: 1px;
+
+}
+.Purific1Aqua.rnr-s-menu > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 1px; padding-right: 1px;
+border-bottom-right-radius: 1px; padding-right: 1px;
+
+}
+.Purific1Aqua.rnr-s-menu > :not(.runner-c) > *.style1,
+.Purific1Aqua.rnr-s-menu > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #ABCDE9;color: #404061;
+font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-menu > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #ABCDE9;
+}
+.Purific1Aqua.rnr-s-menu > :not(.runner-c) > *.style2,
+.Purific1Aqua.rnr-s-menu > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #6699CC;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-menu > :not(.runner-c) > *.style3,
+.Purific1Aqua.rnr-s-menu > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #60A3CF;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-menu > .rnr-c .rnr-leftbricks
+{
+margin-left: 2px;
+}
+.Purific1Aqua.rnr-s-menu > .rnr-c .rnr-rightbricks
+{
+margin-right: 2px;
+}
+.Purific1Aqua.rnr-s-menu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-menu > * > :not(.rnr-b-wrapper) .style1,
+.Purific1Aqua.rnr-s-menu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-menu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.Purific1Aqua.rnr-s-menu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.Purific1Aqua.rnr-s-menu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-menu > * > :not(.rnr-b-wrapper) .style2,
+.Purific1Aqua.rnr-s-menu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-menu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-menu > * > :not(.rnr-b-wrapper) .style3,
+.Purific1Aqua.rnr-s-menu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-hmenu > .rnr-c
+{
+background:none;
+
+}
+.Purific1Aqua.rnr-s-hmenu > .rnr-c .rnr-leftbricks
+{
+margin-left: 10px;
+}
+.Purific1Aqua.rnr-s-hmenu > .rnr-c .rnr-rightbricks
+{
+margin-right: 10px;
+}
+.Purific1Aqua.rnr-s-hmenu > :not(.runner-c) > *.style1,
+.Purific1Aqua.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style1
+{
+color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-hmenu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style1,
+.Purific1Aqua.rnr-s-hmenu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 6px 4px;
+}
+.Purific1Aqua.rnr-s-hmenu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.Purific1Aqua.rnr-s-hmenu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.Purific1Aqua.rnr-s-hmenu > :not(.runner-c) > *.style2,
+.Purific1Aqua.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style2
+{
+color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-hmenu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style2,
+.Purific1Aqua.rnr-s-hmenu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-hmenu > :not(.runner-c) > *.style3,
+.Purific1Aqua.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style3
+{
+color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-hmenu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style3,
+.Purific1Aqua.rnr-s-hmenu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-undermenu > .rnr-c
+{
+border: solid #C0C0C0 1px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;
+}
+.Purific1Aqua.rnr-s-undermenu > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 1px; padding-left: 1px;
+border-bottom-left-radius: 1px; padding-left: 1px;
+
+}
+.Purific1Aqua.rnr-s-undermenu > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 1px; padding-right: 1px;
+border-bottom-right-radius: 1px; padding-right: 1px;
+
+}
+.Purific1Aqua.rnr-s-undermenu > :not(.runner-c) > *.style1,
+.Purific1Aqua.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #EDEDED;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-undermenu > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #EDEDED;
+}
+.Purific1Aqua.rnr-s-undermenu > :not(.runner-c) > *.style2,
+.Purific1Aqua.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #FFFF00;color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-undermenu > :not(.runner-c) > *.style3,
+.Purific1Aqua.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #FFFF00;color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-undermenu > .rnr-c .rnr-leftbricks
+{
+margin-left: 2px;
+}
+.Purific1Aqua.rnr-s-undermenu > .rnr-c .rnr-rightbricks
+{
+margin-right: 2px;
+}
+.Purific1Aqua.rnr-s-undermenu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style1,
+.Purific1Aqua.rnr-s-undermenu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-undermenu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.Purific1Aqua.rnr-s-undermenu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.Purific1Aqua.rnr-s-undermenu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style2,
+.Purific1Aqua.rnr-s-undermenu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-undermenu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style3,
+.Purific1Aqua.rnr-s-undermenu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-fields > .rnr-c
+{
+border: solid #4E6373 1px;border-top-left-radius: 4px;border-top-right-radius: 4px;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;
+}
+.Purific1Aqua.rnr-s-fields > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 3px; padding-left: 2px;
+border-bottom-left-radius: 3px; padding-left: 2px;
+
+}
+.Purific1Aqua.rnr-s-fields > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 3px; padding-right: 2px;
+border-bottom-right-radius: 3px; padding-right: 2px;
+
+}
+.Purific1Aqua.rnr-s-fields > :not(.runner-c) > *.style1,
+.Purific1Aqua.rnr-s-fields > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #CFDBEA;
+background: linear-gradient(0.000000turn, #EBF0F6, #CFDBEA);
+;
+color: #404040;
+font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-fields > .rnr-c.rnr-ch
+{
+background-color: #CFDBEA;
+background: linear-gradient(0.000000turn, #EBF0F6, #CFDBEA);
+;
+
+}
+.Purific1Aqua.rnr-s-fields > :not(.runner-c) > *.style2,
+.Purific1Aqua.rnr-s-fields > * > :not(.rnr-b-wrapper) .style2
+{
+background-color: #EDEDED;
+background: linear-gradient(0.500000turn, #DADADA, #EDEDED);
+;
+color: #404040;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-fields > :not(.runner-c) > *.style3,
+.Purific1Aqua.rnr-s-fields > * > :not(.rnr-b-wrapper) .style3
+{
+background-color: #CFDBEA;
+background: linear-gradient(0.000000turn, #EBF0F6, #CFDBEA);
+;
+color: #404040;
+font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-fields > .rnr-c .rnr-leftbricks
+{
+margin-left: 4px;
+}
+.Purific1Aqua.rnr-s-fields > .rnr-c .rnr-rightbricks
+{
+margin-right: 4px;
+}
+.Purific1Aqua.rnr-s-fields > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-fields > * > :not(.rnr-b-wrapper) .style1,
+.Purific1Aqua.rnr-s-fields > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 6px;
+}
+.Purific1Aqua.rnr-s-fields > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 4px; background:transparent;
+}
+.Purific1Aqua.rnr-s-fields > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 4px; background:transparent;
+}
+.Purific1Aqua.rnr-s-fields > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-fields > * > :not(.rnr-b-wrapper) .style2,
+.Purific1Aqua.rnr-s-fields > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 8px 4px;
+}
+.Purific1Aqua.rnr-s-fields > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-fields > * > :not(.rnr-b-wrapper) .style3,
+.Purific1Aqua.rnr-s-fields > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-form > .rnr-c
+{
+border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+}
+.Purific1Aqua.rnr-s-form > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 10px; padding-left: 5px;
+border-bottom-left-radius: 10px; padding-left: 5px;
+
+}
+.Purific1Aqua.rnr-s-form > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 10px; padding-right: 5px;
+border-bottom-right-radius: 10px; padding-right: 5px;
+
+}
+.Purific1Aqua.rnr-s-form > :not(.runner-c) > *.style1,
+.Purific1Aqua.rnr-s-form > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #C2D2E4;color: #404061;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-form > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #C2D2E4;
+}
+.Purific1Aqua.rnr-s-form > :not(.runner-c) > *.style2,
+.Purific1Aqua.rnr-s-form > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #004080;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-form > :not(.runner-c) > *.style3,
+.Purific1Aqua.rnr-s-form > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #6699CC;color: #003366;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-form > .rnr-c .rnr-leftbricks
+{
+margin-left: 10px;
+}
+.Purific1Aqua.rnr-s-form > .rnr-c .rnr-rightbricks
+{
+margin-right: 10px;
+}
+.Purific1Aqua.rnr-s-form > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-form > * > :not(.rnr-b-wrapper) .style1,
+.Purific1Aqua.rnr-s-form > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-form > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.Purific1Aqua.rnr-s-form > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.Purific1Aqua.rnr-s-form > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-form > * > :not(.rnr-b-wrapper) .style2,
+.Purific1Aqua.rnr-s-form > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-form > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-form > * > :not(.rnr-b-wrapper) .style3,
+.Purific1Aqua.rnr-s-form > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-1 > .rnr-c
+{
+border: solid #296389 1px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;
+}
+.Purific1Aqua.rnr-s-1 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 1px; padding-left: 1px;
+border-bottom-left-radius: 1px; padding-left: 1px;
+
+}
+.Purific1Aqua.rnr-s-1 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 1px; padding-right: 1px;
+border-bottom-right-radius: 1px; padding-right: 1px;
+
+}
+.Purific1Aqua.rnr-s-1 > :not(.runner-c) > *.style1,
+.Purific1Aqua.rnr-s-1 > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #4E6373;
+background: linear-gradient(0.000000turn, #83919D, #4E6373);
+;
+color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-1 > .rnr-c.rnr-ch
+{
+background-color: #4E6373;
+background: linear-gradient(0.000000turn, #83919D, #4E6373);
+;
+
+}
+.Purific1Aqua.rnr-s-1 > :not(.runner-c) > *.style2,
+.Purific1Aqua.rnr-s-1 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #004080;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-1 > :not(.runner-c) > *.style3,
+.Purific1Aqua.rnr-s-1 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #3366FF;color: #D1EEEE;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-1 > .rnr-c .rnr-leftbricks
+{
+margin-left: 2px;
+}
+.Purific1Aqua.rnr-s-1 > .rnr-c .rnr-rightbricks
+{
+margin-right: 2px;
+}
+.Purific1Aqua.rnr-s-1 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-1 > * > :not(.rnr-b-wrapper) .style1,
+.Purific1Aqua.rnr-s-1 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-1 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.Purific1Aqua.rnr-s-1 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.Purific1Aqua.rnr-s-1 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-1 > * > :not(.rnr-b-wrapper) .style2,
+.Purific1Aqua.rnr-s-1 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-1 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-1 > * > :not(.rnr-b-wrapper) .style3,
+.Purific1Aqua.rnr-s-1 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-2 > .rnr-c
+{
+border: solid #C0C0C0 1px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;
+}
+.Purific1Aqua.rnr-s-2 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 1px; padding-left: 1px;
+border-bottom-left-radius: 1px; padding-left: 1px;
+
+}
+.Purific1Aqua.rnr-s-2 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 1px; padding-right: 1px;
+border-bottom-right-radius: 1px; padding-right: 1px;
+
+}
+.Purific1Aqua.rnr-s-2 > :not(.runner-c) > *.style1,
+.Purific1Aqua.rnr-s-2 > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #F7F7F7;
+background: linear-gradient(0.000000turn, #FDFDFD, #F7F7F7);
+;
+color: #696969;
+font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-2 > .rnr-c.rnr-ch
+{
+background-color: #F7F7F7;
+background: linear-gradient(0.000000turn, #FDFDFD, #F7F7F7);
+;
+
+}
+.Purific1Aqua.rnr-s-2 > :not(.runner-c) > *.style2,
+.Purific1Aqua.rnr-s-2 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #3366FF;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-2 > :not(.runner-c) > *.style3,
+.Purific1Aqua.rnr-s-2 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #6699CC;color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-2 > .rnr-c .rnr-leftbricks
+{
+margin-left: 2px;
+}
+.Purific1Aqua.rnr-s-2 > .rnr-c .rnr-rightbricks
+{
+margin-right: 2px;
+}
+.Purific1Aqua.rnr-s-2 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-2 > * > :not(.rnr-b-wrapper) .style1,
+.Purific1Aqua.rnr-s-2 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-2 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.Purific1Aqua.rnr-s-2 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.Purific1Aqua.rnr-s-2 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-2 > * > :not(.rnr-b-wrapper) .style2,
+.Purific1Aqua.rnr-s-2 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-2 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-2 > * > :not(.rnr-b-wrapper) .style3,
+.Purific1Aqua.rnr-s-2 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-3 > .rnr-c
+{
+border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+}
+.Purific1Aqua.rnr-s-3 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 10px; padding-left: 5px;
+border-bottom-left-radius: 10px; padding-left: 5px;
+
+}
+.Purific1Aqua.rnr-s-3 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 10px; padding-right: 5px;
+border-bottom-right-radius: 10px; padding-right: 5px;
+
+}
+.Purific1Aqua.rnr-s-3 > :not(.runner-c) > *.style1,
+.Purific1Aqua.rnr-s-3 > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #4E6373;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-3 > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #4E6373;
+}
+.Purific1Aqua.rnr-s-3 > :not(.runner-c) > *.style2,
+.Purific1Aqua.rnr-s-3 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #000080;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-3 > :not(.runner-c) > *.style3,
+.Purific1Aqua.rnr-s-3 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #004080;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.rnr-s-3 > .rnr-c .rnr-leftbricks
+{
+margin-left: 10px;
+}
+.Purific1Aqua.rnr-s-3 > .rnr-c .rnr-rightbricks
+{
+margin-right: 10px;
+}
+.Purific1Aqua.rnr-s-3 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-3 > * > :not(.rnr-b-wrapper) .style1,
+.Purific1Aqua.rnr-s-3 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-3 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.Purific1Aqua.rnr-s-3 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.Purific1Aqua.rnr-s-3 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-3 > * > :not(.rnr-b-wrapper) .style2,
+.Purific1Aqua.rnr-s-3 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-3 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.Purific1Aqua.rnr-s-3 > * > :not(.rnr-b-wrapper) .style3,
+.Purific1Aqua.rnr-s-3 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow:first-child > th:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow:first-child > th:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow:first-child > td:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow:first-child > td:not(.rnr-cs)
+{
+border-top: solid #DCDCDC 1px;
+
+}
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:last-child > td:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:last-child > td:not(.rnr-cs)
+{
+border-bottom: solid #DCDCDC 1px;
+
+}
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > td:first-child,
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > td:first-child,
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > th:first-child,
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > th:first-child,
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > *.rnr-cs + td,
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > *.rnr-cs + td,
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > *.rnr-cs + th,
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > *.rnr-cs + th
+{
+border-left: solid #DCDCDC 1px;
+
+}
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > *.rnr-edge,
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > *.rnr-edge
+{
+border-right: solid #DCDCDC 1px;
+
+}
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow > th:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow > th:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow > td:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow > td:not(.rnr-cs)
+{
+background-color: #4E6373; background-image: none;font-family: Verdana, sans-serif; font-size: 10px; font-weight: bold; font-style: normal; text-decoration: none;color: #FFFFFF;padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-bottomrow > td:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-bottomrow > td:not(.rnr-cs)
+{
+background-color: #4E6373; background-image: none;font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row > td:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row > td:not(.rnr-cs)
+{
+background-color: #F7F7F7; background-image: none;font-family: Verdana, sans-serif; font-size: 10px; font-weight: normal; font-style: normal; text-decoration: none;color: #404040;color: #404040;padding: 5px 4px;
+}
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row:nth-last-child(2n+1) > td:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row:nth-last-child(2n+1) > td:not(.rnr-cs)
+{
+background-color: #EDEDED; background-image: none;color: #404040;
+}
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical).hoverable > * > .rnr-row:hover > td:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord.hoverable > * > .rnr-row:hover > td:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row > td.rnr-selected,
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row > td.rnr-selected
+{
+background-color: #DCDCDC; background-image: none;color: #404040;
+}
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical).hoverable > * > .rnr-row:hover:nth-last-child(2n+1) > td:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord.hoverable > * > .rnr-row:hover:nth-last-child(2n+1) > td:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row:nth-last-child(2n+1) > td.rnr-selected,
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row:nth-last-child(2n+1) > td.rnr-selected
+{
+background-color: #C0C0C0; background-image: none;color: #404040;
+}
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > thead > tr:last-child > th:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > thead > tr:last-child > th:not(.rnr-cs)
+{
+border-bottom: solid #DCDCDC 1px;
+
+}
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > tr.rnr-row > td:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > tr.rnr-row > td:not(.rnr-cs)
+{
+border-top: solid #DCDCDC 1px;
+
+}
+.Purific1Aqua.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:not(.rnr-bottomrow) + .rnr-bottomrow > td:not(.rnr-cs),
+.Purific1Aqua.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:not(.rnr-bottomrow) + .rnr-bottomrow > td:not(.rnr-cs)
+{
+border-top: solid #DCDCDC 1px;
+
+}
+.Purific1Aqua .rnr-search-highlight
+{
+color: #FF0000; background-color: transparent;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.main > *,
+.Purific1Aqua .rnr-b-vmenu.tree.main > *:not(.subitem)
+{
+background-color: #ABCDE9;
+background: linear-gradient(0.000000turn, #CADFF1, #ABCDE9);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.main > * > hr,
+.Purific1Aqua .rnr-b-vmenu.tree.main > *:not(.subitem) > hr
+{
+border-color:#404061;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.main > *:hover:not(.expanded):not(.menuSeparator),
+.Purific1Aqua .rnr-b-vmenu.tree.main > *:not(.subitem):not(.manage):hover:not(.menuSeparator)
+{
+background-color: #83B8E2;
+background: linear-gradient(0.000000turn, #B0D2EC, #83B8E2);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.main > *.current.current.current,
+.Purific1Aqua .rnr-b-vmenu.tree.main > *:not(.subitem).current.current.current
+{
+background-color: #83B8E2;
+background: linear-gradient(0.000000turn, #B0D2EC, #83B8E2);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.main > *:hover:hover:hover.expanded
+{
+background-color: #83B8E2;
+background: linear-gradient(0.000000turn, #B0D2EC, #83B8E2);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.main > * > ul li,
+.Purific1Aqua .rnr-b-vmenu.tree.main > *.subitem
+{
+background-color: #ABCDE9;
+background: linear-gradient(0.000000turn, #EFF6FB, #ABCDE9);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.main > * > ul li > hr,
+.Purific1Aqua .rnr-b-vmenu.tree.main > *.subitem > hr
+{
+border-color:#404061;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.main > * > ul li:hover:not(.expanded):not(.menuSeparator),
+.Purific1Aqua .rnr-b-vmenu.tree.main > *.subitem:hover:not(.menuSeparator)
+{
+background-color: #83B8E2;
+background: linear-gradient(0.000000turn, #E8F2F9, #83B8E2);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.main > * > ul li.current.current.current,
+.Purific1Aqua .rnr-b-vmenu.tree.main > *.subitem.current.current.current
+{
+background-color: #83B8E2;
+background: linear-gradient(0.000000turn, #E8F2F9, #83B8E2);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.main > * > ul li:hover:hover:hover.expanded
+{
+background-color: #83B8E2;
+background: linear-gradient(0.000000turn, #E8F2F9, #83B8E2);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.tree.main > *:not(.subitem) > div
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.main > * > :not(ul) > *
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.Purific1Aqua .rnr-b-vmenu.tree.main > *.subitem > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.main > * > ul li > :not(ul) > *
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.main >  * ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.Purific1Aqua .rnr-b-vmenu.simple.second > *,
+.Purific1Aqua .rnr-b-vmenu.tree.second > *:not(.subitem)
+{
+background-color: #ABCDE9;
+background: linear-gradient(0.000000turn, #CADFF1, #ABCDE9);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.second > * > hr,
+.Purific1Aqua .rnr-b-vmenu.tree.second > *:not(.subitem) > hr
+{
+border-color:#404061;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.second > *:hover:not(.expanded):not(.menuSeparator),
+.Purific1Aqua .rnr-b-vmenu.tree.second > *:not(.subitem):not(.manage):hover:not(.menuSeparator)
+{
+background-color: #83B8E2;
+background: linear-gradient(0.000000turn, #B0D2EC, #83B8E2);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.second > *.current.current.current,
+.Purific1Aqua .rnr-b-vmenu.tree.second > *:not(.subitem).current.current.current
+{
+background-color: #83B8E2;
+background: linear-gradient(0.000000turn, #B0D2EC, #83B8E2);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.second > *:hover:hover:hover.expanded
+{
+background-color: #83B8E2;
+background: linear-gradient(0.000000turn, #B0D2EC, #83B8E2);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.second > * > ul li,
+.Purific1Aqua .rnr-b-vmenu.tree.second > *.subitem
+{
+background-color: #ABCDE9;
+background: linear-gradient(0.000000turn, #EFF6FB, #ABCDE9);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.second > * > ul li > hr,
+.Purific1Aqua .rnr-b-vmenu.tree.second > *.subitem > hr
+{
+border-color:#404061;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.second > * > ul li:hover:not(.expanded):not(.menuSeparator),
+.Purific1Aqua .rnr-b-vmenu.tree.second > *.subitem:hover:not(.menuSeparator)
+{
+background-color: #83B8E2;
+background: linear-gradient(0.000000turn, #E8F2F9, #83B8E2);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.second > * > ul li.current.current.current,
+.Purific1Aqua .rnr-b-vmenu.tree.second > *.subitem.current.current.current
+{
+background-color: #83B8E2;
+background: linear-gradient(0.000000turn, #E8F2F9, #83B8E2);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.second > * > ul li:hover:hover:hover.expanded
+{
+background-color: #83B8E2;
+background: linear-gradient(0.000000turn, #E8F2F9, #83B8E2);
+;
+color:#404061;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-vmenu.tree.second > *:not(.subitem) > div
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.second > * > :not(ul) > *
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.Purific1Aqua .rnr-b-vmenu.tree.second > *.subitem > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.second > * > ul li > :not(ul) > *
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.Purific1Aqua .rnr-b-vmenu.simple.second >  * ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.Purific1Aqua .rnr-b-hmenu.main > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #ABCDE9;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;padding: 5px 4px;border-top-right-radius: 8px;border: solid #000000 1px;
+}
+.Purific1Aqua .rnr-b-hmenu.main > div:not(.rnr-hseparator) > hr
+{
+border-color:#404061;
+}
+.Purific1Aqua .rnr-b-hmenu.main:hover:not(.expanded) > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #83B8E2;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.main.current.current > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #83B8E2;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.main:hover.expanded > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #83B8E2;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.main > ul li
+{
+background-image:none; background-color: #ABCDE9;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.main > ul li > hr
+{
+border-color:#404061;
+}
+.Purific1Aqua .rnr-b-hmenu.main > ul li:hover:not(.expanded):not(.menuSeparator)
+{
+background-image:none; background-color: #83B8E2;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.main > ul li.current.current
+{
+background-image:none; background-color: #83B8E2;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.main > ul li:hover.expanded
+{
+background-image:none; background-color: #83B8E2;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.main > ul li > div > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.Purific1Aqua .rnr-b-hmenu.main ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.Purific1Aqua .rnr-b-hmenu.main.rnr-b-hmenu.rnr-b-hmenu
+{
+padding-bottom: 0; padding-left:0; padding-right:0; vertical-align: bottom;
+}
+.Purific1Aqua .rnr-b-hmenu.second > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #ABCDE9;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;padding: 5px 4px;border-top-right-radius: 8px;border: solid #000000 1px;
+}
+.Purific1Aqua .rnr-b-hmenu.second > div:not(.rnr-hseparator) > hr
+{
+border-color:#404061;
+}
+.Purific1Aqua .rnr-b-hmenu.second:hover:not(.expanded) > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #83B8E2;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.second.current.current > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #83B8E2;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.second:hover.expanded > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #83B8E2;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.second > ul li
+{
+background-image:none; background-color: #ABCDE9;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.second > ul li > hr
+{
+border-color:#404061;
+}
+.Purific1Aqua .rnr-b-hmenu.second > ul li:hover:not(.expanded):not(.menuSeparator)
+{
+background-image:none; background-color: #83B8E2;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.second > ul li.current.current
+{
+background-image:none; background-color: #83B8E2;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.second > ul li:hover.expanded
+{
+background-image:none; background-color: #83B8E2;color:#404061;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.Purific1Aqua .rnr-b-hmenu.second > ul li > div > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.Purific1Aqua .rnr-b-hmenu.second ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.Purific1Aqua .rnr-b-hmenu.second.rnr-b-hmenu.rnr-b-hmenu
+{
+padding-bottom: 0; padding-left:0; padding-right:0; vertical-align: bottom;
+}
+body.Purific1Aqua
+{
+
+background-color:#FFFFFF;
+}
+.Purific1Aqua .rnr-list
+{
+color: #000000;background-color: #CFDBEA;font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;border: solid #696969 1px;box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.Purific1Aqua .rnr-tab.selected
+{
+background-color:#0000FF;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+
+}
+.Purific1Aqua .rnr-tab
+{
+background-color:#C0C0C0;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border: solid #000000 1px; border-bottom-width:0;
+}
+.Purific1Aqua .rnr-tab.selected > a
+{
+color: #FFFFFF;
+
+}
+.Purific1Aqua .rnr-tab > a
+{
+color: #000000;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .yui-navset .yui-content
+{
+border: solid #0000FF 1px;border-top-width: 5px;
+}
+.Purific1Aqua .rnr-stepnav > a.active,
+.Purific1Aqua .rnr-stepnav > a:hover:not(.active)
+{
+background-color: #4D98CA;
+background: linear-gradient(0.000000turn, #CDE2F0, #4D98CA);
+;
+color: #FFFFFF;
+
+}
+.Purific1Aqua .rnr-stepnav > a.active:after,
+.Purific1Aqua .rnr-stepnav > a:hover:not(.active):after
+{
+background-color: #4D98CA;
+background: linear-gradient(0.875000turn, #CDE2F0, #4D98CA);
+;
+
+}
+.Purific1Aqua .rnr-stepnav > a:not(.active),
+.Purific1Aqua .rnr-stepnav > a:not(.active):after
+{
+background-image: none; background-color: #C0C0C0;
+
+}
+.Purific1Aqua .rnr-stepnav > a:before
+{
+background-image: none; background: #296389;
+
+}
+.Purific1Aqua .rnr-stepnav > a:not(.active)
+{
+color: #696969;
+
+}
+.Purific1Aqua .rnr-stepnav > a:before 
+{
+color: #FFFFFF;
+
+}
+.Purific1Aqua .rnr-stepnav > a,
+ .rnr-pagewrapper .Purific1Aqua .rnr-stepnav > a,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .rnr-stepnav > a
+{
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua  .rnr-message
+{
+background-color: #C2D2E4;border: solid #404040 1px;color: #006600;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua  .rnr-error.rnr-error
+{
+color: #A80000;font-family: Tahoma, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .yui3-panel-content.yui3-panel-content
+{
+border: solid #296389 1px;border-radius: 2px;
+}
+.Purific1Aqua  .yui3-panel .yui3-widget-hd.yui3-widget-hd.yui3-widget-hd
+{
+background-color: #004080; background-image: none;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;
+}
+.Purific1Aqua  .yui3-widget-ft
+{
+background-color: #EDEDED;
+background: linear-gradient(0.500000turn, #DADADA, #EDEDED);
+;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;color: #404040;
+}
+.Purific1Aqua .rnr-dbbordered
+{
+border: solid #296389 1px;border-radius: 2px;
+}
+.Purific1Aqua  .rnr-dbelemheader
+{
+background-color: #004080; background-image: none;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;
+}
+.Purific1Aqua  .rnr-dbelemfooter
+{
+background-color: #D8D8D8;
+background: linear-gradient(0.500000turn, #C6C6C6, #D8D8D8);
+;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;color: #000000;
+}
+.Purific1Aqua  .rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow
+{
+background-color: #FFFACD; background-image: none;color: #4C4951;
+}
+.Purific1Aqua .rnr-dashboard
+{
+background-color: #FFFFFF;
+}
+.Purific1Aqua .rnr-button.rnr-button,
+.Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+.Purific1Aqua .button.button.button.rnr-button.rnr-button,
+ .rnr-pagewrapper .Purific1Aqua .rnr-button.rnr-button,
+ .rnr-pagewrapper .Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .Purific1Aqua .button.button.button.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .button.button.button.rnr-button.rnr-button
+{
+border: solid 1px;border-radius: 2px;padding: 3px 10px 3px;background-color: #4D98CA;
+background: linear-gradient(0.000000turn, #CDE2F0, #4D98CA);
+;
+border-color: #000000;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .rnr-button.rnr-button.img,
+.Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+.Purific1Aqua .button.button.button.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .Purific1Aqua .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .Purific1Aqua .button.button.button.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .button.button.button.rnr-button.rnr-button.img
+{
+padding: 3px;
+
+}
+.Purific1Aqua .rnr-button:hover,
+.Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+.Purific1Aqua .button.button.button.rnr-button:hover,
+ .rnr-pagewrapper .Purific1Aqua .rnr-button:hover,
+ .rnr-pagewrapper .Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .Purific1Aqua .button.button.button.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .button.button.button.rnr-button:hover
+{
+background-color: #296389;
+background: linear-gradient(0.000000turn, #C3D3DD, #296389);
+;
+border-color: #000000;color: #FFFFFF;
+
+}
+.Purific1Aqua .rnr-button:active,
+.Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+.Purific1Aqua .button.button.button.rnr-button:active,
+ .rnr-pagewrapper .Purific1Aqua .rnr-button:active,
+ .rnr-pagewrapper .Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .Purific1Aqua .button.button.button.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .button.button.button.rnr-button:active
+{
+background-color: #60A3CF;
+background: linear-gradient(0.000000turn, #D2E5F1, #60A3CF);
+;
+border-color: #000000;color: #FFFFFF;
+
+}
+.Purific1Aqua .rnr-button.disabled,
+.Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+.Purific1Aqua .button.button.button.rnr-button.disabled,
+ .rnr-pagewrapper .Purific1Aqua .rnr-button.disabled,
+ .rnr-pagewrapper .Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .Purific1Aqua .button.button.button.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .button.button.button.rnr-button.disabled
+{
+background-color: #C0C0C0;
+background: linear-gradient(0.000000turn, #EDEDED, #C0C0C0);
+;
+border-color: #000000;color: #696969;
+
+}
+.Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+.Purific1Aqua .link.link.link.rnr-button.rnr-button,
+ .rnr-pagewrapper .Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .Purific1Aqua .link.link.link.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .link.link.link.rnr-button.rnr-button
+{
+background: none; border: none; ;
+border: none;border-radius: 0px;padding: 4px 8px 4px;color: #004080;
+font-family: Arial, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+.Purific1Aqua .link.link.link.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .Purific1Aqua .link.link.link.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .link.link.link.rnr-button.rnr-button.img
+{
+padding: 4px;
+
+}
+.Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+.Purific1Aqua .link.link.link.rnr-button:hover,
+ .rnr-pagewrapper .Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .Purific1Aqua .link.link.link.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .link.link.link.rnr-button:hover
+{
+color: #3366FF;
+
+}
+.Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+.Purific1Aqua .link.link.link.rnr-button:active,
+ .rnr-pagewrapper .Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .Purific1Aqua .link.link.link.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .link.link.link.rnr-button:active
+{
+color: #004080;
+
+}
+.Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+.Purific1Aqua .link.link.link.rnr-button.disabled,
+ .rnr-pagewrapper .Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .Purific1Aqua .link.link.link.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .link.link.link.rnr-button.disabled
+{
+color: #FFFF00;
+
+}
+.Purific1Aqua .main.main.main.rnr-button.rnr-button,
+ .rnr-pagewrapper .Purific1Aqua .main.main.main.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .main.main.main.rnr-button.rnr-button
+{
+border: solid 1px;border-radius: 2px;padding: 3px 10px 3px;background-color: #4D98CA;
+background: linear-gradient(0.000000turn, #CDE2F0, #4D98CA);
+;
+border-color: #000000;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.Purific1Aqua .main.main.main.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .Purific1Aqua .main.main.main.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .main.main.main.rnr-button.rnr-button.img
+{
+padding: 3px;
+
+}
+.Purific1Aqua .main.main.main.rnr-button:hover,
+ .rnr-pagewrapper .Purific1Aqua .main.main.main.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .main.main.main.rnr-button:hover
+{
+background-color: #296389;
+background: linear-gradient(0.000000turn, #C3D3DD, #296389);
+;
+border-color: #000000;color: #FFFFFF;
+
+}
+.Purific1Aqua .main.main.main.rnr-button:active,
+ .rnr-pagewrapper .Purific1Aqua .main.main.main.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .main.main.main.rnr-button:active
+{
+background-color: #60A3CF;
+background: linear-gradient(0.000000turn, #D2E5F1, #60A3CF);
+;
+border-color: #000000;color: #FFFFFF;
+
+}
+.Purific1Aqua .main.main.main.rnr-button.disabled,
+ .rnr-pagewrapper .Purific1Aqua .main.main.main.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .Purific1Aqua .main.main.main.rnr-button.disabled
+{
+background-color: #C0C0C0;
+background: linear-gradient(0.000000turn, #EDEDED, #C0C0C0);
+;
+border-color: #000000;color: #696969;
+
+}

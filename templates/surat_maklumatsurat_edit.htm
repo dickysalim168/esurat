@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE> 
+<META http-equiv="X-UA-Compatible" content="IE=Edge"> 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"><LINK href="styles/default.css" rel="stylesheet" type="text/css">{BEGIN rtlCSS}<LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK href="{$stylepath}" rel="stylesheet" type="text/css">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]--> 
+
+<META name="GENERATOR" content="MSHTML 11.00.9600.16412"></HEAD> 
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}
+
+{$header} 
+<P></P>
+<P></P>
+<P><FONT size="4">Kemaskini Surat.&nbsp;(</FONT> 
+</P>
+{$event surat_snippet110}<FONT 
+size="4">)</FONT> 
+<P></P>
+<P><FONT size="2">Sila lengkapkan maklumat dibawah.</FONT> 
+<TABLE class="runner-toptable" cellpadding="0">
+  <TBODY>
+  <TR class="runner-header">
+    <TD class="runner-top" colspan="3">
+      {BEGIN container_edit}
+      <TABLE align="left" class="runner-c runner-c-edit" cellpadding="0">
+        <TBODY>
+        <TR class="runner-toprow style2 header">
+          <TD class="runner-cl"><IMG src="images/spacer.gif"></TD>
+          <TD class="runner-cc">
+            
+            <DIV class="runner-b-editheader {$brickclass_editheader}">Suratview2,     
+                                Kemaskini rekod</DIV></TD>
+          <TD class="runner-cr"><IMG src="images/spacer.gif"></TD></TR>
+        {BEGIN message_block}<TR class="runner-row style1 runner-b-message {$brickclass_message}">
+          <TD class="runner-cl"></TD>
+          <TD class="runner-cc runner-brickcontents">
+            
+            <DIV class="runner-message">
+            {$message}</DIV></TD>
+          <TD class="runner-cr"></TD></TR>
+        {END message_block}<TR class="runner-row style1 runner-b-wrapper {$wrapperclass_fields}">
+          <TD class="runner-cl"></TD>
+          <TD class="runner-cc runner-brickcontents runner-wrapper">
+            
+            {BEGIN container_fields}
+            <TABLE class="runner-c runner-c-fields" cellpadding="0">
+              <TBODY>
+              {BEGIN tarikhSurat_fieldblock}<TR class="runner-toprow header style1 runner-b-editfields">
+                <TD class="runner-cl"><IMG src="images/spacer.gif"></TD>
+                <TD class="runner-cc runner-cc1">
+                  
+                  <DIV class="fieldlabel_tarikhSurat {$fielddispclass_tarikhSurat}">{BEGIN tarikhSurat_label}Tarikh Surat {END tarikhSurat_label}</DIV></TD>
+                <TD class="runner-cc alt runner-fixedcell">
+                  
+                  <DIV class="fieldcontrol_tarikhSurat {$fielddispclass_tarikhSurat}">
+                  {$tarikhSurat_editcontrol}&nbsp; 
+                  </DIV></TD>
+                <TD class="runner-cr alt"><IMG src="images/spacer.gif"></TD></TR>
+              {END tarikhSurat_fieldblock}{BEGIN tarikhTerima_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc runner-cc1">
+                  
+                  <DIV class="fieldlabel_tarikhTerima {$fielddispclass_tarikhTerima}">{BEGIN tarikhTerima_label}Tarikh Terima {END tarikhTerima_label}</DIV></TD>
+                <TD class="runner-cc alt runner-fixedcell">
+                  
+                  <DIV class="fieldcontrol_tarikhTerima {$fielddispclass_tarikhTerima}">
+                  {$tarikhTerima_editcontrol}&nbsp; 
+                  </DIV></TD>
+                <TD class="runner-cr alt"></TD></TR>
+              {END tarikhTerima_fieldblock}{BEGIN rujukanSurat_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc runner-cc1">
+                  
+                  <DIV class="fieldlabel_rujukanSurat {$fielddispclass_rujukanSurat}">{BEGIN rujukanSurat_label}No Rujukan Surat {END rujukanSurat_label}</DIV></TD>
+                <TD class="runner-cc alt runner-fixedcell">
+                  
+                  <DIV class="fieldcontrol_rujukanSurat {$fielddispclass_rujukanSurat}">
+                  {$rujukanSurat_editcontrol}&nbsp; 
+                  </DIV></TD>
+                <TD class="runner-cr alt"></TD></TR>
+              {END rujukanSurat_fieldblock}{BEGIN RingkasanKandungan_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc runner-cc1">
+                  
+                  <DIV class="fieldlabel_RingkasanKandungan {$fielddispclass_RingkasanKandungan}">{BEGIN RingkasanKandungan_label}Ringkasan Kandungan {END RingkasanKandungan_label}</DIV></TD>
+                <TD class="runner-cc alt runner-fixedcell">
+                  
+                  <DIV class="fieldcontrol_RingkasanKandungan {$fielddispclass_RingkasanKandungan}">
+                  {$RingkasanKandungan_editcontrol}&nbsp; 
+                  </DIV></TD>
+                <TD class="runner-cr alt"></TD></TR>
+              {END RingkasanKandungan_fieldblock}{BEGIN kategori_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc runner-cc1">
+                  
+                  <DIV class="fieldlabel_kategori {$fielddispclass_kategori}">{BEGIN kategori_label}Kategori {END kategori_label}</DIV></TD>
+                <TD class="runner-cc alt runner-fixedcell">
+                  
+                  <DIV class="fieldcontrol_kategori {$fielddispclass_kategori}">
+                  {$kategori_editcontrol}&nbsp; 
+                </DIV></TD>
+                <TD class="runner-cr alt"></TD></TR>
+              {END kategori_fieldblock}{BEGIN legend}<TR class="runner-row style3 runner-b-legend {$brickclass_legend}">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc runner-brickcontents" colspan="2">
+                  <SPAN id="required_block{$id}"><IMG alt="bullet" src="images/icon_required.gif"> - Medan Perlu </SPAN></TD>
+                <TD class="runner-cr"></TD></TR>
+              {END legend}<TR class="runner-row style2 runner-b-editbuttons {$brickclass_editbuttons}">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc runner-brickcontents" colspan="2">
+                  {BEGIN save_button}<SPAN class="runner-btnframe"><SPAN class="runner-btnleft"></SPAN><SPAN class="runner-btnright"></SPAN><A class="runner-button" href="#" {$savebutton_attrs}>Simpan</A> 
+                  </SPAN>{END save_button}<SPAN class="runner-btnframe"><SPAN class="runner-btnleft"></SPAN><SPAN class="runner-btnright"></SPAN><A class="runner-button" id="Kembali3" href="#" typeid="ib">Kembali</A></SPAN></TD>
+                <TD class="runner-cr"></TD></TR>
+              <TR class="{$cfooterclass_fields}">
+                <TD class="runner-cl"><IMG src="images/spacer.gif"></TD>
+                <TD class="runner-cc"></TD>
+                <TD class="runner-cc"></TD>
+                <TD class="runner-cr"><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_fields}</TD>
+          <TD class="runner-cr"></TD></TR>
+        <TR class="{$cfooterclass_edit}">
+          <TD class="runner-cl"><IMG src="images/spacer.gif"></TD>
+          <TD class="runner-cc"></TD>
+          <TD class="runner-cr"><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_edit}
+      <P>&nbsp;</P>
+      <P>&nbsp;</P></TD></TR>
+  <TR class="runner-body">
+    <TD class="runner-left {$blockclass_left}"></TD>
+    <TD class="runner-center {$blockclass_center}"></TD>
+    <TD class="runner-right {$blockclass_right}"></TD></TR>
+  <TR class="runner-footer">
+    <TD class="runner-bottom" colspan="3"><!--%%bottom%%--></TD></TR></TBODY></TABLE>
+<P>
+{$footer} 
+<P></P>
+<P>&nbsp;</P>
+<P>
+<P><FONT size="2"></FONT></P>
+<HR>
+
+<P></P>{END body}</BODY></HTML>

@@ -1,0 +1,166 @@
+body.page-add2old
+{
+padding-top:10px; padding-left:10px;
+}
+.page-add2old .runner-c-all,
+  .runner-pagewrapper .page-add2old .runner-c-all,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-c-all
+{
+margin-bottom:5px;
+}
+.page-add2old .runner-c-all,
+  .runner-pagewrapper .page-add2old .runner-c-all,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-c-all
+{
+width: 500px;
+}
+body.page-add2old .runner-c-all
+{
+margin-left:auto; margin-right:auto;
+}
+.page-add2old .runner-c-add,
+  .runner-pagewrapper .page-add2old .runner-c-add,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-c-add
+{
+margin-bottom:5px;
+}
+.page-add2old .runner-c-add,
+  .runner-pagewrapper .page-add2old .runner-c-add,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-c-add
+{
+width: 500px;
+}
+body.page-add2old .runner-c-add
+{
+margin-left:auto; margin-right:auto;
+}
+.page-add2old .runner-b-addheader,
+  .runner-pagewrapper .page-add2old .runner-b-addheader,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-addheader
+{
+white-space: nowrap;
+}
+.page-add2old .runner-b-addheader,
+  .runner-pagewrapper .page-add2old .runner-b-addheader,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-addheader
+{
+text-align: left;
+}
+.page-add2old .runner-b-addheader > *,
+  .runner-pagewrapper .page-add2old .runner-b-addheader > *,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-addheader > *
+{
+font-size: 120%;
+}
+.page-add2old .runner-b-message,
+  .runner-pagewrapper .page-add2old .runner-b-message,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-message
+{
+white-space: nowrap;
+}
+.page-add2old .runner-b-message,
+  .runner-pagewrapper .page-add2old .runner-b-message,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-message
+{
+text-align: left;
+}
+.page-add2old .runner-b-message > *,
+  .runner-pagewrapper .page-add2old .runner-b-message > *,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-message > *
+{
+
+}
+.page-add2old .runner-b-multistep_nav_add,
+  .runner-pagewrapper .page-add2old .runner-b-multistep_nav_add,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-multistep_nav_add
+{
+white-space: nowrap;
+}
+.page-add2old .runner-b-multistep_nav_add,
+  .runner-pagewrapper .page-add2old .runner-b-multistep_nav_add,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-multistep_nav_add
+{
+text-align: left;
+}
+.page-add2old .runner-b-multistep_nav_add > *,
+  .runner-pagewrapper .page-add2old .runner-b-multistep_nav_add > *,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-multistep_nav_add > *
+{
+
+}
+.page-add2old .runner-c-fields,
+  .runner-pagewrapper .page-add2old .runner-c-fields,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-c-fields
+{
+margin-bottom:5px;
+}
+.page-add2old .runner-b-addfields,
+  .runner-pagewrapper .page-add2old .runner-b-addfields,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-addfields
+{
+white-space: nowrap;
+}
+.page-add2old .runner-b-addfields,
+  .runner-pagewrapper .page-add2old .runner-b-addfields,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-addfields
+{
+text-align: left;
+}
+.page-add2old .runner-b-addfields > *,
+  .runner-pagewrapper .page-add2old .runner-b-addfields > *,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-addfields > *
+{
+
+}
+.page-add2old .runner-b-addbuttons,
+  .runner-pagewrapper .page-add2old .runner-b-addbuttons,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-addbuttons
+{
+white-space: nowrap;
+}
+.page-add2old .runner-b-addbuttons,
+  .runner-pagewrapper .page-add2old .runner-b-addbuttons,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-addbuttons
+{
+text-align: left;
+}
+.page-add2old .runner-b-addbuttons > *,
+  .runner-pagewrapper .page-add2old .runner-b-addbuttons > *,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-addbuttons > *
+{
+
+}
+.page-add2old .runner-c-details,
+  .runner-pagewrapper .page-add2old .runner-c-details,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-c-details
+{
+margin-bottom:5px;
+}
+.page-add2old .runner-c-details,
+  .runner-pagewrapper .page-add2old .runner-c-details,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-c-details
+{
+width: 100%;
+}
+.page-add2old .runner-b-adddetails,
+  .runner-pagewrapper .page-add2old .runner-b-adddetails,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-adddetails
+{
+white-space: nowrap;
+}
+.page-add2old .runner-b-adddetails,
+  .runner-pagewrapper .page-add2old .runner-b-adddetails,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-adddetails
+{
+text-align: left;
+}
+.page-add2old .runner-b-adddetails > *,
+  .runner-pagewrapper .page-add2old .runner-b-adddetails > *,
+  .runner-pagewrapper .runner-pagewrapper .page-add2old .runner-b-adddetails > *
+{
+
+}
+body.page-add2old .runner-top
+{
+padding-right: 5px;
+}

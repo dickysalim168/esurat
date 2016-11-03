@@ -1,0 +1,224 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-print" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_pdf}
+<div class="rnr-c rnr-ch rnr-c-pdf">
+
+{BEGIN printbuttons}
+<div  class="style1 rnr-bl rnr-b-printbuttons {$brickclass_printbuttons}">{BEGIN divideintopages_block}
+<a href="#" class="divideintopages rnr-button button" {$divideintopages_attrs}>Prepare for printing</a>
+{END divideintopages_block}
+</div>
+{END printbuttons}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_pdf}
+
+
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+
+{BEGIN container_pageheader}
+<div class="rnr-c rnr-cv rnr-c-pageheader">
+
+{BEGIN printheader}
+<div  class="rnr-brickcontents style1 rnr-b-printheader {$brickclass_printheader}">	<h1>{$pagetitlelabel surat_view print}</h1>
+</div>{END printheader}
+
+
+{BEGIN page_number}
+<div  class="rnr-brickcontents style1 rnr-b-page_of_print {$brickclass_page_of_print}"><h1>Halaman <span class="rp-pageno">{$pageno}</span> dari <span class="rp-pagecount">{$pagecount}</span></h1></div>{END page_number}
+
+
+</div>
+{END container_pageheader}
+
+
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+	<table class="rnr-c rnr-c-grid rnr-b-grid rnr-gridtable rp-maintable" cellpadding="0">
+	<thead>
+	{BEGIN grid_header}
+<tr class="rnr-toprow style1 {$gridHeader_class}" >
+{BEGIN record_header}
+		{BEGIN RingkasanKandungan_fieldheadercolumn}
+<th class="runner-cc {$RingkasanKandungan_class}" {$RingkasanKandungan_style}>
+	{BEGIN RingkasanKandungan_fieldheader}
+	<b>{$label surat_view RingkasanKandungan}</b>
+	{END RingkasanKandungan_fieldheader}
+</th>
+{END RingkasanKandungan_fieldheadercolumn}
+	{BEGIN sid_fieldheadercolumn}
+<th class="runner-cc {$sid_class}" {$sid_style}>
+	{BEGIN sid_fieldheader}
+	<b>{$label surat_view sid}</b>
+	{END sid_fieldheader}
+</th>
+{END sid_fieldheadercolumn}
+	{BEGIN Tarikh_fieldheadercolumn}
+<th class="runner-cc {$Tarikh_class}" {$Tarikh_style}>
+	{BEGIN Tarikh_fieldheader}
+	<b>{$label surat_view Tarikh}</b>
+	{END Tarikh_fieldheader}
+</th>
+{END Tarikh_fieldheadercolumn}
+	{BEGIN rujukanSurat_fieldheadercolumn}
+<th class="runner-cc {$rujukanSurat_class}" {$rujukanSurat_style}>
+	{BEGIN rujukanSurat_fieldheader}
+	<b>{$label surat_view rujukanSurat}</b>
+	{END rujukanSurat_fieldheader}
+</th>
+{END rujukanSurat_fieldheadercolumn}
+	{BEGIN kategori_fieldheadercolumn}
+<th class="runner-cc {$kategori_class}" {$kategori_style}>
+	{BEGIN kategori_fieldheader}
+	<b>{$label surat_view kategori}</b>
+	{END kategori_fieldheader}
+</th>
+{END kategori_fieldheadercolumn}
+	{BEGIN Penghantar_fieldheadercolumn}
+<th class="runner-cc {$Penghantar_class}" {$Penghantar_style}>
+	{BEGIN Penghantar_fieldheader}
+	<b>{$label surat_view Penghantar}</b>
+	{END Penghantar_fieldheader}
+</th>
+{END Penghantar_fieldheadercolumn}
+	{BEGIN Minit_fieldheadercolumn}
+<th class="runner-cc {$Minit_class}" {$Minit_style}>
+	{BEGIN Minit_fieldheader}
+	<b>{$label surat_view Minit}</b>
+	{END Minit_fieldheader}
+</th>
+{END Minit_fieldheadercolumn}
+	{BEGIN status_fieldheadercolumn}
+<th class="runner-cc {$status_class}" {$status_style}>
+	{BEGIN status_fieldheader}
+	<b>{$label surat_view status}</b>
+	{END status_fieldheader}
+</th>
+{END status_fieldheadercolumn}
+		
+	<th class="rnr-edge">&nbsp;</th>
+	{BEGIN endrecordheader_block}
+	<th class="rnr-cs">&nbsp;</th>
+	{END endrecordheader_block}
+	{END record_header}
+</tr>
+{END grid_header}
+
+	</thead>
+	<tbody>	
+	{BEGIN grid_row}
+	<tr class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
+		{BEGIN grid_record}
+				{BEGIN RingkasanKandungan_fieldcolumn}
+<td  class="runner-cc {$RingkasanKandungan_class}" {$RingkasanKandungan_style} {$recordattrs}>
+	{$RingkasanKandungan_value}
+</td>
+{END RingkasanKandungan_fieldcolumn}
+	{BEGIN sid_fieldcolumn}
+<td  class="runner-cc {$sid_class}" {$sid_style} {$recordattrs}>
+	{$sid_value}
+</td>
+{END sid_fieldcolumn}
+	{BEGIN Tarikh_fieldcolumn}
+<td  class="runner-cc {$Tarikh_class}" {$Tarikh_style} {$recordattrs}>
+	{$Tarikh_value}
+</td>
+{END Tarikh_fieldcolumn}
+	{BEGIN rujukanSurat_fieldcolumn}
+<td  class="runner-cc {$rujukanSurat_class}" {$rujukanSurat_style} {$recordattrs}>
+	{$rujukanSurat_value}
+</td>
+{END rujukanSurat_fieldcolumn}
+	{BEGIN kategori_fieldcolumn}
+<td  class="runner-cc {$kategori_class}" {$kategori_style} {$recordattrs}>
+	{$kategori_value}
+</td>
+{END kategori_fieldcolumn}
+	{BEGIN Penghantar_fieldcolumn}
+<td  class="runner-cc {$Penghantar_class}" {$Penghantar_style} {$recordattrs}>
+	{$Penghantar_value}
+</td>
+{END Penghantar_fieldcolumn}
+	{BEGIN Minit_fieldcolumn}
+<td  class="runner-cc {$Minit_class}" {$Minit_style} {$recordattrs}>
+	{$Minit_value}
+</td>
+{END Minit_fieldcolumn}
+	{BEGIN status_fieldcolumn}
+<td  class="runner-cc {$status_class}" {$status_style} {$recordattrs}>
+	{$status_value}
+</td>
+{END status_fieldcolumn}
+
+		<td class="rnr-edge" {$recordattrs}>&nbsp;</td>
+		{BEGIN endrecord_block}
+		<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
+		{END endrecord_block}
+										
+		{END grid_record}
+
+	</tr>
+	{END grid_row}
+
+
+	
+	</tbody>
+</table>
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

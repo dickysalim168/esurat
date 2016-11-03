@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}>
+  <HEAD>
+    <META http-equiv="X-UA-Compatible" content="IE=Edge">
+    <TITLE>
+      {$pagetitle}
+    </TITLE>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <LINK href="styles/default.css" rel="stylesheet" type="text/css">
+    {BEGIN rtlCSS}
+      <LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">
+    {END rtlCSS}
+    {BEGIN styleCSSFiles}
+      <LINK href="{$stylepath}" rel="stylesheet" type="text/css">
+    {END styleCSSFiles}
+    {BEGIN pageCSSFiles}
+      <LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">
+    {END pageCSSFiles}
+    <META name="GENERATOR" content="MSHTML 11.00.9600.16412">
+  </HEAD>
+  <BODY class="{$stylename} function-edit" {$bodyattrs}>
+    {BEGIN body}
+      {$header}
+<br>
+      <FONT size="4">Kemaskini Surat.&nbsp;(</FONT>{$event surat_snippet11012}<FONT size="4">)</FONT><BR><FONT size="2">Sila lengkapkan maklumat dibawah.</FONT>
+      <DIV class="rnr-page">
+        <DIV class="rnr-top {$blockclass_top}">
+          {BEGIN container_fields}
+            <DIV class="rnr-c rnr-cv rnr-c-fields">
+              {BEGIN editheader}
+                <DIV class="rnr-brickcontents style2 rnr-b-editheader {$brickclass_editheader}">
+                  <SPAN>
+                    <H1>
+                      {$pagetitlelabel surat_Awam edit}
+                    </H1>
+                  </SPAN>
+                </DIV>
+              {END editheader}
+              {BEGIN message_block}
+                <DIV class="rnr-brickcontents style1 rnr-b-message {$brickclass_message}">
+                  <DIV class="rnr-message">
+                    {$message}
+                  </DIV>
+                </DIV>
+              {END message_block}
+              <DIV class="rnr-brickcontents style1 rnr-b-editfields_simple {$brickclass_editfields_simple}">
+                <DIV class="rnr-simplefields edit">
+                  {BEGIN awam_fieldblock}
+                    <DIV class="rnr-field style1 {$fielddispclass_awam}" data-fieldname="awam">
+                      <SPAN class="rnr-label">
+                        {BEGIN awam_label}
+                          {$label surat_Awam awam}
+                        {END awam_label}
+                      </SPAN>
+                      <SPAN class="rnr-control style3">
+                        {$awam_editcontrol}
+                      </SPAN>
+                    </DIV>
+                  {END awam_fieldblock}
+                </DIV>
+              </DIV>
+              {BEGIN editbuttons}
+                <DIV class="rnr-brickcontents style2 rnr-b-editbuttons {$brickclass_editbuttons}">
+                  <DIV class="rnr-buttons-right">
+                  </DIV>
+                  <DIV class="rnr-buttons-left">
+                    {BEGIN save_button}
+                      <A class="rnr-button main" href="#" {$savebutton_attrs}>
+                        Simpan
+                      </A>
+                    {END save_button}
+                    <A class="rnr-button button" id="Kembali" href="#" typeid="ib">
+                      Kembali
+                    </A>
+                  </DIV>
+                </DIV>
+              {END editbuttons}
+            </DIV>
+          {END container_fields}
+        </DIV>
+        <DIV class="rnr-middle">
+          <DIV class="rnr-left {$blockclass_left}">
+          </DIV>
+          <DIV class="rnr-center {$blockclass_center}">
+          </DIV>
+          <DIV class="rnr-right {$blockclass_right}">
+          </DIV>
+        </DIV>
+        <DIV class="rnr-bottom {$blockclass_bottom}">
+        </DIV>
+      </DIV>
+      {$footer}
+      <P>
+        <FONT size="2"></FONT>
+      </P>
+    {END body}
+  </BODY>
+</HTML>

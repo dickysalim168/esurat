@@ -1,0 +1,64 @@
+<div {$pageattrs}>
+
+{BEGIN container_masterlistheader}
+<div class="rnr-c rnr-ch rnr-c-masterlistheader">
+
+
+<div  class="style1 rnr-bl rnr-b-masterprintheader {$brickclass_masterprintheader}">	<h1>{$pagetitlelabel surat masterprint}</h1>
+</div>
+
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_masterlistheader}
+
+
+
+{BEGIN container_mastergrid}
+
+
+
+<table class="rnr-c rnr-cont rnr-c-mastergrid rnr-b-masterprintfields rnr-gridtable" cellpadding="0" >
+	<thead>
+		<tr class="rnr-toprow style1 {$gridHeader_class}" >
+			<th class="{$Imbas_class}">{$label surat Imbas}</th>
+			<th class="{$tarikhKemasukkan_class}">{$label surat tarikhKemasukkan}</th>
+			<th class="{$tarikhSurat_class}">{$label surat tarikhSurat}</th>
+			<th class="{$tarikhTerima_class}">{$label surat tarikhTerima}</th>
+			<th class="{$rujukanSurat_class}">{$label surat rujukanSurat}</th>
+			<th class="{$RingkasanKandungan_class}">{$label surat RingkasanKandungan}</th>
+			<th class="{$Jenis_class}">{$label surat Jenis}</th>
+			<th class="{$kategori_class}">{$label surat kategori}</th>
+			<th class="{$individu_class}">{$label surat individu}</th>
+			<th class="{$bahagian_class}">{$label surat bahagian}</th>
+			<th class="{$jawatan_class}">{$label surat jawatan}</th>
+			<th class="{$agensi_class}">{$label surat agensi}</th>
+			<th class="rnr-edge">&nbsp;</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr class="rnr-row style1">
+			<td class="{$Imbas_class}">{$Imbas_mastervalue}</td>
+			<td class="{$tarikhKemasukkan_class}">{$tarikhKemasukkan_mastervalue}</td>
+			<td class="{$tarikhSurat_class}">{$tarikhSurat_mastervalue}</td>
+			<td class="{$tarikhTerima_class}">{$tarikhTerima_mastervalue}</td>
+			<td class="{$rujukanSurat_class}">{$rujukanSurat_mastervalue}</td>
+			<td class="{$RingkasanKandungan_class}">{$RingkasanKandungan_mastervalue}</td>
+			<td class="{$Jenis_class}">{$Jenis_mastervalue}</td>
+			<td class="{$kategori_class}">{$kategori_mastervalue}</td>
+			<td class="{$individu_class}">{$individu_mastervalue}</td>
+			<td class="{$bahagian_class}">{$bahagian_mastervalue}</td>
+			<td class="{$jawatan_class}">{$jawatan_mastervalue}</td>
+			<td class="{$agensi_class}">{$agensi_mastervalue}</td>
+			<td class="rnr-edge">&nbsp;</td>
+		</tr>
+	</tbody>
+</table> 
+
+
+
+
+
+{END container_mastergrid}
+
+</div>

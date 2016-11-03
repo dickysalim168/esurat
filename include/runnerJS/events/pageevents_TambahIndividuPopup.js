@@ -1,0 +1,4 @@
+
+var pType=Runner.pages.constants.PAGE_ADD;Runner.pages.PageSettings.addPageEvent("TambahIndividuPopup",pType,"afterInit",function(pageObj,proxy,pageid){pageObj.buttonNames[pageObj.buttonNames.length]='New_Button';if(!pageObj.buttonEventBefore['New_Button']){pageObj.buttonEventBefore['New_Button']=function(params,ctrl,pageObj,proxy,pageid,rowData){window.close();}}
+if(!pageObj.buttonEventAfter['New_Button']){pageObj.buttonEventAfter['New_Button']=function(result,ctrl,pageObj,proxy,pageid,rowData){var message=result["txt"]+" !!!";ctrl.setMessage(message);}}
+$('a[id=New_Button]').each(function(){if(!$(this).closest('tr.gridRowAdd').length){var newId="New_Button"+"_"+Runner.genId();this.id=newId;var button_New_Button=new Runner.form.Button({id:newId,btnName:"New_Button"});button_New_Button.init({args:[pageObj,proxy,pageid]});}});});

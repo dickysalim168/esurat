@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}>
+  <HEAD>
+    <TITLE>
+      {$pagetitle}
+    </TITLE>
+    <META http-equiv="X-UA-Compatible" content="IE=Edge">
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <LINK href="styles/default.css" rel="stylesheet" type="text/css">
+    {BEGIN rtlCSS}
+      <LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">
+    {END rtlCSS}
+    {BEGIN styleCSSFiles}
+      <LINK href="{$stylepath}" rel="stylesheet" type="text/css">
+    {END styleCSSFiles}
+    {BEGIN pageCSSFiles}
+      <LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">
+    {END pageCSSFiles}
+    <!--[if IE]>
+    <LINK rel=stylesheet type=text/css href="styles/defaultIE.css">
+    {BEGIN IEcssFiles}
+      <LINK rel=stylesheet type=text/css href="{$stylepathIE}">
+    {END IEcssFiles}
+    <![endif]-->
+    <META name="GENERATOR" content="MSHTML 11.00.9600.16412">
+  </HEAD>
+  <BODY class="{$stylename}" {$bodyattrs}>
+    {BEGIN body}
+      {$header}
+      <FONT size="2"></FONT>
+      <P>
+        <TABLE width="100%" style="width: 95%;" border="0" cellspacing="1" cellpadding="1">
+          <TBODY>
+            <TR>
+              <TD valign="top" style="width: 280px;">
+                <FONT size="2">&nbsp;</FONT>
+                  <TABLE width="381" class="bordered" style="width: 381px; height: 98px;" border="1" cellspacing="1" cellpadding="1">
+                    <TBODY>
+                      <TR>
+                        <TD colspan="2">
+                          <P 
+            align="center">
+                            <U><FONT 
+            color="#4b0082" size="2">Status Sistem eSurat</FONT></U>
+                          </P>
+                        </TD>
+                      </TR>
+                      <TR style="color: white; background-color: black;">
+                        <TD style="width: 286px;">
+                          <FONT size="2">&nbsp;Perkara</FONT>
+                        </TD>
+                        <TD style="width: 41px;">
+                          <FONT size="2">&nbsp;Jumlah</FONT>
+                        </TD>
+                      </TR>
+                      <TR>
+                        <TD style="width: 286px;">
+                          <FONT size="2">&nbsp;Jumlah Pengguna Yang Berdaftar</FONT>
+                        </TD>
+                        <TD style="width: 41px;">
+                          <FONT size="2">&nbsp;</FONT>{$event snippet5}
+                        </TD>
+                      </TR>
+                      <TR>
+                        <TD>
+                          <P>
+                            &nbsp;
+                          </P>
+                          <P>
+                            &nbsp;<FONT size="2">Jumlah Surat Yang Berdaftar</FONT>
+                          </P>
+                          <P>
+                            <FONT size="2"></FONT>&nbsp;
+                          </P>
+                        </TD>
+                        <TD>
+                          &nbsp;{$event snippet19}
+                        </TD>
+                      </TR>
+                    </TBODY>
+                  </TABLE>
+              </TD>
+              <TD width="10">
+                <FONT size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT>
+              </TD>
+              <TD valign="top">
+                <FONT size="2">&nbsp;</FONT>{$event snippet18}
+              </TD>
+            </TR>
+          </TBODY>
+        </TABLE>
+        <P>
+        </P>
+        <P>
+          <FONT size="2"></FONT>&nbsp;
+        </P>
+        <FONT size="2"></FONT>
+        <P>
+          <TABLE width="100%" style="width: 95%;" border="0" cellspacing="1" cellpadding="1">
+            <TBODY>
+              <TR>
+                <TD valign="top" style="width: 280px;">
+                  <FONT size="2">&nbsp;</FONT>
+                  <TABLE width="300" class="bordered" border="1" cellspacing="1" cellpadding="1">
+                    <TBODY>
+                      <TR>
+                        <TD colspan="2">
+                          <P align="center">
+                            <FONT color="#4b0082" size="2"><U>Jumlah Penerima&nbsp;Surat Mengikut Status</U></FONT>
+                          </P>
+                        </TD>
+                      </TR>
+                      <TR style="color: white; background-color: black;">
+                        <TD 
+            style="width: 286px; color: white; background-color: black;">
+                          <FONT 
+            size="2">&nbsp;Perkara</FONT>
+                        </TD>
+                        <TD style="width: 41px;">
+                          <FONT size="2">&nbsp;Jumlah</FONT>
+                        </TD>
+                      </TR>
+                      <TR>
+                        <TD style="width: 286px;">
+                          <FONT size="2">&nbsp;Belum Dibaca</FONT>
+                        </TD>
+                        <TD style="width: 41px;">
+                          <STRONG>{$event snippet171}</STRONG>
+                        </TD>
+                      </TR>
+                      <TR>
+                        <TD style="width: 286px;">
+                          <FONT size="2">&nbsp;Dalam Proses</FONT>
+                        </TD>
+                        <TD style="width: 41px;">
+                          <STRONG><FONT size="2">{$event snippet141}</FONT></STRONG>
+                        </TD>
+                      </TR>
+                      <TR>
+                        <TD>
+                          <FONT size="2">&nbsp;Selesai</FONT>
+                        </TD>
+                        <TD>
+                          <STRONG><FONT size="2">{$event snippet151}</FONT></STRONG>
+                        </TD>
+                      </TR>
+                    </TBODY>
+                  </TABLE>
+                </TD>
+                <TD width="10">
+                  <FONT size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT>
+                </TD>
+                <TD valign="top">
+                  <FONT size="2">&nbsp;</FONT>
+                </TD>
+              </TR>
+            </TBODY>
+          </TABLE>
+          <P>
+          </P>
+          <P>
+            <!--%%bottom%%-->
+            {$footer}
+            <FONT size="2"></FONT>
+            <P>
+            </P>
+{END body}      </BODY>
+      </HTML>

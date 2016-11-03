@@ -1,0 +1,1322 @@
+.PurificBlue_white.rnr-s-empty > .rnr-c
+{
+background:none;
+
+}
+.PurificBlue_white.rnr-s-empty > .rnr-c .rnr-leftbricks
+{
+margin-left: 10px;
+}
+.PurificBlue_white.rnr-s-empty > .rnr-c .rnr-rightbricks
+{
+margin-right: 10px;
+}
+.PurificBlue_white.rnr-s-empty > :not(.runner-c) > *.style1,
+.PurificBlue_white.rnr-s-empty > * > :not(.rnr-b-wrapper) .style1
+{
+color: #333333;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-empty > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-empty > * > :not(.rnr-b-wrapper) .style1,
+.PurificBlue_white.rnr-s-empty > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-empty > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificBlue_white.rnr-s-empty > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificBlue_white.rnr-s-empty > :not(.runner-c) > *.style2,
+.PurificBlue_white.rnr-s-empty > * > :not(.rnr-b-wrapper) .style2
+{
+color: #333333;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-empty > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-empty > * > :not(.rnr-b-wrapper) .style2,
+.PurificBlue_white.rnr-s-empty > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-empty > :not(.runner-c) > *.style3,
+.PurificBlue_white.rnr-s-empty > * > :not(.rnr-b-wrapper) .style3
+{
+color: #333333;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-empty > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-empty > * > :not(.rnr-b-wrapper) .style3,
+.PurificBlue_white.rnr-s-empty > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-menu > .rnr-c
+{
+border: solid #C0C0C0 1px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;
+}
+.PurificBlue_white.rnr-s-menu > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 1px; padding-left: 1px;
+border-bottom-left-radius: 1px; padding-left: 1px;
+
+}
+.PurificBlue_white.rnr-s-menu > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 1px; padding-right: 1px;
+border-bottom-right-radius: 1px; padding-right: 1px;
+
+}
+.PurificBlue_white.rnr-s-menu > :not(.runner-c) > *.style1,
+.PurificBlue_white.rnr-s-menu > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #EDF1F3;color: #333333;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-menu > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #EDF1F3;
+}
+.PurificBlue_white.rnr-s-menu > :not(.runner-c) > *.style2,
+.PurificBlue_white.rnr-s-menu > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #D2D8DC;color: #333333;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-menu > :not(.runner-c) > *.style3,
+.PurificBlue_white.rnr-s-menu > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #D2D8DC;color: #333333;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-menu > .rnr-c .rnr-leftbricks
+{
+margin-left: 2px;
+}
+.PurificBlue_white.rnr-s-menu > .rnr-c .rnr-rightbricks
+{
+margin-right: 2px;
+}
+.PurificBlue_white.rnr-s-menu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-menu > * > :not(.rnr-b-wrapper) .style1,
+.PurificBlue_white.rnr-s-menu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-menu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificBlue_white.rnr-s-menu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificBlue_white.rnr-s-menu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-menu > * > :not(.rnr-b-wrapper) .style2,
+.PurificBlue_white.rnr-s-menu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-menu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-menu > * > :not(.rnr-b-wrapper) .style3,
+.PurificBlue_white.rnr-s-menu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-hmenu > .rnr-c
+{
+background:none;
+
+}
+.PurificBlue_white.rnr-s-hmenu > .rnr-c .rnr-leftbricks
+{
+margin-left: 10px;
+}
+.PurificBlue_white.rnr-s-hmenu > .rnr-c .rnr-rightbricks
+{
+margin-right: 10px;
+}
+.PurificBlue_white.rnr-s-hmenu > :not(.runner-c) > *.style1,
+.PurificBlue_white.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style1
+{
+color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-hmenu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style1,
+.PurificBlue_white.rnr-s-hmenu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 6px 4px;
+}
+.PurificBlue_white.rnr-s-hmenu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificBlue_white.rnr-s-hmenu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificBlue_white.rnr-s-hmenu > :not(.runner-c) > *.style2,
+.PurificBlue_white.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style2
+{
+color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-hmenu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style2,
+.PurificBlue_white.rnr-s-hmenu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-hmenu > :not(.runner-c) > *.style3,
+.PurificBlue_white.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style3
+{
+color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-hmenu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-hmenu > * > :not(.rnr-b-wrapper) .style3,
+.PurificBlue_white.rnr-s-hmenu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-undermenu > .rnr-c
+{
+border: solid #6699CC 1px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;
+}
+.PurificBlue_white.rnr-s-undermenu > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 1px; padding-left: 1px;
+border-bottom-left-radius: 1px; padding-left: 1px;
+
+}
+.PurificBlue_white.rnr-s-undermenu > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 1px; padding-right: 1px;
+border-bottom-right-radius: 1px; padding-right: 1px;
+
+}
+.PurificBlue_white.rnr-s-undermenu > :not(.runner-c) > *.style1,
+.PurificBlue_white.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #16589C;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-undermenu > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #16589C;
+}
+.PurificBlue_white.rnr-s-undermenu > :not(.runner-c) > *.style2,
+.PurificBlue_white.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #FFFF00;color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-undermenu > :not(.runner-c) > *.style3,
+.PurificBlue_white.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #FFFF00;color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-undermenu > .rnr-c .rnr-leftbricks
+{
+margin-left: 2px;
+}
+.PurificBlue_white.rnr-s-undermenu > .rnr-c .rnr-rightbricks
+{
+margin-right: 2px;
+}
+.PurificBlue_white.rnr-s-undermenu > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style1,
+.PurificBlue_white.rnr-s-undermenu > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-undermenu > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificBlue_white.rnr-s-undermenu > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificBlue_white.rnr-s-undermenu > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style2,
+.PurificBlue_white.rnr-s-undermenu > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-undermenu > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-undermenu > * > :not(.rnr-b-wrapper) .style3,
+.PurificBlue_white.rnr-s-undermenu > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-fields > .rnr-c
+{
+border: solid #DCDCDC 1px;border-top-left-radius: 4px;border-top-right-radius: 4px;border-bottom-left-radius: 4px;border-bottom-right-radius: 4px;
+}
+.PurificBlue_white.rnr-s-fields > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 3px; padding-left: 2px;
+border-bottom-left-radius: 3px; padding-left: 2px;
+
+}
+.PurificBlue_white.rnr-s-fields > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 3px; padding-right: 2px;
+border-bottom-right-radius: 3px; padding-right: 2px;
+
+}
+.PurificBlue_white.rnr-s-fields > :not(.runner-c) > *.style1,
+.PurificBlue_white.rnr-s-fields > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #FFFFFF;
+background: linear-gradient(0.000000turn, #FFFFFF, #FFFFFF);
+;
+color: #333381;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-fields > .rnr-c.rnr-ch
+{
+background-color: #FFFFFF;
+background: linear-gradient(0.000000turn, #FFFFFF, #FFFFFF);
+;
+
+}
+.PurificBlue_white.rnr-s-fields > :not(.runner-c) > *.style2,
+.PurificBlue_white.rnr-s-fields > * > :not(.rnr-b-wrapper) .style2
+{
+background-color: #105198;
+background: linear-gradient(0.500000turn, #0E4A8B, #105198);
+;
+color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-fields > :not(.runner-c) > *.style3,
+.PurificBlue_white.rnr-s-fields > * > :not(.rnr-b-wrapper) .style3
+{
+background-color: #FFFFFF;
+background: linear-gradient(0.000000turn, #FFFFFF, #FFFFFF);
+;
+color: #696969;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-fields > .rnr-c .rnr-leftbricks
+{
+margin-left: 4px;
+}
+.PurificBlue_white.rnr-s-fields > .rnr-c .rnr-rightbricks
+{
+margin-right: 4px;
+}
+.PurificBlue_white.rnr-s-fields > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-fields > * > :not(.rnr-b-wrapper) .style1,
+.PurificBlue_white.rnr-s-fields > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 6px;
+}
+.PurificBlue_white.rnr-s-fields > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 4px; background:transparent;
+}
+.PurificBlue_white.rnr-s-fields > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 4px; background:transparent;
+}
+.PurificBlue_white.rnr-s-fields > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-fields > * > :not(.rnr-b-wrapper) .style2,
+.PurificBlue_white.rnr-s-fields > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 8px 4px;
+}
+.PurificBlue_white.rnr-s-fields > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-fields > * > :not(.rnr-b-wrapper) .style3,
+.PurificBlue_white.rnr-s-fields > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-form > .rnr-c
+{
+border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+}
+.PurificBlue_white.rnr-s-form > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 10px; padding-left: 5px;
+border-bottom-left-radius: 10px; padding-left: 5px;
+
+}
+.PurificBlue_white.rnr-s-form > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 10px; padding-right: 5px;
+border-bottom-right-radius: 10px; padding-right: 5px;
+
+}
+.PurificBlue_white.rnr-s-form > :not(.runner-c) > *.style1,
+.PurificBlue_white.rnr-s-form > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #00CCCC;color: #000080;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-form > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #00CCCC;
+}
+.PurificBlue_white.rnr-s-form > :not(.runner-c) > *.style2,
+.PurificBlue_white.rnr-s-form > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #004080;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-form > :not(.runner-c) > *.style3,
+.PurificBlue_white.rnr-s-form > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #6699CC;color: #003366;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-form > .rnr-c .rnr-leftbricks
+{
+margin-left: 10px;
+}
+.PurificBlue_white.rnr-s-form > .rnr-c .rnr-rightbricks
+{
+margin-right: 10px;
+}
+.PurificBlue_white.rnr-s-form > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-form > * > :not(.rnr-b-wrapper) .style1,
+.PurificBlue_white.rnr-s-form > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-form > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificBlue_white.rnr-s-form > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificBlue_white.rnr-s-form > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-form > * > :not(.rnr-b-wrapper) .style2,
+.PurificBlue_white.rnr-s-form > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-form > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-form > * > :not(.rnr-b-wrapper) .style3,
+.PurificBlue_white.rnr-s-form > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-1 > .rnr-c
+{
+border: solid #DCDCDC 1px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;
+}
+.PurificBlue_white.rnr-s-1 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 1px; padding-left: 1px;
+border-bottom-left-radius: 1px; padding-left: 1px;
+
+}
+.PurificBlue_white.rnr-s-1 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 1px; padding-right: 1px;
+border-bottom-right-radius: 1px; padding-right: 1px;
+
+}
+.PurificBlue_white.rnr-s-1 > :not(.runner-c) > *.style1,
+.PurificBlue_white.rnr-s-1 > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #5B8AB9, #16589C);
+;
+color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-1 > .rnr-c.rnr-ch
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #5B8AB9, #16589C);
+;
+
+}
+.PurificBlue_white.rnr-s-1 > :not(.runner-c) > *.style2,
+.PurificBlue_white.rnr-s-1 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #004080;color: #FFFFFF;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: bold; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-1 > :not(.runner-c) > *.style3,
+.PurificBlue_white.rnr-s-1 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #3366FF;color: #D1EEEE;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-1 > .rnr-c .rnr-leftbricks
+{
+margin-left: 2px;
+}
+.PurificBlue_white.rnr-s-1 > .rnr-c .rnr-rightbricks
+{
+margin-right: 2px;
+}
+.PurificBlue_white.rnr-s-1 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-1 > * > :not(.rnr-b-wrapper) .style1,
+.PurificBlue_white.rnr-s-1 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-1 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificBlue_white.rnr-s-1 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificBlue_white.rnr-s-1 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-1 > * > :not(.rnr-b-wrapper) .style2,
+.PurificBlue_white.rnr-s-1 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-1 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-1 > * > :not(.rnr-b-wrapper) .style3,
+.PurificBlue_white.rnr-s-1 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-2 > .rnr-c
+{
+border: solid #DCDCDC 1px;border-top-left-radius: 2px;border-top-right-radius: 2px;border-bottom-left-radius: 2px;border-bottom-right-radius: 2px;
+}
+.PurificBlue_white.rnr-s-2 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 1px; padding-left: 1px;
+border-bottom-left-radius: 1px; padding-left: 1px;
+
+}
+.PurificBlue_white.rnr-s-2 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 1px; padding-right: 1px;
+border-bottom-right-radius: 1px; padding-right: 1px;
+
+}
+.PurificBlue_white.rnr-s-2 > :not(.runner-c) > *.style1,
+.PurificBlue_white.rnr-s-2 > * > :not(.rnr-b-wrapper) .style1
+{
+background-color: #EDF1F3;
+background: linear-gradient(0.000000turn, #FCFCFD, #EDF1F3);
+;
+color: #333333;
+font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-2 > .rnr-c.rnr-ch
+{
+background-color: #EDF1F3;
+background: linear-gradient(0.000000turn, #FCFCFD, #EDF1F3);
+;
+
+}
+.PurificBlue_white.rnr-s-2 > :not(.runner-c) > *.style2,
+.PurificBlue_white.rnr-s-2 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #3366FF;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-2 > :not(.runner-c) > *.style3,
+.PurificBlue_white.rnr-s-2 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #6699CC;color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-2 > .rnr-c .rnr-leftbricks
+{
+margin-left: 2px;
+}
+.PurificBlue_white.rnr-s-2 > .rnr-c .rnr-rightbricks
+{
+margin-right: 2px;
+}
+.PurificBlue_white.rnr-s-2 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-2 > * > :not(.rnr-b-wrapper) .style1,
+.PurificBlue_white.rnr-s-2 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-2 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificBlue_white.rnr-s-2 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 2px; background:transparent;
+}
+.PurificBlue_white.rnr-s-2 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-2 > * > :not(.rnr-b-wrapper) .style2,
+.PurificBlue_white.rnr-s-2 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-2 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-2 > * > :not(.rnr-b-wrapper) .style3,
+.PurificBlue_white.rnr-s-2 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-3 > .rnr-c
+{
+border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-left-radius: 10px;border-bottom-right-radius: 10px;
+}
+.PurificBlue_white.rnr-s-3 > .rnr-ch > .rnr-b-hmenu:first-child
+{
+border-top-left-radius: 10px; padding-left: 5px;
+border-bottom-left-radius: 10px; padding-left: 5px;
+
+}
+.PurificBlue_white.rnr-s-3 > .rnr-ch> .rnr-b-hmenu:last-child
+{
+border-top-right-radius: 10px; padding-right: 5px;
+border-bottom-right-radius: 10px; padding-right: 5px;
+
+}
+.PurificBlue_white.rnr-s-3 > :not(.runner-c) > *.style1,
+.PurificBlue_white.rnr-s-3 > * > :not(.rnr-b-wrapper) .style1
+{
+background-image: none; background-color: #6699CC;color: #FFFF00;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-3 > .rnr-c.rnr-ch
+{
+background-image: none; background-color: #6699CC;
+}
+.PurificBlue_white.rnr-s-3 > :not(.runner-c) > *.style2,
+.PurificBlue_white.rnr-s-3 > * > :not(.rnr-b-wrapper) .style2
+{
+background-image: none; background-color: #000080;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-3 > :not(.runner-c) > *.style3,
+.PurificBlue_white.rnr-s-3 > * > :not(.rnr-b-wrapper) .style3
+{
+background-image: none; background-color: #004080;color: #FFFFFF;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.rnr-s-3 > .rnr-c .rnr-leftbricks
+{
+margin-left: 10px;
+}
+.PurificBlue_white.rnr-s-3 > .rnr-c .rnr-rightbricks
+{
+margin-right: 10px;
+}
+.PurificBlue_white.rnr-s-3 > :not(.runner-c) > *.style1:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-3 > * > :not(.rnr-b-wrapper) .style1,
+.PurificBlue_white.rnr-s-3 > :not(.runner-c) > *.style1 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-3 > .rnr-ch:before
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificBlue_white.rnr-s-3 > .rnr-ch:after
+{
+content: "";display:table-cell;padding:0 0 0 10px; background:transparent;
+}
+.PurificBlue_white.rnr-s-3 > :not(.runner-c) > *.style2:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-3 > * > :not(.rnr-b-wrapper) .style2,
+.PurificBlue_white.rnr-s-3 > :not(.runner-c) > *.style2 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-3 > :not(.runner-c) > *.style3:not(.rnr-hfiller),
+.PurificBlue_white.rnr-s-3 > * > :not(.rnr-b-wrapper) .style3,
+.PurificBlue_white.rnr-s-3 > :not(.runner-c) > *.style3 > .fieldGrid > * > * > td
+{
+padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow:first-child > th:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow:first-child > th:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow:first-child > td:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow:first-child > td:not(.rnr-cs)
+{
+border-top: solid #D8DCDE 1px;
+
+}
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:last-child > td:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:last-child > td:not(.rnr-cs)
+{
+border-bottom: solid #D8DCDE 1px;
+
+}
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > td:first-child,
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > td:first-child,
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > th:first-child,
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > th:first-child,
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > *.rnr-cs + td,
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > *.rnr-cs + td,
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > *.rnr-cs + th,
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > *.rnr-cs + th
+{
+border-left: solid #D8DCDE 1px;
+
+}
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > * > *.rnr-edge,
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > * > *.rnr-edge
+{
+border-right: solid #D8DCDE 1px;
+
+}
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow > th:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow > th:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-toprow > td:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-toprow > td:not(.rnr-cs)
+{
+background-color: #16589C; background-image: none;font-family: Verdana, sans-serif; font-size: 11px; font-weight: bold; font-style: normal; text-decoration: none;color: #FFFFFF;padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-bottomrow > td:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-bottomrow > td:not(.rnr-cs)
+{
+background-color: #DCE2E6; background-image: none;font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;color: #333333;padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row > td:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row > td:not(.rnr-cs)
+{
+background-color: #EDF1F3; background-image: none;font-family: Verdana, sans-serif; font-size: 11px; font-weight: normal; font-style: normal; text-decoration: none;color: #333333;color: #333333;padding: 5px 4px;
+}
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row:nth-last-child(2n+1) > td:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row:nth-last-child(2n+1) > td:not(.rnr-cs)
+{
+background-color: #FFFFFF; background-image: none;color: #333333;
+}
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical).hoverable > * > .rnr-row:hover > td:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord.hoverable > * > .rnr-row:hover > td:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row > td.rnr-selected,
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row > td.rnr-selected
+{
+background-color: #DCDCDC; background-image: none;color: #333333;
+}
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical).hoverable > * > .rnr-row:hover:nth-last-child(2n+1) > td:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord.hoverable > * > .rnr-row:hover:nth-last-child(2n+1) > td:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > .rnr-row:nth-last-child(2n+1) > td.rnr-selected,
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > .rnr-row:nth-last-child(2n+1) > td.rnr-selected
+{
+background-color: #C0C0C0; background-image: none;color: #333333;
+}
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > thead > tr:last-child > th:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > thead > tr:last-child > th:not(.rnr-cs)
+{
+border-bottom: solid #D8DCDE 1px;
+
+}
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > * > tr.rnr-row > td:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > * > tr.rnr-row > td:not(.rnr-cs)
+{
+border-top: solid #D8DCDE 1px;
+
+}
+.PurificBlue_white.rnr-s-grid > table:not(.runner-c):not(.vertical) > tbody > tr:not(.rnr-bottomrow) + .rnr-bottomrow > td:not(.rnr-cs),
+.PurificBlue_white.rnr-s-grid > table.vertical > * > tr > td > table.rnr-vrecord > tbody > tr:not(.rnr-bottomrow) + .rnr-bottomrow > td:not(.rnr-cs)
+{
+border-top: solid #D8DCDE 1px;
+
+}
+.PurificBlue_white .rnr-search-highlight
+{
+color: #FF0000; background-color: transparent;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.main > *,
+.PurificBlue_white .rnr-b-vmenu.tree.main > *:not(.subitem)
+{
+background-color: #DFE2E4;
+background: linear-gradient(0.000000turn, #EAECED, #DFE2E4);
+;
+color:#333333;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.main > * > hr,
+.PurificBlue_white .rnr-b-vmenu.tree.main > *:not(.subitem) > hr
+{
+border-color:#333333;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.main > *:hover:not(.expanded):not(.menuSeparator),
+.PurificBlue_white .rnr-b-vmenu.tree.main > *:not(.subitem):not(.manage):hover:not(.menuSeparator)
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #6C95C0, #16589C);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.main > *.current.current.current,
+.PurificBlue_white .rnr-b-vmenu.tree.main > *:not(.subitem).current.current.current
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #6C95C0, #16589C);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.main > *:hover:hover:hover.expanded
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #6C95C0, #16589C);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.main > * > ul li,
+.PurificBlue_white .rnr-b-vmenu.tree.main > *.subitem
+{
+background-color: #DFE2E4;
+background: linear-gradient(0.000000turn, #F9F9FA, #DFE2E4);
+;
+color:#333333;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.main > * > ul li > hr,
+.PurificBlue_white .rnr-b-vmenu.tree.main > *.subitem > hr
+{
+border-color:#333333;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.main > * > ul li:hover:not(.expanded):not(.menuSeparator),
+.PurificBlue_white .rnr-b-vmenu.tree.main > *.subitem:hover:not(.menuSeparator)
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #D5E0ED, #16589C);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.main > * > ul li.current.current.current,
+.PurificBlue_white .rnr-b-vmenu.tree.main > *.subitem.current.current.current
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #D5E0ED, #16589C);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.main > * > ul li:hover:hover:hover.expanded
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #D5E0ED, #16589C);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.tree.main > *:not(.subitem) > div
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.main > * > :not(ul) > *
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.PurificBlue_white .rnr-b-vmenu.tree.main > *.subitem > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.main > * > ul li > :not(ul) > *
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.main >  * ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.PurificBlue_white .rnr-b-vmenu.simple.second > *,
+.PurificBlue_white .rnr-b-vmenu.tree.second > *:not(.subitem)
+{
+background-color: #DFE2E4;
+background: linear-gradient(0.000000turn, #EAECED, #DFE2E4);
+;
+color:#333333;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.second > * > hr,
+.PurificBlue_white .rnr-b-vmenu.tree.second > *:not(.subitem) > hr
+{
+border-color:#333333;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.second > *:hover:not(.expanded):not(.menuSeparator),
+.PurificBlue_white .rnr-b-vmenu.tree.second > *:not(.subitem):not(.manage):hover:not(.menuSeparator)
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #6C95C0, #16589C);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.second > *.current.current.current,
+.PurificBlue_white .rnr-b-vmenu.tree.second > *:not(.subitem).current.current.current
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #6C95C0, #16589C);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.second > *:hover:hover:hover.expanded
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #6C95C0, #16589C);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.second > * > ul li,
+.PurificBlue_white .rnr-b-vmenu.tree.second > *.subitem
+{
+background-color: #DFE2E4;
+background: linear-gradient(0.000000turn, #F9F9FA, #DFE2E4);
+;
+color:#333333;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.second > * > ul li > hr,
+.PurificBlue_white .rnr-b-vmenu.tree.second > *.subitem > hr
+{
+border-color:#333333;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.second > * > ul li:hover:not(.expanded):not(.menuSeparator),
+.PurificBlue_white .rnr-b-vmenu.tree.second > *.subitem:hover:not(.menuSeparator)
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #D5E0ED, #16589C);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.second > * > ul li.current.current.current,
+.PurificBlue_white .rnr-b-vmenu.tree.second > *.subitem.current.current.current
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #D5E0ED, #16589C);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.second > * > ul li:hover:hover:hover.expanded
+{
+background-color: #16589C;
+background: linear-gradient(0.000000turn, #D5E0ED, #16589C);
+;
+color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-vmenu.tree.second > *:not(.subitem) > div
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.second > * > :not(ul) > *
+{
+padding: 8px 4px; margin:1px 2px;
+}
+.PurificBlue_white .rnr-b-vmenu.tree.second > *.subitem > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.second > * > ul li > :not(ul) > *
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.PurificBlue_white .rnr-b-vmenu.simple.second >  * ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.PurificBlue_white .rnr-b-hmenu.main > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #6699CC;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;padding: 5px 4px;border-top-right-radius: 8px;border: solid #000000 1px;
+}
+.PurificBlue_white .rnr-b-hmenu.main > div:not(.rnr-hseparator) > hr
+{
+border-color:#FFFFFF;
+}
+.PurificBlue_white .rnr-b-hmenu.main:hover:not(.expanded) > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #16589C;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.main.current.current > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #16589C;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.main:hover.expanded > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #16589C;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.main > ul li
+{
+background-image:none; background-color: #00FFFF;color:#000080;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.main > ul li > hr
+{
+border-color:#000080;
+}
+.PurificBlue_white .rnr-b-hmenu.main > ul li:hover:not(.expanded):not(.menuSeparator)
+{
+background-image:none; background-color: #00CCCC;color:#0000FF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.main > ul li.current.current
+{
+background-image:none; background-color: #3366FF;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.main > ul li:hover.expanded
+{
+background-image:none; background-color: #00CCCC;color:#0000FF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.main > ul li > div > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.PurificBlue_white .rnr-b-hmenu.main ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.PurificBlue_white .rnr-b-hmenu.main.rnr-b-hmenu.rnr-b-hmenu
+{
+padding-bottom: 0; padding-left:0; padding-right:0; vertical-align: bottom;
+}
+.PurificBlue_white .rnr-b-hmenu.second > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #6699CC;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;padding: 5px 4px;border-top-right-radius: 8px;border: solid #000000 1px;
+}
+.PurificBlue_white .rnr-b-hmenu.second > div:not(.rnr-hseparator) > hr
+{
+border-color:#FFFFFF;
+}
+.PurificBlue_white .rnr-b-hmenu.second:hover:not(.expanded) > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #16589C;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.second.current.current > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #16589C;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.second:hover.expanded > div:not(.rnr-hseparator)
+{
+background-image:none; background-color: #16589C;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.second > ul li
+{
+background-image:none; background-color: #00FFFF;color:#000080;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.second > ul li > hr
+{
+border-color:#000080;
+}
+.PurificBlue_white .rnr-b-hmenu.second > ul li:hover:not(.expanded):not(.menuSeparator)
+{
+background-image:none; background-color: #00CCCC;color:#0000FF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.second > ul li.current.current
+{
+background-image:none; background-color: #3366FF;color:#FFFFFF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.second > ul li:hover.expanded
+{
+background-image:none; background-color: #00CCCC;color:#0000FF;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: italic; text-decoration: none;
+}
+.PurificBlue_white .rnr-b-hmenu.second > ul li > div > div
+{
+padding: 4px 3px; margin:1px 1px;
+}
+.PurificBlue_white .rnr-b-hmenu.second ul
+{
+box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.PurificBlue_white .rnr-b-hmenu.second.rnr-b-hmenu.rnr-b-hmenu
+{
+padding-bottom: 0; padding-left:0; padding-right:0; vertical-align: bottom;
+}
+body.PurificBlue_white
+{
+
+background-color:#EBEDEF;
+}
+.PurificBlue_white .rnr-list
+{
+color: #000000;background-color: #DCE2E6;font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;border: solid #696969 1px;box-shadow:5px 5px 3px rgba(0,0,0,0.2);
+}
+.PurificBlue_white .rnr-tab.selected
+{
+background-color:#0000FF;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+
+}
+.PurificBlue_white .rnr-tab
+{
+background-color:#C0C0C0;
+border-top-left-radius:4px;
+border-top-right-radius:4px;
+border: solid #000000 1px; border-bottom-width:0;
+}
+.PurificBlue_white .rnr-tab.selected > a
+{
+color: #FFFFFF;
+
+}
+.PurificBlue_white .rnr-tab > a
+{
+color: #000000;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .yui-navset .yui-content
+{
+border: solid #0000FF 1px;border-top-width: 5px;
+}
+.PurificBlue_white .rnr-stepnav > a.active,
+.PurificBlue_white .rnr-stepnav > a:hover:not(.active)
+{
+background-color: #DFE2E4;
+background: linear-gradient(0.000000turn, #F6F6F7, #DFE2E4);
+;
+color: #333333;
+
+}
+.PurificBlue_white .rnr-stepnav > a.active:after,
+.PurificBlue_white .rnr-stepnav > a:hover:not(.active):after
+{
+background-color: #DFE2E4;
+background: linear-gradient(0.875000turn, #F6F6F7, #DFE2E4);
+;
+
+}
+.PurificBlue_white .rnr-stepnav > a:not(.active),
+.PurificBlue_white .rnr-stepnav > a:not(.active):after
+{
+background-image: none; background-color: #C0C0C0;
+
+}
+.PurificBlue_white .rnr-stepnav > a:before
+{
+background-image: none; background: #FFFFFF;
+
+}
+.PurificBlue_white .rnr-stepnav > a:not(.active)
+{
+color: #A9A9A9;
+
+}
+.PurificBlue_white .rnr-stepnav > a:before 
+{
+color: #333333;
+
+}
+.PurificBlue_white .rnr-stepnav > a,
+ .rnr-pagewrapper .PurificBlue_white .rnr-stepnav > a,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .rnr-stepnav > a
+{
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white  .rnr-message
+{
+background-color: #DFE2E4;border: solid #16589C 1px;color: #008000;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white  .rnr-error.rnr-error
+{
+color: #A80000;font-family: Tahoma, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .yui3-panel-content.yui3-panel-content
+{
+border: solid #DCDCDC 1px;border-radius: 2px;
+}
+.PurificBlue_white  .yui3-panel .yui3-widget-hd.yui3-widget-hd.yui3-widget-hd
+{
+background-color: #004080; background-image: none;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;
+}
+.PurificBlue_white  .yui3-widget-ft
+{
+background-color: #105198;
+background: linear-gradient(0.500000turn, #0E4A8B, #105198);
+;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;
+}
+.PurificBlue_white .rnr-dbbordered
+{
+border: solid #DCDCDC 1px;border-radius: 2px;
+}
+.PurificBlue_white  .rnr-dbelemheader
+{
+background-color: #004080; background-image: none;font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;color: #FFFFFF;
+}
+.PurificBlue_white  .rnr-dbelemfooter
+{
+background-color: #D8D8D8;
+background: linear-gradient(0.500000turn, #C6C6C6, #D8D8D8);
+;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;color: #000000;
+}
+.PurificBlue_white  .rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow.rnr-dbselectedrow
+{
+background-color: #FFFACD; background-image: none;color: #4C4951;
+}
+.PurificBlue_white .rnr-dashboard
+{
+background-color: #FFFFFF;
+}
+.PurificBlue_white .rnr-button.rnr-button,
+.PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+.PurificBlue_white .button.button.button.rnr-button.rnr-button,
+ .rnr-pagewrapper .PurificBlue_white .rnr-button.rnr-button,
+ .rnr-pagewrapper .PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .PurificBlue_white .button.button.button.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .button.button.button.rnr-button.rnr-button
+{
+border: solid 1px;border-radius: 2px;padding: 3px 10px 3px;background-color: #DFE2E4;
+background: linear-gradient(0.000000turn, #F6F6F7, #DFE2E4);
+;
+border-color: #000000;color: #333333;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .rnr-button.rnr-button.img,
+.PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+.PurificBlue_white .button.button.button.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .PurificBlue_white .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .PurificBlue_white .button.button.button.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .button.button.button.rnr-button.rnr-button.img
+{
+padding: 3px;
+
+}
+.PurificBlue_white .rnr-button:hover,
+.PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+.PurificBlue_white .button.button.button.rnr-button:hover,
+ .rnr-pagewrapper .PurificBlue_white .rnr-button:hover,
+ .rnr-pagewrapper .PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .PurificBlue_white .button.button.button.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .button.button.button.rnr-button:hover
+{
+background-color: #FFFFFF;
+background: linear-gradient(0.000000turn, #FFFFFF, #FFFFFF);
+;
+border-color: #000000;color: #333333;
+
+}
+.PurificBlue_white .rnr-button:active,
+.PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+.PurificBlue_white .button.button.button.rnr-button:active,
+ .rnr-pagewrapper .PurificBlue_white .rnr-button:active,
+ .rnr-pagewrapper .PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .PurificBlue_white .button.button.button.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .button.button.button.rnr-button:active
+{
+background-color: #DFE2E4;
+background: linear-gradient(0.000000turn, #F6F6F7, #DFE2E4);
+;
+border-color: #000000;color: #333333;
+
+}
+.PurificBlue_white .rnr-button.disabled,
+.PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+.PurificBlue_white .button.button.button.rnr-button.disabled,
+ .rnr-pagewrapper .PurificBlue_white .rnr-button.disabled,
+ .rnr-pagewrapper .PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .PurificBlue_white .button.button.button.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white.asbuttons > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .button.button.button.rnr-button.disabled
+{
+background-color: #C0C0C0;
+background: linear-gradient(0.000000turn, #EDEDED, #C0C0C0);
+;
+border-color: #000000;color: #A9A9A9;
+
+}
+.PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+.PurificBlue_white .link.link.link.rnr-button.rnr-button,
+ .rnr-pagewrapper .PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .PurificBlue_white .link.link.link.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .link.link.link.rnr-button.rnr-button
+{
+background: none; border: none; ;
+border: none;border-radius: 0px;padding: 4px 8px 4px;color: #004080;
+font-family: Arial, sans-serif; font-size: 12px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+.PurificBlue_white .link.link.link.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .PurificBlue_white .link.link.link.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .link.link.link.rnr-button.rnr-button.img
+{
+padding: 4px;
+
+}
+.PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+.PurificBlue_white .link.link.link.rnr-button:hover,
+ .rnr-pagewrapper .PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .PurificBlue_white .link.link.link.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .link.link.link.rnr-button:hover
+{
+color: #3366FF;
+
+}
+.PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+.PurificBlue_white .link.link.link.rnr-button:active,
+ .rnr-pagewrapper .PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .PurificBlue_white .link.link.link.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .link.link.link.rnr-button:active
+{
+color: #004080;
+
+}
+.PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+.PurificBlue_white .link.link.link.rnr-button.disabled,
+ .rnr-pagewrapper .PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .PurificBlue_white .link.link.link.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white.aslinks > * > *:not(.rnr-wrapper) .rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .link.link.link.rnr-button.disabled
+{
+color: #004080;
+
+}
+.PurificBlue_white .main.main.main.rnr-button.rnr-button,
+ .rnr-pagewrapper .PurificBlue_white .main.main.main.rnr-button.rnr-button,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .main.main.main.rnr-button.rnr-button
+{
+border: solid 1px;border-radius: 2px;padding: 3px 10px 3px;background-color: #DFE2E4;
+background: linear-gradient(0.000000turn, #F6F6F7, #DFE2E4);
+;
+border-color: #000000;color: #333333;
+font-family: Tahoma, sans-serif; font-size: 13px; font-weight: normal; font-style: normal; text-decoration: none;
+}
+.PurificBlue_white .main.main.main.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .PurificBlue_white .main.main.main.rnr-button.rnr-button.img,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .main.main.main.rnr-button.rnr-button.img
+{
+padding: 3px;
+
+}
+.PurificBlue_white .main.main.main.rnr-button:hover,
+ .rnr-pagewrapper .PurificBlue_white .main.main.main.rnr-button:hover,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .main.main.main.rnr-button:hover
+{
+background-color: #FFFFFF;
+background: linear-gradient(0.000000turn, #FFFFFF, #FFFFFF);
+;
+border-color: #000000;color: #333333;
+
+}
+.PurificBlue_white .main.main.main.rnr-button:active,
+ .rnr-pagewrapper .PurificBlue_white .main.main.main.rnr-button:active,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .main.main.main.rnr-button:active
+{
+background-color: #DFE2E4;
+background: linear-gradient(0.000000turn, #F6F6F7, #DFE2E4);
+;
+border-color: #000000;color: #333333;
+
+}
+.PurificBlue_white .main.main.main.rnr-button.disabled,
+ .rnr-pagewrapper .PurificBlue_white .main.main.main.rnr-button.disabled,
+ .rnr-pagewrapper .rnr-pagewrapper .PurificBlue_white .main.main.main.rnr-button.disabled
+{
+background-color: #C0C0C0;
+background: linear-gradient(0.000000turn, #EDEDED, #C0C0C0);
+;
+border-color: #000000;color: #A9A9A9;
+
+}

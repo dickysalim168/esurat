@@ -1,0 +1,4 @@
+
+var pType=Runner.pages.constants.PAGE_LIST;Runner.pages.PageSettings.addPageEvent("document",pType,"afterInit",function(pageObj,proxy,pageid){pageObj.buttonNames[pageObj.buttonNames.length]='Upload1';if(!pageObj.buttonEventBefore['Upload1']){pageObj.buttonEventBefore['Upload1']=function(params,ctrl,pageObj,proxy,pageid,rowData){}}
+if(!pageObj.buttonEventAfter['Upload1']){pageObj.buttonEventAfter['Upload1']=function(result,ctrl,pageObj,proxy,pageid,rowData){window.open("scansurat/scan.php?sid="+result,"mywindow","location=1,status=1,scrollbars=1");}}
+$('a[id=Upload1]').each(function(){if(!$(this).closest('tr.gridRowAdd').length){var newId="Upload1"+"_"+Runner.genId();this.id=newId;var button_Upload1=new Runner.form.Button({id:newId,btnName:"Upload1"});button_Upload1.init({args:[pageObj,proxy,pageid]});}});});

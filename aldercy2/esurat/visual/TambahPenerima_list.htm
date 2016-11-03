@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD> 
+
+<META http-equiv="X-UA-Compatible" content="IE=Edge"> <TITLE>{$pagetitle} </TITLE> 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<LINK href="styles/default.css" rel="stylesheet" type="text/css"> {BEGIN rtlCSS}<LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">{END rtlCSS} {BEGIN styleCSSFiles}<LINK href="{$stylepath}" rel="stylesheet" type="text/css">{END styleCSSFiles} {BEGIN pageCSSFiles}<LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">{END pageCSSFiles} <LINK href="styles/defaultIE.css" rel="stylesheet" type="text/css"> {BEGIN IEcssFiles}<LINK href="{$stylepathIE}" rel="stylesheet" type="text/css">{END IEcssFiles} 
+<META name="GENERATOR" content="MSHTML 11.00.9600.16412"> </HEAD> 
+<BODY class="{$stylename} function-list" {$bodyattrs}>
+
+{BEGIN body}<DIV class="rnr-page">
+<DIV class="rnr-top {$blockclass_top}">
+{BEGIN container_toplinks}
+<DIV class="rnr-c rnr-ch rnr-c-toplinks"></DIV>{END container_toplinks}
+{BEGIN container_hmenu}
+<DIV class="rnr-c rnr-ch rnr-c-hmenu">
+{BEGIN searchform_block}<DIV class="style1 rnr-bl rnr-b-search {$brickclass_search}"><SPAN>{BEGIN searchform_text}<INPUT type="text" size="25" {$searchfor_attrs}>{END searchform_text} 
+{BEGIN searchform_search}<SPAN class="runner-btnframe"><SPAN class="runner-btnleft"></SPAN> <SPAN class="runner-btnright"></SPAN> <A class="runner-button-img" href="#" {$searchbutton_attrs}><IMG src="images/search/search.gif"> </A> </SPAN> {END searchform_search}{BEGIN searchform_showall}<A class="rnr-button" href="#" {$showAllCont_attrs} {$showallbutton_attrs}>Tunjuk 
+ semua</A> {END searchform_showall}</SPAN> </DIV>
+{END searchform_block}{BEGIN searchformbuttons_block}<DIV class="style1 rnr-bl rnr-b-search_buttons {$brickclass_search_buttons}">{BEGIN searchPanelTopButtons}<SPAN><SPAN class="runner-btnframe"><SPAN class="runner-btnleft"></SPAN> <SPAN class="runner-btnright"></SPAN> 
+<A class="runner-button-img" id="showSrchWin{$id}" href="#" {$showHideSearchWin_attrs}><BR></A> 
+</SPAN> &nbsp;<SPAN class="runner-btnframe"><SPAN class="runner-btnleft"></SPAN> <SPAN class="runner-btnright"></SPAN> <A class="runner-button-img" id="showOptPanel{$id}" href="#" {$showHideSearchPanel_attrs}><BR></A> 
+</SPAN> </SPAN> {END searchPanelTopButtons}</DIV>
+{END searchformbuttons_block}{BEGIN searchsaving_block}<DIV class="style1 rnr-bl rnr-b-search_saving_buttons {$brickclass_search_saving_buttons}"></DIV>
+{END searchsaving_block}<DIV class="rnr-hfiller"></DIV>
+<DIV class="style1 rnr-br rnr-b-printpanel {$brickclass_printpanel}"></DIV></DIV>{END container_hmenu}</DIV>
+<DIV class="rnr-middle">
+<DIV class="rnr-left {$blockclass_left}"></DIV>
+<DIV class="rnr-center {$blockclass_center}">
+{BEGIN container_recordcontrols}
+<DIV class="rnr-c rnr-ch rnr-c-recordcontrols"></DIV>
+<TABLE class="runner-hc" style="width: 327px;" border="0" cellpadding="0">
+  <TBODY>
+  <TR style="height: 42px;">
+    <TD class="runner-cc filler" style="width: 309px;"><BR><SPAN></SPAN> 
+      {$event TambahPenerima_snippet1} 
+      <TABLE cellspacing="1" cellpadding="1">
+        <TBODY>
+        <TR>
+          <TD valign="top"><FONT color="#000000" 
+            size="1"><STRONG>Minit:</STRONG></FONT>&nbsp;</TD>
+          <TD valign="top"><TEXTAREA id="minit" cols="50"></TEXTAREA> </TD>
+          {BEGIN newrecord_controls_block}<TD class="runner-cc runner-br runner-b-recordcontrols_new {$brickclass_recordcontrols_new}"><SPAN></SPAN> </TD>
+          {END newrecord_controls_block}{BEGIN record_controls_block}<TD class="runner-cc runner-br runner-b-recordcontrol {$brickclass_recordcontrol}"><SPAN></SPAN> </TD>{END record_controls_block}</TR></TBODY></TABLE>
+      {$event TambahPenerima_snippet2} 
+    </TD> 
+    {BEGIN newrecord_controls_block}<TD class="runner-cc runner-br runner-b-recordcontrols_new {$brickclass_recordcontrols_new}"><SPAN></SPAN> </TD>{END newrecord_controls_block}</TR></TBODY></TABLE><BR><A class="rnr-button button" id="Masukkan_Ke_Dalam_Senarai" href="#" typeid="ib"> &nbsp;Masukkan&nbsp;Ke&nbsp;Dalam&nbsp;Senarai&nbsp; </A> {END container_recordcontrols}
+{BEGIN container_message}
+<DIV class="rnr-c rnr-ch rnr-c-message">
+{BEGIN message_block}<DIV class="style1 rnr-bc rnr-b-message {$brickclass_message}">
+<DIV class="rnr-message">
+{$message} </DIV></DIV>{END message_block}</DIV>{END container_message}
+{BEGIN container_pagination}
+<DIV class="rnr-c rnr-ch rnr-multialign rnr-c-pagination">
+{BEGIN pagination_block}<DIV class="style1 rnr-bc rnr-b-pagination {$brickclass_pagination}">
+{$pagination} </DIV>
+{END pagination_block}<DIV class="rnr-leftbricks">
+{BEGIN details_block}<DIV class="style1 rnr-bl rnr-b-details_found {$brickclass_details_found}"><SPAN {$details_attrs}> Perincian 
+ dijumpai: <B><SPAN class="rnr-details_found_count">
+{$records_found} </SPAN> </B> </SPAN> </DIV>{END details_block}</DIV>
+<DIV class="rnr-rightbricks">
+{BEGIN pages_block}<DIV class="style1 rnr-br rnr-b-page_of {$brickclass_page_of}"><SPAN {$pages_attrs}> Halaman <B>
+{$page} </B> dari <B>
+{$maxpages} </B> </SPAN> </DIV>
+{END pages_block}{BEGIN recordspp_block}<DIV class="style1 rnr-br rnr-b-recsperpage {$brickclass_recsperpage}"><SPAN id="recordspp_block{$id}" name="recordspp_block{$id}"> 
+Rekod per halaman:&nbsp; 
+{$recsPerPage} </SPAN> </DIV>{END recordspp_block}</DIV></DIV>{END container_pagination}
+{BEGIN container_grid}
+{BEGIN grid_block}<TABLE class="rnr-c rnr-cont rnr-c-grid rnr-b-grid rnr-gridtable hoverable" cellpadding="0">
+  <THEAD>{BEGIN grid_header}
+  <TR class="rnr-toprow style1 {$gridHeader_class}">{BEGIN record_header}
+    {BEGIN checkbox_column}<TH class="rnr-bc"><INPUT type="checkbox" {$checkboxheader_attrs}> </TH>
+    {END checkbox_column}{BEGIN Nama_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$Nama_class}">{BEGIN Nama_fieldheader}<SPAN {$Nama_orderlinkattrs}>
+      {$label TambahPenerima Nama} </SPAN> {END Nama_fieldheader}</TH>
+    {END Nama_fieldheadercolumn}{BEGIN Bahagian_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$Bahagian_class}">{BEGIN Bahagian_fieldheader}<SPAN {$Bahagian_orderlinkattrs}>
+      {$label TambahPenerima Bahagian} </SPAN> {END Bahagian_fieldheader}</TH>
+    {END Bahagian_fieldheadercolumn}{BEGIN Jawatan_fieldheadercolumn}<TH class="rnr-gridfieldlabel {$Jawatan_class}">{BEGIN Jawatan_fieldheader}<SPAN {$Jawatan_orderlinkattrs}>
+      {$label TambahPenerima Jawatan} </SPAN> {END Jawatan_fieldheader}</TH>
+    {END Jawatan_fieldheadercolumn}<TH class="rnr-edge"> &nbsp;</TH>
+    {BEGIN endrecordheader_block}<TH class="rnr-cs"> &nbsp;</TH>{END endrecordheader_block}{END record_header}</TR>{END grid_header}</THEAD>
+  <TBODY>
+  {BEGIN grid_row}<TR class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>{BEGIN grid_record}
+    {BEGIN checkbox_column}<TD class="rnr-bc" ieditcont="checkBox" {$rowstyle} {$recordattrs}>{BEGIN checkbox}<INPUT type="checkbox" {$checkbox_attrs}>{END checkbox} 
+    </TD>
+    {END checkbox_column}{BEGIN Nama_fieldcolumn}<TD class="{$Nama_class}" {$Nama_style} {$recordattrs}>
+      {$Nama_value} 
+    </TD>
+    {END Nama_fieldcolumn}{BEGIN Bahagian_fieldcolumn}<TD class="{$Bahagian_class}" {$Bahagian_style} {$recordattrs}>
+      {$Bahagian_value} </TD>
+    {END Bahagian_fieldcolumn}{BEGIN Jawatan_fieldcolumn}<TD class="{$Jawatan_class}" {$Jawatan_style} {$recordattrs}>
+      {$Jawatan_value} </TD>
+    {END Jawatan_fieldcolumn}<TD class="rnr-edge" {$recordattrs}> &nbsp;</TD>
+    {BEGIN endrecord_block}<TD class="rnr-cs" {$endrecordblock_attrs}>   
+            &nbsp;<BR></TD>{END endrecord_block}{END grid_record}</TR>{END grid_row}</TBODY></TABLE>{END grid_block}{END container_grid}
+{BEGIN container_pagination_bottom}
+<DIV class="rnr-c rnr-ch rnr-multialign rnr-c-pagination_bottom">
+{BEGIN pagination_block}<DIV class="style1 rnr-bc rnr-b-pagination {$brickclass_pagination}">
+{$pagination} </DIV>
+{END pagination_block}<DIV class="rnr-leftbricks">
+{BEGIN details_block}<DIV class="style1 rnr-bl rnr-b-details_found {$brickclass_details_found}"><SPAN {$details_attrs}> Perincian 
+ dijumpai: <B><SPAN class="rnr-details_found_count">
+{$records_found} </SPAN> </B> </SPAN> </DIV>{END details_block}</DIV>
+<DIV class="rnr-rightbricks">
+{BEGIN pages_block}<DIV class="style1 rnr-br rnr-b-page_of {$brickclass_page_of}"><SPAN {$pages_attrs}> Halaman <B>
+{$page} </B> dari <B>
+{$maxpages} </B> </SPAN> </DIV>
+{END pages_block}{BEGIN recordspp_block}<DIV class="style1 rnr-br rnr-b-recsperpage {$brickclass_recsperpage}"><SPAN id="recordspp_block{$id}" name="recordspp_block{$id}"> 
+Rekod per halaman:&nbsp; 
+{$recsPerPage} </SPAN> </DIV>{END recordspp_block}</DIV></DIV>{END container_pagination_bottom}</DIV>
+<DIV class="rnr-right {$blockclass_right}"></DIV></DIV>
+<DIV class="rnr-bottom {$blockclass_bottom}"></DIV></DIV>{END body}</BODY></HTML>

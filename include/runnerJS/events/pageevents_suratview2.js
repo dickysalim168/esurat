@@ -1,0 +1,5 @@
+
+Runner.pages.PageSettings.addPageEvent("suratview2",Runner.pages.constants.PAGE_EDIT,"afterPageReady",function(pageObj,proxy,pageid){pageObj.buttonNames[pageObj.buttonNames.length]='New_Button15';if(!pageObj.buttonEventBefore['New_Button15']){pageObj.buttonEventBefore['New_Button15']=function(params,ctrl,pageObj,proxy,pageid,rowData){}}
+if(!pageObj.buttonEventAfter['New_Button15']){pageObj.buttonEventAfter['New_Button15']=function(result,ctrl,pageObj,proxy,pageid,rowData){window.location="surat_edit.php?editid1="+result["txt"];}}
+$('a[id=New_Button15]').each(function(){if($(this).closest('tr.gridRowAdd').length){return;}
+this.id="New_Button15"+"_"+Runner.genId();var button_New_Button15=new Runner.form.Button({id:this.id,btnName:"New_Button15"});button_New_Button15.init({args:[pageObj,proxy,pageid]});});});

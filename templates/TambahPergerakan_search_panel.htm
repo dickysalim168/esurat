@@ -1,0 +1,97 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" {$all_checkbox}>{BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" {$any_checkbox}>{BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Add field</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_lantikan_date}
+			<a href="#" id="addSearchControl_lantikan_date" class="addSearchControl" {$addSearchControl_lantikan_date_attrs}>Lantikan Date</a><br>
+		{END addSearch_lantikan_date}
+		{BEGIN addSearch_sah_date}
+			<a href="#" id="addSearchControl_sah_date" class="addSearchControl" {$addSearchControl_sah_date_attrs}>Sah Date</a><br>
+		{END addSearch_sah_date}
+		{BEGIN addSearch_pencen_date}
+			<a href="#" id="addSearchControl_pencen_date" class="addSearchControl" {$addSearchControl_pencen_date_attrs}>Pencen Date</a><br>
+		{END addSearch_pencen_date}
+		{BEGIN addSearch_gaji_date}
+			<a href="#" id="addSearchControl_gaji_date" class="addSearchControl" {$addSearchControl_gaji_date_attrs}>Gaji Date</a><br>
+		{END addSearch_gaji_date}
+		{BEGIN addSearch_skim_pencen}
+			<a href="#" id="addSearchControl_skim_pencen" class="addSearchControl" {$addSearchControl_skim_pencen_attrs}>Skim Pencen</a><br>
+		{END addSearch_skim_pencen}
+		{BEGIN addSearch_tamatkontrak_date}
+			<a href="#" id="addSearchControl_tamatkontrak_date" class="addSearchControl" {$addSearchControl_tamatkontrak_date_attrs}>Tamatkontrak Date</a><br>
+		{END addSearch_tamatkontrak_date}
+		{BEGIN addSearch_nofail}
+			<a href="#" id="addSearchControl_nofail" class="addSearchControl" {$addSearchControl_nofail_attrs}>Nofail</a><br>
+		{END addSearch_nofail}
+		{BEGIN addSearch_name}
+			<a href="#" id="addSearchControl_name" class="addSearchControl" {$addSearchControl_name_attrs}>Nama</a><br>
+		{END addSearch_name}
+		{BEGIN addSearch_post_id}
+			<a href="#" id="addSearchControl_post_id" class="addSearchControl" {$addSearchControl_post_id_attrs}>Jawatan</a><br>
+		{END addSearch_post_id}
+		{BEGIN addSearch_dept_id}
+			<a href="#" id="addSearchControl_dept_id" class="addSearchControl" {$addSearchControl_dept_id_attrs}>Bahagian</a><br>
+		{END addSearch_dept_id}
+		{BEGIN addSearch_grade_id}
+			<a href="#" id="addSearchControl_grade_id" class="addSearchControl" {$addSearchControl_grade_id_attrs}>Grade Id</a><br>
+		{END addSearch_grade_id}
+		{BEGIN addSearch_start_date}
+			<a href="#" id="addSearchControl_start_date" class="addSearchControl" {$addSearchControl_start_date_attrs}>Start Date</a><br>
+		{END addSearch_start_date}
+		{BEGIN addSearch_scheme_id}
+			<a href="#" id="addSearchControl_scheme_id" class="addSearchControl" {$addSearchControl_scheme_id_attrs}>Scheme Id</a><br>
+		{END addSearch_scheme_id}
+		{BEGIN addSearch_username}
+			<a href="#" id="addSearchControl_username" class="addSearchControl" {$addSearchControl_username_attrs}>Username</a><br>
+		{END addSearch_username}
+		{BEGIN addSearch_password}
+			<a href="#" id="addSearchControl_password" class="addSearchControl" {$addSearchControl_password_attrs}>Password</a><br>
+		{END addSearch_password}
+		{BEGIN addSearch_type}
+			<a href="#" id="addSearchControl_type" class="addSearchControl" {$addSearchControl_type_attrs}>Type</a><br>
+		{END addSearch_type}
+		{BEGIN addSearch_level}
+			<a href="#" id="addSearchControl_level" class="addSearchControl" {$addSearchControl_level_attrs}>Level</a><br>
+		{END addSearch_level}
+	</div>
+	
+	<table class="controlsBlock">
+	{BEGIN searchCtrlBlock}
+		<tr class="srchPanelRow" {$filterRow_attrs}>
+			<td class="srchPanelCell">{$delCtrlButt}</td>
+			<td class="srchPanelCell">{$fLabel}:&nbsp;</td>
+			<td class="srchPanelCell srchPanelCell2">{$searchtype} {$searchcontrol} {$searchcontrol1}</td>
+		</tr>
+	{END searchCtrlBlock}
+	</table>
+	
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Cari</a>
+		</span>
+	</div>
+</div>

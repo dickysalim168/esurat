@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
+<META http-equiv="X-UA-Compatible" content="IE=Edge">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
+<META name=GENERATOR content="MSHTML 8.00.7600.16625"></HEAD>
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}
+<P>{$header} </P>
+<P><FONT size=4>Kandungan dan penerima surat.&nbsp;({$event surat_snippet111})</FONT></P>
+<P><FONT size=2>Sila lengkapkan maklumat dibawah.</FONT></P>
+<HR>
+
+<P>&nbsp;</P>
+<P>
+<TABLE style="WIDTH: 80%" class=runner-toptable cellPadding=0>
+  <TBODY>
+  <TR class=runner-footer>
+    <TD class=runner-bottom colSpan=3>
+      <P><STRONG><FONT size=3>1. Maklumat Surat<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A id=Kemaskini11 class=runner-button href="#" typeid="ib">Kemaskini</A></SPAN></FONT></STRONG></P>
+      <P>{$event surat_snippet173}</P>
+      <P>
+      <TABLE border=1 cellSpacing=1 cellPadding=1 width="75%">
+        <TBODY>
+        <TR>
+          <TD width="30%">&nbsp;Status</TD>
+          <TD width="70%">&nbsp;&nbsp;{$event suratview_snippet611}&nbsp;</TD></TR></TBODY></TABLE></P></TD></TR>
+  <TR class=runner-footer>
+    <TD class=runner-bottom colSpan=3>
+      <P><STRONG><FONT size=3>2. Maklumat Penghantar</FONT></STRONG></P>
+      <P>{$event surat_snippet183}</P>
+      <P>&nbsp;</P></TD></TR>
+  <TR class=runner-footer>
+    <TD class=runner-bottom colSpan=3><!--%%bottom%%-->
+      <P><FONT size=4><FONT size=3><STRONG>3. Imbasan Digital 
+      Surat</STRONG></FONT></FONT></P>
+      <P>{$event surat_snippet202}</P>
+      <P>&nbsp;</P>
+      <P><SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A id=New_Button5 class=runner-button href="#" typeid="ib">Imbas&nbsp;Dokumen</A></SPAN></P>
+      <P><STRONG><FONT size=3></FONT></STRONG>&nbsp;</P>
+      <P><STRONG><FONT size=3>4. Penerima Surat</FONT></STRONG></P>
+      <P></P>
+      <P>{$displayDetailTable_surat_individu}</P>
+      <P>
+      <HR>
+      Selepas pilihan penerima dibuat sila klik disini<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A id=Hantar_Email_3 class=runner-button href="#" typeid="ib">Hantar&nbsp;Email&nbsp;</A></SPAN> untuk menghantar notifikasi 
+      email. 
+      <P></P></FONT><FONT size=4></FONT>
+      <P><FONT size=4></FONT>&nbsp;</P>
+      <P>&nbsp;</P>
+      <P><STRONG><FONT size=3>5. Pergerakkan&nbsp;Surat</FONT></STRONG></P>
+      <P>{$displayDetailTable_pergerakan}</P>
+      <P>&nbsp;</P>
+      <P>&nbsp;</P></TD></TR></TBODY></TABLE></P>
+<P>&nbsp;</P>
+<P>{BEGIN back_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$backbutton_attrs}>Kembali ke senarai</A> </SPAN>{END back_button}</P>
+<P>&nbsp;</P>
+{BEGIN container_edit}
+<TABLE style="DISPLAY: none" class="runner-c runner-c-edit" cellPadding=0 
+align=left>
+  <TBODY>
+  <TR class="runner-toprow style2 header">
+    <TD style="WIDTH: 3px" class=runner-cl><IMG src="images/spacer.gif"></TD>
+    <TD style="WIDTH: 679px" class=runner-cc>
+      
+      <DIV class="runner-b-editheader {$brickclass_editheader}">Surat, Kemaskini 
+      rekod [ Pilihan: {$show_key1} ]</DIV></TD>
+    <TD style="WIDTH: 2px" class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+  {BEGIN message_block}<TR class="runner-row style1 runner-b-message {$brickclass_message}">
+    <TD style="WIDTH: 3px" class=runner-cl></TD>
+    <TD style="WIDTH: 679px" class="runner-cc runner-brickcontents">
+      
+      <DIV class=runner-message>{$message}</DIV></TD>
+    <TD style="WIDTH: 2px" class=runner-cr></TD></TR>
+  {END message_block}<TR class="runner-row style1 runner-b-wrapper {$wrapperclass_fields}">
+    <TD style="WIDTH: 3px" class=runner-cl></TD>
+    <TD style="WIDTH: 679px" 
+    class="runner-cc runner-brickcontents runner-wrapper">
+      
+      {BEGIN container_fields}
+      <TABLE class="runner-c runner-c-fields" cellPadding=0>
+        <TBODY>
+        {BEGIN Imbas_fieldblock}<TR class="runner-toprow header style1 runner-b-editfields">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class="runner-cc runner-cc1">
+            
+            <DIV class="fieldlabel_Imbas {$fielddispclass_Imbas}">{BEGIN Imbas_label}Imbas {END Imbas_label}</DIV></TD>
+          <TD class="runner-cc alt runner-fixedcell">
+            
+            <DIV class="fieldcontrol_Imbas {$fielddispclass_Imbas}">{$Imbas_editcontrol}&nbsp; </DIV></TD>
+          <TD class="runner-cr alt"><IMG src="images/spacer.gif"></TD></TR>
+        {END Imbas_fieldblock}{BEGIN tarikhSurat_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+          <TD class=runner-cl></TD>
+          <TD class="runner-cc runner-cc1">
+            
+            <DIV class="fieldlabel_tarikhSurat {$fielddispclass_tarikhSurat}">{BEGIN tarikhSurat_label}Tarikh Surat {END tarikhSurat_label}</DIV></TD>
+          <TD class="runner-cc alt runner-fixedcell">
+            
+            <DIV 
+            class="fieldcontrol_tarikhSurat {$fielddispclass_tarikhSurat}">{$tarikhSurat_editcontrol}&nbsp; 
+          </DIV></TD>
+          <TD class="runner-cr alt"></TD></TR>
+        {END tarikhSurat_fieldblock}{BEGIN tarikhTerima_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+          <TD class=runner-cl></TD>
+          <TD class="runner-cc runner-cc1">
+            
+            <DIV class="fieldlabel_tarikhTerima {$fielddispclass_tarikhTerima}">{BEGIN tarikhTerima_label}Tarikh Terima {END tarikhTerima_label}</DIV></TD>
+          <TD class="runner-cc alt runner-fixedcell">
+            
+            <DIV 
+            class="fieldcontrol_tarikhTerima {$fielddispclass_tarikhTerima}">{$tarikhTerima_editcontrol}&nbsp; 
+            </DIV></TD>
+          <TD class="runner-cr alt"></TD></TR>
+        {END tarikhTerima_fieldblock}{BEGIN rujukanSurat_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+          <TD class=runner-cl></TD>
+          <TD class="runner-cc runner-cc1">
+            
+            <DIV class="fieldlabel_rujukanSurat {$fielddispclass_rujukanSurat}">{BEGIN rujukanSurat_label}No Rujukan Surat{END rujukanSurat_label}</DIV></TD>
+          <TD class="runner-cc alt runner-fixedcell">
+            
+            <DIV 
+            class="fieldcontrol_rujukanSurat {$fielddispclass_rujukanSurat}">{$rujukanSurat_editcontrol}&nbsp; 
+            </DIV></TD>
+          <TD class="runner-cr alt"></TD></TR>
+        {END rujukanSurat_fieldblock}{BEGIN RingkasanKandungan_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+          <TD class=runner-cl></TD>
+          <TD class="runner-cc runner-cc1">
+            
+            <DIV class="fieldlabel_RingkasanKandungan {$fielddispclass_RingkasanKandungan}">{BEGIN RingkasanKandungan_label}Ringkasan Kandungan {END RingkasanKandungan_label}</DIV></TD>
+          <TD class="runner-cc alt runner-fixedcell">
+            
+            <DIV 
+            class="fieldcontrol_RingkasanKandungan {$fielddispclass_RingkasanKandungan}">{$RingkasanKandungan_editcontrol}&nbsp; 
+            </DIV></TD>
+          <TD class="runner-cr alt"></TD></TR>
+        {END RingkasanKandungan_fieldblock}{BEGIN Jenis_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+          <TD class=runner-cl></TD>
+          <TD class="runner-cc runner-cc1">
+            
+            <DIV class="fieldlabel_Jenis {$fielddispclass_Jenis}">{BEGIN Jenis_label}Jenis {END Jenis_label}</DIV></TD>
+          <TD class="runner-cc alt runner-fixedcell">
+            
+            <DIV style="DISPLAY: none" 
+            class="fieldcontrol_Jenis {$fielddispclass_Jenis}">{$Jenis_editcontrol}&nbsp; </DIV></TD>
+          <TD class="runner-cr alt"></TD></TR>
+        {END Jenis_fieldblock}{BEGIN kategori_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+          <TD class=runner-cl></TD>
+          <TD class="runner-cc runner-cc1">
+            
+            <DIV class="fieldlabel_kategori {$fielddispclass_kategori}">{BEGIN kategori_label}Kategori {END kategori_label}</DIV></TD>
+          <TD class="runner-cc alt runner-fixedcell">
+            
+            <DIV class="fieldcontrol_kategori {$fielddispclass_kategori}">{$kategori_editcontrol}&nbsp; </DIV></TD>
+          <TD class="runner-cr alt"></TD></TR>
+        {END kategori_fieldblock}<TR class="runner-row style1 runner-b-editfields">
+          <TD class=runner-cl></TD>
+          <TD class=runner-cc colSpan=2>
+            {$Section PTG1}&nbsp; </TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="runner-row style1 runner-b-editfields">
+          <TD class=runner-cl></TD>
+          <TD class=runner-cc colSpan=2>
+            {$Section Agensi1}&nbsp; </TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="runner-row style1 runner-b-editfields">
+          <TD class=runner-cl></TD>
+          <TD class=runner-cc colSpan=2>
+            {$Section Awam1}&nbsp; </TD>
+          <TD class=runner-cr></TD></TR>
+        {BEGIN legend}<TR class="runner-row style3 runner-b-legend {$brickclass_legend}">
+          <TD class=runner-cl></TD>
+          <TD class="runner-cc runner-brickcontents" colSpan=2>
+            <SPAN id=required_block{$id}><IMG alt=bullet src="images/icon_required.gif"> - Medan Perlu </SPAN></TD>
+          <TD class=runner-cr></TD></TR>
+        {END legend}<TR 
+        class="runner-row style2 runner-b-editbuttons {$brickclass_editbuttons}">
+          <TD class=runner-cl></TD>
+          <TD class="runner-cc runner-brickcontents" colSpan=2>
+            
+            <P align=right>{BEGIN back_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$backbutton_attrs}>Kembali ke 
+            senarai</A> </SPAN>{END back_button}{BEGIN save_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$savebutton_attrs}>Simpan</A> 
+            </SPAN>{END save_button}</P></TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_fields}">
+          <TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_fields}</TD>
+    <TD style="WIDTH: 2px" class=runner-cr></TD></TR>
+  <TR class="{$cfooterclass_edit}">
+    <TD style="WIDTH: 3px" class=runner-cl><IMG src="images/spacer.gif"></TD>
+    <TD style="WIDTH: 687px" class=runner-cc></TD>
+    <TD style="WIDTH: 2px" class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_edit}
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P>{$footer} </P>{END body}</BODY></HTML>

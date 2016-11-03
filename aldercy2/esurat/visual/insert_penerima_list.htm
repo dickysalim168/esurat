@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
+<META http-equiv="X-UA-Compatible" content="IE=Edge">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
+<META name=GENERATOR content="MSHTML 8.00.7600.16625"></HEAD>
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}{$header} 
+<TABLE style="WIDTH: 100%" class=runner-header 13px? HEIGHT:><TR><TD colSpan=2><P></P>
+      <P><STRONG><FONT size=4></FONT></STRONG>&nbsp;</P><STRONG><FONT size=4><P><SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A id=Masukan_Senarai_Penerima_Terpilih class=runner-button href="#" typeid="ib">Masukan&nbsp;Senarai&nbsp;Penerima&nbsp;Terpilih</A></SPAN><SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A id=Selesai class=runner-button href="#" typeid="ib">Selesai</A></SPAN></P>
+      <P>&nbsp;</P></FONT></STRONG></TD></TR>
+  <TR class=runner-body><TD class="runner-center {$blockclass_center}">{BEGIN container_bigblock}<TABLE class="runner-c runner-c-bigblock" cellPadding=0><TR class="{$cheaderclass_bigblock}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        <TR 
+          class="runner-row style1 runner-b-wrapper {$wrapperclass_message}"><TD 
+          class=runner-cl></TD>
+          <TD class="runner-cc runner-brickcontents runner-wrapper">{BEGIN container_message}<TABLE class="runner-c runner-c-message" cellPadding=0><TR class="{$cheaderclass_message}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+              <TR class="runner-row style1"><TD class=runner-cl></TD>
+                <TD class=runner-cc><TABLE class=runner-hc border=0 cellPadding=0><TR>{BEGIN message_block}<TD class="runner-cc runner-bc runner-b-message" {$brickclass_message}><SPAN><DIV class=runner-message>{$message}</DIV></SPAN></TD>{END message_block}</TR></TABLE></TD>
+                <TD class=runner-cr></TD></TR>
+              <TR class="{$cfooterclass_message}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_message}</TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="runner-row style1 runner-b-wrapper {$wrapperclass_grid}"><TD class=runner-cl></TD>
+          <TD class="runner-cc runner-brickcontents runner-wrapper">{BEGIN container_grid}{BEGIN grid_block}<TABLE style="WIDTH: 100%" class="runner-c runner-c-grid runner-b-grid" cellPadding=0><THEAD>{BEGIN grid_header}<TR class="runner-toprow style1 {$gridHeader_class}">{BEGIN record_header}<TH style="WIDTH: 4px" class=runner-cl><IMG src="images/spacer.gif"></TH>
+                {BEGIN checkbox_column}<TH style="WIDTH: 21px" class="runner-cc runner-bc"><INPUT type=checkbox 
+                  {$checkboxheader_attrs}></TH>
+                {END checkbox_column}{BEGIN jenis_fieldheadercolumn}<TH style="WIDTH: 67px" class="runner-cc ">{BEGIN jenis_fieldheader}<A {$jenis_orderlinkattrs}>Jenis </A>{END jenis_fieldheader}</TH>
+                {END jenis_fieldheadercolumn}{BEGIN bahagian_fieldheadercolumn}<TH style="WIDTH: 92px" class="runner-cc ">{BEGIN bahagian_fieldheader}<A {$bahagian_orderlinkattrs}>Bahagian </A>{END bahagian_fieldheader}</TH>
+                {END bahagian_fieldheadercolumn}{BEGIN jawatan_fieldheadercolumn}<TH style="WIDTH: 83px" class="runner-cc ">{BEGIN jawatan_fieldheader}<A {$jawatan_orderlinkattrs}>Jawatan </A>{END jawatan_fieldheader}</TH>
+                {END jawatan_fieldheadercolumn}{BEGIN individu_fieldheadercolumn}<TH style="WIDTH: 295px" class="runner-cc runner-clast">{BEGIN individu_fieldheader}<A {$individu_orderlinkattrs}>Nama Individu </A>{END individu_fieldheader}</TH>
+                {END individu_fieldheadercolumn}<TH style="WIDTH: 4px" class=runner-cr><IMG src="images/spacer.gif"></TH>
+                {BEGIN endrecordheader_block}<TH style="WIDTH: 10px" class=runner-cs></TH>{END endrecordheader_block}{END record_header}</TR>{END grid_header}</THEAD>
+              {BEGIN grid_row}<TR class="runner-row style1 {$rowclass}" {$rowstyle} {$rowattrs}>{BEGIN grid_record}<TD style="WIDTH: 4px" class=runner-cl {$rowstyle}></TD>
+                {BEGIN checkbox_column}<TD style="WIDTH: 27px" class="runner-cc runner-bc" iEditCont="checkBox" {$rowstyle}>{BEGIN checkbox}<INPUT type=checkbox {$checkbox_attrs}>{END checkbox}</TD>
+                {END checkbox_column}{BEGIN jenis_fieldcolumn}<TD style="WIDTH: 73px" class="runner-cc  {$jenis_class}" {$jenis_style}>{$jenis_value}</TD>
+                {END jenis_fieldcolumn}{BEGIN bahagian_fieldcolumn}<TD style="WIDTH: 98px" class="runner-cc  {$bahagian_class}" {$bahagian_style}>{$bahagian_value}</TD>
+                {END bahagian_fieldcolumn}{BEGIN jawatan_fieldcolumn}<TD style="WIDTH: 89px" class="runner-cc  {$jawatan_class}" {$jawatan_style}>{$jawatan_value}</TD>
+                {END jawatan_fieldcolumn}{BEGIN individu_fieldcolumn}<TD style="WIDTH: 301px" class="runner-cc runner-clast {$individu_class}" {$individu_style}>{$individu_value}</TD>
+                {END individu_fieldcolumn}<TD style="WIDTH: 4px" class=runner-cr {$rowstyle}></TD>
+                {BEGIN endrecord_block}<TD style="WIDTH: 10px" class=runner-cs {$endrecordblock_attrs}></TD>{END endrecord_block}{END grid_record}</TR>
+              {END grid_row}{BEGIN grid_footer}<TR class="runner-bottomrow style1{$gridFooter_class}">{BEGIN record_footer}<TD style="WIDTH: 4px" class=runner-cl><IMG src="images/spacer.gif"></TD>
+                {BEGIN checkbox_column}<TD style="WIDTH: 35px" class=runner-cc></TD>
+                {END checkbox_column}{BEGIN jenis_fieldheadercolumn}<TD style="WIDTH: 81px" class="runner-cc "></TD>
+                {END jenis_fieldheadercolumn}{BEGIN bahagian_fieldheadercolumn}<TD style="WIDTH: 106px" class="runner-cc "></TD>
+                {END bahagian_fieldheadercolumn}{BEGIN jawatan_fieldheadercolumn}<TD style="WIDTH: 97px" class="runner-cc "></TD>
+                {END jawatan_fieldheadercolumn}{BEGIN individu_fieldheadercolumn}<TD style="WIDTH: 309px" class="runner-cc runner-clast"></TD>
+                {END individu_fieldheadercolumn}<TD style="WIDTH: 4px" class=runner-cr><IMG src="images/spacer.gif"></TD>
+                {BEGIN endrecordfooter_block}<TD style="WIDTH: 10px" class=runner-cs></TD>{END endrecordfooter_block}{END record_footer}</TR>{END grid_footer}</TABLE>{END grid_block}{END container_grid}</TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_bigblock}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_bigblock}</TD>
+    <TD class="runner-right {$blockclass_right}"></TD></TR>
+  <TR class=runner-footer><TD colSpan=2></TD></TR></TABLE>{$footer}{END body} </BODY></HTML>

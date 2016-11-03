@@ -1,0 +1,4 @@
+
+var pType=Runner.pages.constants.PAGE_EDIT;Runner.pages.PageSettings.addPageEvent("surat_editor2",pType,"afterInit",function(pageObj,proxy,pageid){pageObj.buttonNames[pageObj.buttonNames.length]='New_Button111';if(!pageObj.buttonEventBefore['New_Button111']){pageObj.buttonEventBefore['New_Button111']=function(params,ctrl,pageObj,proxy,pageid,rowData){}}
+if(!pageObj.buttonEventAfter['New_Button111']){pageObj.buttonEventAfter['New_Button111']=function(result,ctrl,pageObj,proxy,pageid,rowData){window.open("TambahPenerima_list.php","mywindow","location=1,status=1,scrollbars=1");}}
+$('a[id=New_Button111]').each(function(){if(!$(this).closest('tr.gridRowAdd').length){var newId="New_Button111"+"_"+Runner.genId();this.id=newId;var button_New_Button111=new Runner.form.Button({id:newId,btnName:"New_Button111"});button_New_Button111.init({args:[pageObj,proxy,pageid]});}});});

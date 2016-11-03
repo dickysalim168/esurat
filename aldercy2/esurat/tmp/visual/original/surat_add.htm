@@ -1,0 +1,256 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=9">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename}" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+		<table   cellpadding="0" class="runner-toptable">
+			<tr class="runner-header">
+				<td class="runner-top" colspan=3>
+					
+
+{BEGIN container_all}
+<table class="runner-c runner-c-all" cellpadding="0" align=center>
+<tr class="{$cheaderclass_all}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+
+
+<tr  class="runner-row style1 runner-b-wrapper {$wrapperclass_add}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents runner-wrapper" >
+
+{BEGIN container_add}
+<table class="runner-c runner-c-add" cellpadding="0" align=center>
+<tr class="{$cheaderclass_add}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+
+{BEGIN addheader}
+<tr  class="runner-row style2 runner-b-addheader {$brickclass_addheader}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><span>	<h1>{$pagetitlelabel surat add}</h1>
+</span></td><td class="runner-cr"></td></tr>{END addheader}
+
+
+{BEGIN message_block}
+<tr  class="runner-row style1 runner-b-message {$brickclass_message}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><div class="rnr-message">{$message}</div></td><td class="runner-cr"></td></tr>{END message_block}
+
+
+
+
+<tr  class="runner-row style1 runner-b-wrapper {$wrapperclass_fields}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents runner-wrapper" >
+
+{BEGIN container_fields}
+<table class="runner-c runner-c-fields" cellpadding="0" >
+<tr class="{$cheaderclass_fields}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+
+
+	{BEGIN tarikhKemasukkan_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_tarikhKemasukkan {$fielddispclass_tarikhKemasukkan}" data-fieldname="tarikhKemasukkan">
+				{BEGIN tarikhKemasukkan_label}{$label surat tarikhKemasukkan}{END tarikhKemasukkan_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_tarikhKemasukkan {$fielddispclass_tarikhKemasukkan}" data-fieldname="tarikhKemasukkan">
+				{$tarikhKemasukkan_editcontrol}
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END tarikhKemasukkan_fieldblock}
+	{BEGIN tarikhSurat_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_tarikhSurat {$fielddispclass_tarikhSurat}" data-fieldname="tarikhSurat">
+				{BEGIN tarikhSurat_label}{$label surat tarikhSurat}{END tarikhSurat_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_tarikhSurat {$fielddispclass_tarikhSurat}" data-fieldname="tarikhSurat">
+				{$tarikhSurat_editcontrol}
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END tarikhSurat_fieldblock}
+	{BEGIN tarikhTerima_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_tarikhTerima {$fielddispclass_tarikhTerima}" data-fieldname="tarikhTerima">
+				{BEGIN tarikhTerima_label}{$label surat tarikhTerima}{END tarikhTerima_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_tarikhTerima {$fielddispclass_tarikhTerima}" data-fieldname="tarikhTerima">
+				{$tarikhTerima_editcontrol}
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END tarikhTerima_fieldblock}
+	{BEGIN rujukanSurat_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_rujukanSurat {$fielddispclass_rujukanSurat}" data-fieldname="rujukanSurat">
+				{BEGIN rujukanSurat_label}{$label surat rujukanSurat}{END rujukanSurat_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_rujukanSurat {$fielddispclass_rujukanSurat}" data-fieldname="rujukanSurat">
+				{$rujukanSurat_editcontrol}
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END rujukanSurat_fieldblock}
+	{BEGIN RingkasanKandungan_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_RingkasanKandungan {$fielddispclass_RingkasanKandungan}" data-fieldname="RingkasanKandungan">
+				{BEGIN RingkasanKandungan_label}{$label surat RingkasanKandungan}{END RingkasanKandungan_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_RingkasanKandungan {$fielddispclass_RingkasanKandungan}" data-fieldname="RingkasanKandungan">
+				{$RingkasanKandungan_editcontrol}
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END RingkasanKandungan_fieldblock}
+	{BEGIN Jenis_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_Jenis {$fielddispclass_Jenis}" data-fieldname="Jenis">
+				{BEGIN Jenis_label}{$label surat Jenis}{END Jenis_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_Jenis {$fielddispclass_Jenis}" data-fieldname="Jenis">
+				{$Jenis_editcontrol}
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END Jenis_fieldblock}
+	{BEGIN kategori_fieldblock}
+	<tr class="runner-row style1 runner-b-addfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1">
+			<div class="fieldlabel_kategori {$fielddispclass_kategori}" data-fieldname="kategori">
+				{BEGIN kategori_label}{$label surat kategori}{END kategori_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell">
+			<div class="fieldcontrol_kategori {$fielddispclass_kategori}" data-fieldname="kategori">
+				{$kategori_editcontrol}
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END kategori_fieldblock}
+	<tr class="runner-row style1">
+	<td class="runner-cl"></td>
+	<td colspan="10" class="runner-cc">	
+		{$Section PTG1}&nbsp;	
+	</td>
+	<td class="runner-cr"></td>
+</tr>
+	<tr class="runner-row style1">
+	<td class="runner-cl"></td>
+	<td colspan="10" class="runner-cc">	
+		{$Section Agensi1}&nbsp;	
+	</td>
+	<td class="runner-cr"></td>
+</tr>
+
+
+
+{BEGIN addbuttons}
+<tr  class="runner-row style2 runner-b-addbuttons {$brickclass_addbuttons}"><td class="runner-cl"></td><td class="runner-cc runner-brickcontents" ><div class="rnr-buttons-left">
+		{BEGIN save_button}
+	<a href="#" class="rnr-button main" id="saveButton{$id}" {$savebutton_attrs}>Simpan</a>
+	{END save_button}
+	{BEGIN reset_button}
+	<a href="#" class="rnr-button" id="resetButton{$id}">Set semula</a>
+	{END reset_button}
+	{BEGIN cancel_button}
+	<a href="#" class="rnr-button" id="cancelButton{$id}">Batal</a>
+	{END cancel_button}
+	{BEGIN back_button}
+	<a href="#" class="rnr-button" id="backButton{$id}">Kembali ke senarai</a>
+	{END back_button}
+	{BEGIN backToMenu_button}
+	<a href="#" class="rnr-button" id="backToMenuButton{$id}">Kembali ke menu</a>
+	{END backToMenu_button}
+</div>
+</td><td class="runner-cr"></td></tr>{END addbuttons}
+
+
+<tr class="{$cfooterclass_fields}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_fields}
+
+</td><td class="runner-cr"></td></tr>
+
+
+<tr class="{$cfooterclass_add}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_add}
+
+</td><td class="runner-cr"></td></tr>
+
+
+
+<tr class="{$cfooterclass_all}">
+<td class="runner-cl"><img src="images/spacer.gif"></td>
+<td class="runner-cc"></td><td class="runner-cr"><img src="images/spacer.gif"></td>
+</tr>
+</table>
+{END container_all}
+
+
+				</td>
+			</tr>
+			<tr class="runner-body">
+				
+				<td class="runner-left {$blockclass_left}" >
+					
+				</td>	
+				
+				<td class="runner-center {$blockclass_center}">
+					
+				</td>	
+
+				<td class="runner-right {$blockclass_right}">
+					
+				</td>	
+			</tr>
+			<tr class="runner-footer">
+				<td class="runner-bottom" colspan=3>
+					<!--%%bottom%%-->
+				</td>
+			</tr>
+		</table>
+		{$footer}
+	{END body}
+	</body>
+</html>

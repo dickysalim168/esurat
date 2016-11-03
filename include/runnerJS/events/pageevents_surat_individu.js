@@ -1,0 +1,5 @@
+
+Runner.pages.PageSettings.addPageEvent("surat_individu",Runner.pages.constants.PAGE_LIST,"afterPageReady",function(pageObj,proxy,pageid){pageObj.buttonNames[pageObj.buttonNames.length]='Tambah_Coba';if(!pageObj.buttonEventBefore['Tambah_Coba']){pageObj.buttonEventBefore['Tambah_Coba']=function(params,ctrl,pageObj,proxy,pageid,rowData){}}
+if(!pageObj.buttonEventAfter['Tambah_Coba']){pageObj.buttonEventAfter['Tambah_Coba']=function(result,ctrl,pageObj,proxy,pageid,rowData){window.open("TambahPenerima_list.php","mywindow","location=1,status=1,scrollbars=1");}}
+$('a[id=Tambah_Coba]').each(function(){if($(this).closest('tr.gridRowAdd').length){return;}
+this.id="Tambah_Coba"+"_"+Runner.genId();var button_Tambah_Coba=new Runner.form.Button({id:this.id,btnName:"Tambah_Coba"});button_Tambah_Coba.init({args:[pageObj,proxy,pageid]});});});

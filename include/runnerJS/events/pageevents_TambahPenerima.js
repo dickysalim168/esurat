@@ -1,0 +1,5 @@
+
+Runner.pages.PageSettings.addPageEvent("TambahPenerima",Runner.pages.constants.PAGE_LIST,"afterPageReady",function(pageObj,proxy,pageid){pageObj.buttonNames[pageObj.buttonNames.length]='Masukkan_Ke_Dalam_Senarai';if(!pageObj.buttonEventBefore['Masukkan_Ke_Dalam_Senarai']){pageObj.buttonEventBefore['Masukkan_Ke_Dalam_Senarai']=function(params,ctrl,pageObj,proxy,pageid,rowData){params["minit"]=document.getElementById("minit").value;}}
+if(!pageObj.buttonEventAfter['Masukkan_Ke_Dalam_Senarai']){pageObj.buttonEventAfter['Masukkan_Ke_Dalam_Senarai']=function(result,ctrl,pageObj,proxy,pageid,rowData){alert("Pengguna yang dipilih telah dimasukkan");window.opener.location.reload();close();}}
+$('a[id=Masukkan_Ke_Dalam_Senarai]').each(function(){if($(this).closest('tr.gridRowAdd').length){return;}
+this.id="Masukkan_Ke_Dalam_Senarai"+"_"+Runner.genId();var button_Masukkan_Ke_Dalam_Senarai=new Runner.form.Button({id:this.id,btnName:"Masukkan_Ke_Dalam_Senarai"});button_Masukkan_Ke_Dalam_Senarai.init({args:[pageObj,proxy,pageid]});});});

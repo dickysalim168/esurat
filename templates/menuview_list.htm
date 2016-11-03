@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD> 
+<TITLE>{$pagetitle} </TITLE> 
+<META http-equiv="X-UA-Compatible" content="IE=Edge"> 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<LINK href="styles/default.css" rel="stylesheet" type="text/css"> {BEGIN rtlCSS}<LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">{END rtlCSS} {BEGIN styleCSSFiles}<LINK href="{$stylepath}" rel="stylesheet" type="text/css">{END styleCSSFiles} {BEGIN pageCSSFiles}<LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">{END pageCSSFiles} <!--[if IE]>
+<LINK rel=stylesheet type=text/css href="styles/defaultIE.css">
+
+{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}
+
+<![endif]--> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.16412"> </HEAD> 
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}
+
+{$header} <FONT size="2"></FONT> 
+<P>
+<TABLE width="100%" style="width: 95%;" border="0" cellspacing="1" cellpadding="1">
+  <TBODY>
+  <TR>
+    <TD valign="top" style="width: 280px;"><FONT size="2">&nbsp;</FONT> 
+      <TABLE width="280" class="bordered" style="width: 268px;" border="1" cellspacing="1" cellpadding="1">
+        <TBODY>
+        <TR>
+          <TD style="width: 267px;" colspan="2">
+            <P align="center"><FONT color="#4b0082" size="2"><U>Jumlah Surat 
+            Mengikut Status</U></FONT> </P></TD></TR>
+        <TR style="color: white; background-color: black;">
+          <TD 
+            style="width: 125px; color: white; background-color: black;"><FONT 
+            size="2">&nbsp;Perkara</FONT> </TD>
+          <TD style="width: 141px;"><FONT size="2">&nbsp;Jumlah</FONT> </TD></TR>
+        <TR>
+          <TD style="width: 125px;"><FONT size="2">&nbsp;Belum Dibaca</FONT> 
+          </TD>
+          <TD style="width: 141px;"><STRONG><FONT size="2">
+            {$event menuview_snippet}</FONT></STRONG> </TD></TR>
+        <TR>
+          <TD 
+            style="width: 125px;"><FONT 
+            size="2">&nbsp;Dalam 
+            Tindakan</FONT> </TD>
+          <TD style="width: 141px;"><STRONG>
+            {$event menuview_snippet1}</STRONG> 
+          </TD></TR>
+        <TR>
+          <TD style="width: 125px;"><FONT size="2">&nbsp;Selesai</FONT> </TD>
+          <TD style="width: 141px;"><STRONG>
+            {$event menuview_snippet2}</STRONG> 
+          </TD></TR></TBODY></TABLE></TD>
+    <TD width="10"><FONT size="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</FONT> 
+    </TD>
+    <TD valign="top"><FONT size="2">&nbsp;</FONT>
+      {$event menuview_snippet4} </TD></TR></TBODY></TABLE>
+<P></P>
+<P><!--%%bottom%%--> 
+{$footer} <FONT size="2"></FONT> 
+<P></P>{END body}</BODY></HTML>

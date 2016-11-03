@@ -1,0 +1,14 @@
+[Tue Nov 01 17:36:29.831147 2016] [core:warn] [pid 8844:tid 384] AH00117: Ignoring deprecated use of DefaultType in line 21 of C:/wamp/www/esurat/aldercy2/esurat/tmp/webserver.conf.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::58f6:59d2:1205:7670. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 01 17:36:33.464232 2016] [mpm_winnt:notice] [pid 8844:tid 384] AH00455: Apache/2.4.10 (Win32) PHP/5.5.18 configured -- resuming normal operations
+[Tue Nov 01 17:36:33.465233 2016] [mpm_winnt:notice] [pid 8844:tid 384] AH00456: Apache Lounge VC11 Server built: Jul 17 2014 11:50:08
+[Tue Nov 01 17:36:33.465233 2016] [core:notice] [pid 8844:tid 384] AH00094: Command line: 'C:\\Program Files\\PHPRunner8.1\\EmbeddedServer\\bin\\httpd.exe -d C:/Program Files/PHPRunner8.1/EmbeddedServer -d C:\\Program Files\\PHPRunner8.1\\EmbeddedServer -f C:\\wamp\\www\\esurat\\aldercy2\\esurat\\tmp\\webserver.conf'
+[Tue Nov 01 17:36:33.466235 2016] [mpm_winnt:notice] [pid 8844:tid 384] AH00418: Parent: Created child process 6588
+[Tue Nov 01 17:36:34.574481 2016] [core:warn] [pid 6588:tid 396] AH00117: Ignoring deprecated use of DefaultType in line 21 of C:/wamp/www/esurat/aldercy2/esurat/tmp/webserver.conf.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::58f6:59d2:1205:7670. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 01 17:36:34.705632 2016] [core:warn] [pid 6588:tid 396] AH00117: Ignoring deprecated use of DefaultType in line 21 of C:/wamp/www/esurat/aldercy2/esurat/tmp/webserver.conf.
+AH00558: httpd.exe: Could not reliably determine the server's fully qualified domain name, using fe80::58f6:59d2:1205:7670. Set the 'ServerName' directive globally to suppress this message
+[Tue Nov 01 17:36:34.866810 2016] [mpm_winnt:notice] [pid 6588:tid 396] AH00354: Child: Starting 64 worker threads.
+[Tue Nov 01 17:40:22.813372 2016] [mpm_winnt:notice] [pid 8844:tid 384] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Nov 01 17:40:24.820629 2016] [mpm_winnt:notice] [pid 6588:tid 396] AH00364: Child: All worker threads have exited.
+[Tue Nov 01 17:40:24.950775 2016] [mpm_winnt:notice] [pid 8844:tid 384] AH00430: Parent: Child process 6588 exited successfully.

@@ -1,0 +1,293 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-search" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_search}
+<div class="rnr-c rnr-cv rnr-c-search">
+
+{BEGIN searchheader}
+<div  class="rnr-brickcontents style2 rnr-b-srchheader {$brickclass_srchheader}"><span>	<h1>{$pagetitlelabel surat_editor search}</h1>
+</span></div>{END searchheader}
+
+
+{BEGIN conditions_block}
+<div  class="rnr-brickcontents style1 rnr-b-srchconditions {$brickclass_srchconditions}">	<center>
+	<span class=fieldname>Criteria:&nbsp;</span>	
+	<input type="radio" class="rnr-radio-button" name="srchType{$id}" {$all_checkbox}><label for="all_checkbox"> Semua syarat-syarat</label>
+	&nbsp;&nbsp;&nbsp;
+	<input type="radio" class="rnr-radio-button" name="srchType{$id}" {$any_checkbox}><label for="any_checkbox"> Mana-mana syarat</label>
+	</center></div>{END conditions_block}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-srchfields {$brickclass_srchfields}"><table class="fieldGrid">
+	<tr>
+		<td>&nbsp;</td>
+		<td>NOT</td>
+		<td colspan=3>&nbsp; </td>
+	</tr>
+	<tr class="{$fielddispclass_Catatan}">
+	{BEGIN Catatan_fieldblock}		
+	<td>
+		{$label surat_editor Catatan}
+	</td>
+	<td>
+		<input type="checkbox" {$Catatan_notbox}>
+	</td>
+	<td>
+		{$searchtype_Catatan}
+	</td>
+	<td>
+		{$Catatan_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Catatan_editcontrol1}&nbsp;
+	</td>
+{END Catatan_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Tarikh}">
+	{BEGIN Tarikh_fieldblock}		
+	<td>
+		{$label surat_editor Tarikh}
+	</td>
+	<td>
+		<input type="checkbox" {$Tarikh_notbox}>
+	</td>
+	<td>
+		{$searchtype_Tarikh}
+	</td>
+	<td>
+		{$Tarikh_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Tarikh_editcontrol1}&nbsp;
+	</td>
+{END Tarikh_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_sid}">
+	{BEGIN sid_fieldblock}		
+	<td>
+		{$label surat_editor sid}
+	</td>
+	<td>
+		<input type="checkbox" {$sid_notbox}>
+	</td>
+	<td>
+		{$searchtype_sid}
+	</td>
+	<td>
+		{$sid_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$sid_editcontrol1}&nbsp;
+	</td>
+{END sid_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Penghantar}">
+	{BEGIN Penghantar_fieldblock}		
+	<td>
+		{$label surat_editor Penghantar}
+	</td>
+	<td>
+		<input type="checkbox" {$Penghantar_notbox}>
+	</td>
+	<td>
+		{$searchtype_Penghantar}
+	</td>
+	<td>
+		{$Penghantar_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Penghantar_editcontrol1}&nbsp;
+	</td>
+{END Penghantar_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Penerima}">
+	{BEGIN Penerima_fieldblock}		
+	<td>
+		{$label surat_editor Penerima}
+	</td>
+	<td>
+		<input type="checkbox" {$Penerima_notbox}>
+	</td>
+	<td>
+		{$searchtype_Penerima}
+	</td>
+	<td>
+		{$Penerima_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Penerima_editcontrol1}&nbsp;
+	</td>
+{END Penerima_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_RingkasanKandungan}">
+	{BEGIN RingkasanKandungan_fieldblock}		
+	<td>
+		{$label surat_editor RingkasanKandungan}
+	</td>
+	<td>
+		<input type="checkbox" {$RingkasanKandungan_notbox}>
+	</td>
+	<td>
+		{$searchtype_RingkasanKandungan}
+	</td>
+	<td>
+		{$RingkasanKandungan_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$RingkasanKandungan_editcontrol1}&nbsp;
+	</td>
+{END RingkasanKandungan_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_rujukanSurat}">
+	{BEGIN rujukanSurat_fieldblock}		
+	<td>
+		{$label surat_editor rujukanSurat}
+	</td>
+	<td>
+		<input type="checkbox" {$rujukanSurat_notbox}>
+	</td>
+	<td>
+		{$searchtype_rujukanSurat}
+	</td>
+	<td>
+		{$rujukanSurat_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$rujukanSurat_editcontrol1}&nbsp;
+	</td>
+{END rujukanSurat_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Email_Status}">
+	{BEGIN Email_Status_fieldblock}		
+	<td>
+		{$label surat_editor Email_Status}
+	</td>
+	<td>
+		<input type="checkbox" {$Email_Status_notbox}>
+	</td>
+	<td>
+		{$searchtype_Email_Status}
+	</td>
+	<td>
+		{$Email_Status_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Email_Status_editcontrol1}&nbsp;
+	</td>
+{END Email_Status_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Status}">
+	{BEGIN Status_fieldblock}		
+	<td>
+		{$label surat_editor Status}
+	</td>
+	<td>
+		<input type="checkbox" {$Status_notbox}>
+	</td>
+	<td>
+		{$searchtype_Status}
+	</td>
+	<td>
+		{$Status_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Status_editcontrol1}&nbsp;
+	</td>
+{END Status_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_siid}">
+	{BEGIN siid_fieldblock}		
+	<td>
+		{$label surat_editor siid}
+	</td>
+	<td>
+		<input type="checkbox" {$siid_notbox}>
+	</td>
+	<td>
+		{$searchtype_siid}
+	</td>
+	<td>
+		{$siid_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$siid_editcontrol1}&nbsp;
+	</td>
+{END siid_fieldblock}
+	</tr>
+
+</table></div>
+
+
+{BEGIN searchbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-srchbuttons {$brickclass_srchbuttons}">{BEGIN search_button}
+<a href="#" class="rnr-button main" {$searchbutton_attrs}>Cari</a>
+{END search_button} 
+{BEGIN reset_button}
+<a href="#" class="rnr-button" {$resetbutton_attrs}>Set semula</a>
+{END reset_button}
+{BEGIN back_button}
+<a href="#" class="rnr-button" {$backbutton_attrs}>Kembali ke senarai</a>
+{END back_button}</div>{END searchbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+</div>
+{END container_search}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

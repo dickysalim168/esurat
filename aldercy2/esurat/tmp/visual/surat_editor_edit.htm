@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE> 
+<META http-equiv="X-UA-Compatible" content="IE=Edge"> 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"><LINK href="styles/default.css" rel="stylesheet" type="text/css">{BEGIN rtlCSS}<LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK href="{$stylepath}" rel="stylesheet" type="text/css">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]--> 
+
+<META name="GENERATOR" content="MSHTML 11.00.9600.16412"></HEAD> 
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}
+
+{$header} 
+<P></P>
+<P></P>
+<P><FONT size="4">Paparan Surat&nbsp;</FONT> </P>
+{$event surat_snippet1911} 
+<P></P>
+<P><FONT size="2"></FONT>&nbsp;</P>
+<HR>
+
+<P>&nbsp;</P>
+<P>
+<TABLE class="runner-toptable" style="width: 80%;" cellpadding="0">
+  <TBODY>
+  <TR class="runner-footer">
+    <TD class="runner-bottom" colspan="3">
+      <P><STRONG><FONT size="3"><FONT color="#4b0082" size="2">1. Maklumat       
+                        Surat</FONT>&nbsp; <A class="rnr-button button" id="Kemaskini16" href="#" typeid="ib">Kemaskini</A></FONT></STRONG></P>
+      <P></P>
+      {$event suratview_snippet231} 
+      <P></P>
+      <HR>
+
+      <P>&nbsp;</P></TD></TR>
+  <TR class="runner-footer" style="height: auto;">
+    <TD class="runner-bottom" colspan="3">
+      <P><STRONG><FONT size="3"><FONT color="#4b0082" size="2">2. Maklumat       
+                  Penghantar       Asal</FONT> </FONT></STRONG></P>
+      <P>
+      {$event suratview_snippet331} 
+      <P></P>
+      <P>
+      <HR>
+
+      <P></P>
+      <P>&nbsp;</P>
+      <P>&nbsp;</P></TD></TR>
+  <TR class="runner-footer" style="height: 174px;">
+    <TD class="runner-bottom" colspan="3"><!--%%bottom%%--> 
+      <P><FONT color="#4b0082" size="2"><STRONG>3. Imbasan Digital               
+                Surat</STRONG></FONT></P>
+      <P></P>
+      <P>
+      {$event suratview_snippet151} 
+      <P>
+      <P>&nbsp;</P>
+      <P><A class="rnr-button button" id="New_Button12" href="#" typeid="ib">&nbsp;Pilih&nbsp;Dokumen</A> 
+      <HR>
+
+      <P></P>
+      <P></P>
+      <P><STRONG><FONT size="3"></FONT></STRONG>&nbsp;</P>
+      <P>&nbsp;</P>
+      <P><STRONG><FONT color="#4b0082" size="2">4. Penerima                    
+      Surat</FONT></STRONG></P>
+      <P></P>
+      <P></P>
+      {$event Viewer_snippet41} 
+      <P></P>
+      <P align="right">&nbsp;</P>
+      <P align="right"><A class="rnr-button button" id="Tambah_Penerima31" href="#" typeid="ib">Hantar&nbsp;surat&nbsp;ke&nbsp;pegawai&nbsp;lain.&nbsp;(Tambah&nbsp;Penerima)</A></P>
+      <P>
+      <P>
+      <HR>
+    </TD></TR></TBODY></TABLE>
+<P></P>
+<P>&nbsp;</P>
+<P>{BEGIN back_button}<SPAN class="runner-btnframe"><SPAN class="runner-btnleft"></SPAN><SPAN class="runner-btnright"></SPAN><A class="runner-button" href="#" {$backbutton_attrs}>Kembali ke senarai</A> 
+</SPAN>{END back_button}</P>
+<P>&nbsp;</P>
+<P>
+{$footer} 
+<P></P>{END body}</BODY></HTML>

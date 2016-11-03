@@ -1,0 +1,193 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-add" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_all}
+<div class="rnr-c rnr-cv rnr-c-all">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_add} rnr-wrapper rnr-cbw-add">
+
+{BEGIN container_add}
+<div class="rnr-c rnr-cv rnr-c-add">
+
+{BEGIN addheader}
+<div  class="rnr-brickcontents style2 rnr-b-addheader {$brickclass_addheader}"><span>	<h1>{$pagetitlelabel suratview2 add}</h1>
+</span></div>{END addheader}
+
+
+{BEGIN message_block}
+<div  class="rnr-brickcontents style1 rnr-b-message {$brickclass_message}"><div class="rnr-message">{$message}</div></div>{END message_block}
+
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-addfields {$brickclass_addfields}"><table class="fieldGrid">
+	{BEGIN tarikhSurat_fieldblock}
+<tr class="{$fielddispclass_tarikhSurat}" data-fieldname="tarikhSurat">
+	<td class="rnr-label">
+		{BEGIN tarikhSurat_label}{$label suratview2 tarikhSurat}{END tarikhSurat_label}
+	</td>
+	<td class="rnr-control style3">
+		{$tarikhSurat_editcontrol}&nbsp;
+	</td>
+</tr>
+{END tarikhSurat_fieldblock}
+	{BEGIN tarikhTerima_fieldblock}
+<tr class="{$fielddispclass_tarikhTerima}" data-fieldname="tarikhTerima">
+	<td class="rnr-label">
+		{BEGIN tarikhTerima_label}{$label suratview2 tarikhTerima}{END tarikhTerima_label}
+	</td>
+	<td class="rnr-control style3">
+		{$tarikhTerima_editcontrol}&nbsp;
+	</td>
+</tr>
+{END tarikhTerima_fieldblock}
+	{BEGIN rujukanSurat_fieldblock}
+<tr class="{$fielddispclass_rujukanSurat}" data-fieldname="rujukanSurat">
+	<td class="rnr-label">
+		{BEGIN rujukanSurat_label}{$label suratview2 rujukanSurat}{END rujukanSurat_label}
+	</td>
+	<td class="rnr-control style3">
+		{$rujukanSurat_editcontrol}&nbsp;
+	</td>
+</tr>
+{END rujukanSurat_fieldblock}
+	{BEGIN RingkasanKandungan_fieldblock}
+<tr class="{$fielddispclass_RingkasanKandungan}" data-fieldname="RingkasanKandungan">
+	<td class="rnr-label">
+		{BEGIN RingkasanKandungan_label}{$label suratview2 RingkasanKandungan}{END RingkasanKandungan_label}
+	</td>
+	<td class="rnr-control style3">
+		{$RingkasanKandungan_editcontrol}&nbsp;
+	</td>
+</tr>
+{END RingkasanKandungan_fieldblock}
+	{BEGIN Jenis_fieldblock}
+<tr class="{$fielddispclass_Jenis}" data-fieldname="Jenis">
+	<td class="rnr-label">
+		{BEGIN Jenis_label}{$label suratview2 Jenis}{END Jenis_label}
+	</td>
+	<td class="rnr-control style3">
+		{$Jenis_editcontrol}&nbsp;
+	</td>
+</tr>
+{END Jenis_fieldblock}
+	{BEGIN kategori_fieldblock}
+<tr class="{$fielddispclass_kategori}" data-fieldname="kategori">
+	<td class="rnr-label">
+		{BEGIN kategori_label}{$label suratview2 kategori}{END kategori_label}
+	</td>
+	<td class="rnr-control style3">
+		{$kategori_editcontrol}&nbsp;
+	</td>
+</tr>
+{END kategori_fieldblock}
+	<tr>
+	<td colspan="2">
+		{$Section PTG1}&nbsp;	
+	</td>
+</tr>
+
+	<tr>
+	<td colspan="2">
+		{$Section Agensi1}&nbsp;	
+	</td>
+</tr>
+
+	<tr>
+	<td colspan="2">
+		{$Section Awam1}&nbsp;	
+	</td>
+</tr>
+
+</table></div>
+
+
+{BEGIN addbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-addbuttons {$brickclass_addbuttons}"><div class="rnr-buttons-left">
+		{BEGIN save_button}
+	<a href="#" class="rnr-button main" id="saveButton{$id}" {$savebutton_attrs}>Simpan</a>
+	{END save_button}
+	{BEGIN reset_button}
+	<a href="#" class="rnr-button" id="resetButton{$id}">Set semula</a>
+	{END reset_button}
+	{BEGIN cancel_button}
+	<a href="#" class="rnr-button" id="cancelButton{$id}">Batal</a>
+	{END cancel_button}
+	{BEGIN back_button}
+	<a href="#" class="rnr-button" id="backButton{$id}">Kembali ke senarai</a>
+	{END back_button}
+	{BEGIN backToMenu_button}
+	<a href="#" class="rnr-button" id="backToMenuButton{$id}">Kembali ke menu</a>
+	{END backToMenu_button}
+</div>
+</div>{END addbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+</div>
+{END container_add}
+
+</div>
+
+
+
+</div>
+{END container_all}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

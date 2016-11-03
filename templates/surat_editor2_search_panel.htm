@@ -1,0 +1,73 @@
+<div class="searchOptions bottomPanelBorder" {$srchOpt_attrs}>
+	
+	<!-- Search panel content -->
+	<div class="srchCritTop" style="display: none;">
+		Criteria:&nbsp;
+		<input type="radio" name="srchType" {$all_checkbox}>{BEGIN all_checkbox_label}all{END all_checkbox_label}
+		&nbsp;&nbsp;&nbsp;
+		<input type="radio" name="srchType" {$any_checkbox}>{BEGIN any_checkbox_label}any{END any_checkbox_label}
+	</div>
+	
+	<div class="addOption">
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideControlChooseMenu{$id}" class="runner-button" {$showHideCtrls_attrs}>Tambah Input</a>
+		</span>
+		&nbsp;&nbsp;&nbsp;
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" id="showHideSearchType{$id}" class="runner-button" {$showHideCtrlsOpt_attrs}>{$showHideOpt_mess}</a>
+		</span>
+	</div>
+	
+	<!-- choose controls div -->
+	<div class="runner-panel controlChooseMenu" {$controlChooseMenuDiv_attrs}>
+		{BEGIN addSearch_siid}
+			<a href="#" id="addSearchControl_siid" class="addSearchControl" {$addSearchControl_siid_attrs}>Siid</a><br>
+		{END addSearch_siid}
+		{BEGIN addSearch_Tarikh}
+			<a href="#" id="addSearchControl_Tarikh" class="addSearchControl" {$addSearchControl_Tarikh_attrs}>Tarikh</a><br>
+		{END addSearch_Tarikh}
+		{BEGIN addSearch_Penghantar}
+			<a href="#" id="addSearchControl_Penghantar" class="addSearchControl" {$addSearchControl_Penghantar_attrs}>Penghantar</a><br>
+		{END addSearch_Penghantar}
+		{BEGIN addSearch_Penerima}
+			<a href="#" id="addSearchControl_Penerima" class="addSearchControl" {$addSearchControl_Penerima_attrs}>Penerima</a><br>
+		{END addSearch_Penerima}
+		{BEGIN addSearch_Catatan}
+			<a href="#" id="addSearchControl_Catatan" class="addSearchControl" {$addSearchControl_Catatan_attrs}>Catatan</a><br>
+		{END addSearch_Catatan}
+		{BEGIN addSearch_Status}
+			<a href="#" id="addSearchControl_Status" class="addSearchControl" {$addSearchControl_Status_attrs}>Status</a><br>
+		{END addSearch_Status}
+		{BEGIN addSearch_Email_Status}
+			<a href="#" id="addSearchControl_Email_Status" class="addSearchControl" {$addSearchControl_Email_Status_attrs}>Email Status</a><br>
+		{END addSearch_Email_Status}
+		{BEGIN addSearch_rujukanSurat}
+			<a href="#" id="addSearchControl_rujukanSurat" class="addSearchControl" {$addSearchControl_rujukanSurat_attrs}>No Rujukan Surat</a><br>
+		{END addSearch_rujukanSurat}
+		{BEGIN addSearch_RingkasanKandungan}
+			<a href="#" id="addSearchControl_RingkasanKandungan" class="addSearchControl" {$addSearchControl_RingkasanKandungan_attrs}>Ringkasan Kandungan</a><br>
+		{END addSearch_RingkasanKandungan}
+	</div>
+	
+	<table class="controlsBlock">
+	{BEGIN searchCtrlBlock}
+		<tr class="srchPanelRow" {$filterRow_attrs}>
+			<td class="srchPanelCell">{$delCtrlButt}</td>
+			<td class="srchPanelCell">{$fLabel}:&nbsp;</td>
+			<td class="srchPanelCell srchPanelCell2">{$searchtype} {$searchcontrol} {$searchcontrol1}</td>
+		</tr>
+	{END searchCtrlBlock}
+	</table>
+	
+	<div class="bottomSearchButt" align="left" {$bottomSearchButt_attrs}>
+		<span class="runner-btnframe">
+		<span class="runner-btnleft"></span>
+		<span class="runner-btnright"></span>
+		<a href="#" class="runner-button" {$searchbutton_attrs}>Cari</a>
+		</span>
+	</div>
+</div>

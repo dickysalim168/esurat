@@ -1,0 +1,4 @@
+
+var pType=Runner.pages.constants.PAGE_EDIT;Runner.pages.PageSettings.addPageEvent("suratview",pType,"afterInit",function(pageObj,proxy,pageid){pageObj.buttonNames[pageObj.buttonNames.length]='Tambah_Penerima2';if(!pageObj.buttonEventBefore['Tambah_Penerima2']){pageObj.buttonEventBefore['Tambah_Penerima2']=function(params,ctrl,pageObj,proxy,pageid,rowData){}}
+if(!pageObj.buttonEventAfter['Tambah_Penerima2']){pageObj.buttonEventAfter['Tambah_Penerima2']=function(result,ctrl,pageObj,proxy,pageid,rowData){window.open("TambahPenerima_list.php","mywindow","location=1,status=1,scrollbars=1");}}
+$('a[id=Tambah_Penerima2]').each(function(){if(!$(this).closest('tr.gridRowAdd').length){var newId="Tambah_Penerima2"+"_"+Runner.genId();this.id=newId;var button_Tambah_Penerima2=new Runner.form.Button({id:newId,btnName:"Tambah_Penerima2"});button_Tambah_Penerima2.init({args:[pageObj,proxy,pageid]});}});});

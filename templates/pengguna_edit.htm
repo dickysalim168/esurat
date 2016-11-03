@@ -1,0 +1,200 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-edit" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_all}
+<div class="rnr-c rnr-cv rnr-c-all">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_edit} rnr-wrapper rnr-cbw-edit">
+
+{BEGIN container_edit}
+<div class="rnr-c rnr-cv rnr-c-edit">
+
+{BEGIN editheader}
+<div  class="rnr-brickcontents style2 rnr-b-editheader {$brickclass_editheader}"><span>	<h1>{$pagetitlelabel pengguna edit}</h1>
+</span></div>{END editheader}
+
+
+{BEGIN message_block}
+<div  class="rnr-brickcontents style1 rnr-b-message {$brickclass_message}"><div class="rnr-message">{$message}</div></div>{END message_block}
+
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-editfields {$brickclass_editfields}"><table class="fieldGrid">
+	{BEGIN Nama_fieldblock}
+<tr class="{$fielddispclass_Nama}" data-fieldname="Nama">
+	<td class="rnr-label">
+		{BEGIN Nama_label}{$label pengguna Nama}{END Nama_label}
+	</td>
+	<td class="rnr-control style3">
+		{$Nama_editcontrol}&nbsp;
+	</td>
+</tr>
+{END Nama_fieldblock}
+	{BEGIN NoKP_fieldblock}
+<tr class="{$fielddispclass_NoKP}" data-fieldname="NoKP">
+	<td class="rnr-label">
+		{BEGIN NoKP_label}{$label pengguna NoKP}{END NoKP_label}
+	</td>
+	<td class="rnr-control style3">
+		{$NoKP_editcontrol}&nbsp;
+	</td>
+</tr>
+{END NoKP_fieldblock}
+	{BEGIN Bahagian_fieldblock}
+<tr class="{$fielddispclass_Bahagian}" data-fieldname="Bahagian">
+	<td class="rnr-label">
+		{BEGIN Bahagian_label}{$label pengguna Bahagian}{END Bahagian_label}
+	</td>
+	<td class="rnr-control style3">
+		{$Bahagian_editcontrol}&nbsp;
+	</td>
+</tr>
+{END Bahagian_fieldblock}
+	{BEGIN Jawatan_fieldblock}
+<tr class="{$fielddispclass_Jawatan}" data-fieldname="Jawatan">
+	<td class="rnr-label">
+		{BEGIN Jawatan_label}{$label pengguna Jawatan}{END Jawatan_label}
+	</td>
+	<td class="rnr-control style3">
+		{$Jawatan_editcontrol}&nbsp;
+	</td>
+</tr>
+{END Jawatan_fieldblock}
+	{BEGIN Password_fieldblock}
+<tr class="{$fielddispclass_Password}" data-fieldname="Password">
+	<td class="rnr-label">
+		{BEGIN Password_label}{$label pengguna Password}{END Password_label}
+	</td>
+	<td class="rnr-control style3">
+		{$Password_editcontrol}&nbsp;
+	</td>
+</tr>
+{END Password_fieldblock}
+	{BEGIN Email_fieldblock}
+<tr class="{$fielddispclass_Email}" data-fieldname="Email">
+	<td class="rnr-label">
+		{BEGIN Email_label}{$label pengguna Email}{END Email_label}
+	</td>
+	<td class="rnr-control style3">
+		{$Email_editcontrol}&nbsp;
+	</td>
+</tr>
+{END Email_fieldblock}
+	{BEGIN Level_fieldblock}
+<tr class="{$fielddispclass_Level}" data-fieldname="Level">
+	<td class="rnr-label">
+		{BEGIN Level_label}{$label pengguna Level}{END Level_label}
+	</td>
+	<td class="rnr-control style3">
+		{$Level_editcontrol}&nbsp;
+	</td>
+</tr>
+{END Level_fieldblock}
+	{BEGIN Status_fieldblock}
+<tr class="{$fielddispclass_Status}" data-fieldname="Status">
+	<td class="rnr-label">
+		{BEGIN Status_label}{$label pengguna Status}{END Status_label}
+	</td>
+	<td class="rnr-control style3">
+		{$Status_editcontrol}&nbsp;
+	</td>
+</tr>
+{END Status_fieldblock}
+</table></div>
+
+
+{BEGIN editbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-editbuttons {$brickclass_editbuttons}"><div class="rnr-buttons-right">
+	{BEGIN prev_button}
+	<a href="#" class="rnr-button {$prevbutton_class}" {$prevbutton_attrs}>&lt;&lt;&lt;</a>
+	{END prev_button}
+	{BEGIN next_button}
+	<a href="#" class="rnr-button  {$nextbutton_class}" {$nextbutton_attrs}>&gt;&gt;&gt;</a>
+	{END next_button}
+</div>
+<div class="rnr-buttons-left">
+		{BEGIN save_button}
+	<a href="#" class="rnr-button main" {$savebutton_attrs}>Simpan</a>
+	{END save_button}
+	{BEGIN reset_button}
+	<a href="#" class="rnr-button" {$resetbutton_attrs}>Set semula</a>
+	{END reset_button}
+	{BEGIN back_button}
+		<a href="#" class="rnr-button" {$backbutton_attrs}>Kembali ke senarai</a>
+	{END back_button}
+	{BEGIN close_button}
+	<a href="#" class="rnr-button" {$closebutton_attrs}>Tutup tetingkap</a>
+	{END close_button}
+	</div>
+</div>{END editbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+</div>
+{END container_edit}
+
+</div>
+
+
+
+</div>
+{END container_all}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

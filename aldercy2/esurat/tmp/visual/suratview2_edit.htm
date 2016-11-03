@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD> 
+<META http-equiv="X-UA-Compatible" content="IE=Edge"> <TITLE>{$pagetitle} </TITLE> 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<LINK href="styles/default.css" rel="stylesheet" type="text/css"> {BEGIN rtlCSS}<LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">{END rtlCSS} {BEGIN styleCSSFiles}<LINK href="{$stylepath}" rel="stylesheet" type="text/css">{END styleCSSFiles} {BEGIN pageCSSFiles}<LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">{END pageCSSFiles} 
+<META name="GENERATOR" content="MSHTML 11.00.9600.16412"> </HEAD> 
+<BODY class="{$stylename} function-edit" {$bodyattrs}>{BEGIN body}
+
+{$header} 
+<DIV align="left" class="rnr-page">
+<DIV align="left" class="rnr-top {$blockclass_top}">
+{BEGIN container_all}
+<DIV class="rnr-c rnr-cv rnr-c-all">
+<DIV align="left" class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_edit} rnr-wrapper rnr-cbw-edit">
+{BEGIN container_edit}
+<DIV align="left" class="rnr-c rnr-cv rnr-c-edit">
+{BEGIN editheader}<DIV class="rnr-brickcontents style2 rnr-b-editheader {$brickclass_editheader}"><SPAN>
+<H1>
+{$pagetitlelabel suratview2 edit} 
+</H1></SPAN> </DIV>
+{END editheader}{BEGIN message_block}<DIV class="rnr-brickcontents style1 rnr-b-message {$brickclass_message}">
+<DIV class="rnr-message">
+{$message} </DIV></DIV>
+{END message_block}<DIV class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+{BEGIN container_fields}
+<DIV class="rnr-c rnr-cv rnr-c-fields">
+<DIV class="rnr-brickcontents style1 rnr-b-editfields {$brickclass_editfields}">
+<TABLE class="fieldGrid">
+  <TBODY>
+  {BEGIN tarikhSurat_fieldblock}<TR class="{$fielddispclass_tarikhSurat}" data-fieldname="tarikhSurat">
+    <TD class="rnr-label">{BEGIN tarikhSurat_label}
+      {$label suratview2 tarikhSurat}{END tarikhSurat_label} </TD>
+    <TD class="rnr-control style3">
+      {$tarikhSurat_editcontrol} &nbsp;</TD></TR>
+  {END tarikhSurat_fieldblock}{BEGIN tarikhTerima_fieldblock}<TR class="{$fielddispclass_tarikhTerima}" data-fieldname="tarikhTerima">
+    <TD class="rnr-label">{BEGIN tarikhTerima_label}
+      {$label suratview2 tarikhTerima}{END tarikhTerima_label} </TD>
+    <TD class="rnr-control style3">
+      {$tarikhTerima_editcontrol} &nbsp;</TD></TR>
+  {END tarikhTerima_fieldblock}{BEGIN rujukanSurat_fieldblock}<TR class="{$fielddispclass_rujukanSurat}" data-fieldname="rujukanSurat">
+    <TD class="rnr-label">{BEGIN rujukanSurat_label}
+      {$label suratview2 rujukanSurat}{END rujukanSurat_label} </TD>
+    <TD class="rnr-control style3">
+      {$rujukanSurat_editcontrol} &nbsp;</TD></TR>
+  {END rujukanSurat_fieldblock}{BEGIN RingkasanKandungan_fieldblock}<TR class="{$fielddispclass_RingkasanKandungan}" data-fieldname="RingkasanKandungan">
+    <TD class="rnr-label">{BEGIN RingkasanKandungan_label}
+      {$label suratview2 RingkasanKandungan}{END RingkasanKandungan_label} </TD>
+    <TD class="rnr-control style3">
+      {$RingkasanKandungan_editcontrol} &nbsp;
+  </TD></TR>
+  {END RingkasanKandungan_fieldblock}{BEGIN kategori_fieldblock}<TR class="{$fielddispclass_kategori}" data-fieldname="kategori">
+    <TD class="rnr-label">{BEGIN kategori_label}
+      {$label suratview2 kategori}{END kategori_label} </TD>
+    <TD class="rnr-control style3">
+      {$kategori_editcontrol} &nbsp;</TD></TR>{END kategori_fieldblock}</TBODY></TABLE> 
+</DIV>
+{BEGIN editbuttons}<DIV class="rnr-brickcontents style2 rnr-b-editbuttons {$brickclass_editbuttons}">
+<DIV class="rnr-buttons-right"></DIV>
+<DIV class="rnr-buttons-left">{BEGIN save_button}<A class="rnr-button main" href="#" {$savebutton_attrs}> Simpan </A> 
+{END save_button}<A class="rnr-button button" id="New_Button15" href="#" typeid="ib">Kembali</A> 
+</DIV></DIV>{END editbuttons}</DIV>{END container_fields}</DIV></DIV> {END container_edit}</DIV></DIV> {END container_all}</DIV>
+<DIV class="rnr-middle">
+<DIV class="rnr-left {$blockclass_left}"></DIV>
+<DIV class="rnr-center {$blockclass_center}"></DIV>
+<DIV class="rnr-right {$blockclass_right}"></DIV></DIV>
+<DIV class="rnr-bottom {$blockclass_bottom}"><!--%%bottom%%--> </DIV></DIV>
+{$footer}{END body} </BODY></HTML>

@@ -1,0 +1,166 @@
+body.page-edit2old
+{
+padding-top:10px; padding-left:10px;
+}
+.page-edit2old .runner-c-all,
+  .runner-pagewrapper .page-edit2old .runner-c-all,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-c-all
+{
+margin-bottom:5px;
+}
+.page-edit2old .runner-c-all,
+  .runner-pagewrapper .page-edit2old .runner-c-all,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-c-all
+{
+width: 500px;
+}
+body.page-edit2old .runner-c-all
+{
+margin-left:auto; margin-right:auto;
+}
+.page-edit2old .runner-c-edit,
+  .runner-pagewrapper .page-edit2old .runner-c-edit,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-c-edit
+{
+margin-bottom:5px;
+}
+.page-edit2old .runner-c-edit,
+  .runner-pagewrapper .page-edit2old .runner-c-edit,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-c-edit
+{
+width: 500px;
+}
+body.page-edit2old .runner-c-edit
+{
+margin-left:auto; margin-right:auto;
+}
+.page-edit2old .runner-b-editheader,
+  .runner-pagewrapper .page-edit2old .runner-b-editheader,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-editheader
+{
+white-space: nowrap;
+}
+.page-edit2old .runner-b-editheader,
+  .runner-pagewrapper .page-edit2old .runner-b-editheader,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-editheader
+{
+text-align: right;
+}
+.page-edit2old .runner-b-editheader > *,
+  .runner-pagewrapper .page-edit2old .runner-b-editheader > *,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-editheader > *
+{
+font-size: 120%;
+}
+.page-edit2old .runner-b-message,
+  .runner-pagewrapper .page-edit2old .runner-b-message,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-message
+{
+white-space: nowrap;
+}
+.page-edit2old .runner-b-message,
+  .runner-pagewrapper .page-edit2old .runner-b-message,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-message
+{
+text-align: right;
+}
+.page-edit2old .runner-b-message > *,
+  .runner-pagewrapper .page-edit2old .runner-b-message > *,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-message > *
+{
+
+}
+.page-edit2old .runner-b-multistep_nav_edit,
+  .runner-pagewrapper .page-edit2old .runner-b-multistep_nav_edit,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-multistep_nav_edit
+{
+white-space: nowrap;
+}
+.page-edit2old .runner-b-multistep_nav_edit,
+  .runner-pagewrapper .page-edit2old .runner-b-multistep_nav_edit,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-multistep_nav_edit
+{
+text-align: right;
+}
+.page-edit2old .runner-b-multistep_nav_edit > *,
+  .runner-pagewrapper .page-edit2old .runner-b-multistep_nav_edit > *,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-multistep_nav_edit > *
+{
+
+}
+.page-edit2old .runner-c-fields,
+  .runner-pagewrapper .page-edit2old .runner-c-fields,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-c-fields
+{
+margin-bottom:5px;
+}
+.page-edit2old .runner-b-editfields,
+  .runner-pagewrapper .page-edit2old .runner-b-editfields,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-editfields
+{
+white-space: nowrap;
+}
+.page-edit2old .runner-b-editfields,
+  .runner-pagewrapper .page-edit2old .runner-b-editfields,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-editfields
+{
+text-align: right;
+}
+.page-edit2old .runner-b-editfields > *,
+  .runner-pagewrapper .page-edit2old .runner-b-editfields > *,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-editfields > *
+{
+
+}
+.page-edit2old .runner-b-editbuttons,
+  .runner-pagewrapper .page-edit2old .runner-b-editbuttons,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-editbuttons
+{
+white-space: nowrap;
+}
+.page-edit2old .runner-b-editbuttons,
+  .runner-pagewrapper .page-edit2old .runner-b-editbuttons,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-editbuttons
+{
+text-align: right;
+}
+.page-edit2old .runner-b-editbuttons > *,
+  .runner-pagewrapper .page-edit2old .runner-b-editbuttons > *,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-editbuttons > *
+{
+
+}
+.page-edit2old .runner-c-details,
+  .runner-pagewrapper .page-edit2old .runner-c-details,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-c-details
+{
+margin-bottom:5px;
+}
+.page-edit2old .runner-c-details,
+  .runner-pagewrapper .page-edit2old .runner-c-details,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-c-details
+{
+width: 100%;
+}
+.page-edit2old .runner-b-editdetails,
+  .runner-pagewrapper .page-edit2old .runner-b-editdetails,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-editdetails
+{
+white-space: nowrap;
+}
+.page-edit2old .runner-b-editdetails,
+  .runner-pagewrapper .page-edit2old .runner-b-editdetails,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-editdetails
+{
+text-align: right;
+}
+.page-edit2old .runner-b-editdetails > *,
+  .runner-pagewrapper .page-edit2old .runner-b-editdetails > *,
+  .runner-pagewrapper .runner-pagewrapper .page-edit2old .runner-b-editdetails > *
+{
+
+}
+body.page-edit2old .runner-top
+{
+padding-right: 5px;
+}

@@ -1,0 +1,255 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-search" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_search}
+<div class="rnr-c rnr-cv rnr-c-search">
+
+{BEGIN searchheader}
+<div  class="rnr-brickcontents style2 rnr-b-srchheader {$brickclass_srchheader}"><span>	<h1>{$pagetitlelabel SuratKepada search}</h1>
+</span></div>{END searchheader}
+
+
+{BEGIN conditions_block}
+<div  class="rnr-brickcontents style1 rnr-b-srchconditions {$brickclass_srchconditions}">	<center>
+	<span class=fieldname>Criteria:&nbsp;</span>	
+	<input type="radio" class="rnr-radio-button" name="srchType{$id}" {$all_checkbox}><label for="all_checkbox"> Semua syarat-syarat</label>
+	&nbsp;&nbsp;&nbsp;
+	<input type="radio" class="rnr-radio-button" name="srchType{$id}" {$any_checkbox}><label for="any_checkbox"> Mana-mana syarat</label>
+	</center></div>{END conditions_block}
+
+
+
+<div  class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}
+<div class="rnr-c rnr-cv rnr-c-fields">
+
+
+<div  class="rnr-brickcontents style1 rnr-b-srchfields {$brickclass_srchfields}"><table class="fieldGrid">
+	<tr>
+		<td>&nbsp;</td>
+		<td>NOT</td>
+		<td colspan=3>&nbsp; </td>
+	</tr>
+	<tr class="{$fielddispclass_JawatanName}">
+	{BEGIN JawatanName_fieldblock}		
+	<td>
+		{$label SuratKepada JawatanName}
+	</td>
+	<td>
+		<input type="checkbox" {$JawatanName_notbox}>
+	</td>
+	<td>
+		{$searchtype_JawatanName}
+	</td>
+	<td>
+		{$JawatanName_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$JawatanName_editcontrol1}&nbsp;
+	</td>
+{END JawatanName_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_JawatanID}">
+	{BEGIN JawatanID_fieldblock}		
+	<td>
+		{$label SuratKepada JawatanID}
+	</td>
+	<td>
+		<input type="checkbox" {$JawatanID_notbox}>
+	</td>
+	<td>
+		{$searchtype_JawatanID}
+	</td>
+	<td>
+		{$JawatanID_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$JawatanID_editcontrol1}&nbsp;
+	</td>
+{END JawatanID_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_BahagianID}">
+	{BEGIN BahagianID_fieldblock}		
+	<td>
+		{$label SuratKepada BahagianID}
+	</td>
+	<td>
+		<input type="checkbox" {$BahagianID_notbox}>
+	</td>
+	<td>
+		{$searchtype_BahagianID}
+	</td>
+	<td>
+		{$BahagianID_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$BahagianID_editcontrol1}&nbsp;
+	</td>
+{END BahagianID_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_BahagianName}">
+	{BEGIN BahagianName_fieldblock}		
+	<td>
+		{$label SuratKepada BahagianName}
+	</td>
+	<td>
+		<input type="checkbox" {$BahagianName_notbox}>
+	</td>
+	<td>
+		{$searchtype_BahagianName}
+	</td>
+	<td>
+		{$BahagianName_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$BahagianName_editcontrol1}&nbsp;
+	</td>
+{END BahagianName_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_pid}">
+	{BEGIN pid_fieldblock}		
+	<td>
+		{$label SuratKepada pid}
+	</td>
+	<td>
+		<input type="checkbox" {$pid_notbox}>
+	</td>
+	<td>
+		{$searchtype_pid}
+	</td>
+	<td>
+		{$pid_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$pid_editcontrol1}&nbsp;
+	</td>
+{END pid_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Nama}">
+	{BEGIN Nama_fieldblock}		
+	<td>
+		{$label SuratKepada Nama}
+	</td>
+	<td>
+		<input type="checkbox" {$Nama_notbox}>
+	</td>
+	<td>
+		{$searchtype_Nama}
+	</td>
+	<td>
+		{$Nama_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Nama_editcontrol1}&nbsp;
+	</td>
+{END Nama_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Bahagian}">
+	{BEGIN Bahagian_fieldblock}		
+	<td>
+		{$label SuratKepada Bahagian}
+	</td>
+	<td>
+		<input type="checkbox" {$Bahagian_notbox}>
+	</td>
+	<td>
+		{$searchtype_Bahagian}
+	</td>
+	<td>
+		{$Bahagian_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Bahagian_editcontrol1}&nbsp;
+	</td>
+{END Bahagian_fieldblock}
+	</tr>
+	<tr class="{$fielddispclass_Jawatan}">
+	{BEGIN Jawatan_fieldblock}		
+	<td>
+		{$label SuratKepada Jawatan}
+	</td>
+	<td>
+		<input type="checkbox" {$Jawatan_notbox}>
+	</td>
+	<td>
+		{$searchtype_Jawatan}
+	</td>
+	<td>
+		{$Jawatan_editcontrol}&nbsp;
+	</td>
+	<td>
+		{$Jawatan_editcontrol1}&nbsp;
+	</td>
+{END Jawatan_fieldblock}
+	</tr>
+
+</table></div>
+
+
+{BEGIN searchbuttons}
+<div  class="rnr-brickcontents style2 rnr-b-srchbuttons {$brickclass_srchbuttons}">{BEGIN search_button}
+<a href="#" class="rnr-button main" {$searchbutton_attrs}>Cari</a>
+{END search_button} 
+{BEGIN reset_button}
+<a href="#" class="rnr-button" {$resetbutton_attrs}>Set semula</a>
+{END reset_button}
+{BEGIN back_button}
+<a href="#" class="rnr-button" {$backbutton_attrs}>Kembali ke senarai</a>
+{END back_button}</div>{END searchbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+</div>
+{END container_search}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

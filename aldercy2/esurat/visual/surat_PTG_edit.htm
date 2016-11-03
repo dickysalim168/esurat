@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}>
+  <HEAD>
+    <META http-equiv="X-UA-Compatible" content="IE=Edge">
+    <TITLE>
+      {$pagetitle}
+    </TITLE>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <LINK href="styles/default.css" rel="stylesheet" type="text/css">
+    {BEGIN rtlCSS}
+      <LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">
+    {END rtlCSS}
+    {BEGIN styleCSSFiles}
+      <LINK href="{$stylepath}" rel="stylesheet" type="text/css">
+    {END styleCSSFiles}
+    {BEGIN pageCSSFiles}
+      <LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">
+    {END pageCSSFiles}
+    <LINK href="styles/defaultIE.css" rel="stylesheet" type="text/css">
+    {BEGIN IEcssFiles}
+      <LINK href="{$stylepathIE}" rel="stylesheet" type="text/css">
+    {END IEcssFiles}
+    <META name="GENERATOR" content="MSHTML 11.00.9600.16412">
+  </HEAD>
+  <BODY class="{$stylename} function-edit" {$bodyattrs}>
+    {BEGIN body}
+      {$header}
+      <FONT size="4">Kemaskini Surat.&nbsp;(</FONT>{$event surat_snippet1101}<FONT size="4">)</FONT>
+      <P>
+        <FONT size="2">Sila lengkapkan maklumat dibawah.</FONT>
+        <DIV class="rnr-page">
+          <DIV class="rnr-top {$blockclass_top}">
+            {BEGIN container_fields}
+              <DIV class="rnr-c rnr-cv rnr-c-fields">
+                {BEGIN editheader}
+                  <DIV class="rnr-brickcontents style2 rnr-b-editheader {$brickclass_editheader}">
+                    <SPAN>
+                      <H1>
+                        {$pagetitlelabel surat_PTG edit}
+                      </H1>
+                    </SPAN>
+                  </DIV>
+                {END editheader}
+                {BEGIN message_block}
+                  <DIV class="rnr-brickcontents style1 rnr-b-message {$brickclass_message}">
+                    <DIV class="runner-message">
+                      {$message}
+                    </DIV>
+                  </DIV>
+                {END message_block}
+                <DIV class="rnr-brickcontents style1 rnr-b-editfields_simple {$brickclass_editfields_simple}">
+                  <DIV class="rnr-simplefields edit">
+                    {BEGIN individu_fieldblock}
+                      <DIV class="rnr-field style1 {$fielddispclass_individu}" data-fieldname="individu">
+                        <SPAN class="rnr-label">
+                          {BEGIN individu_label}
+                            Individu
+                          {END individu_label}
+                        </SPAN>
+                        <SPAN class="rnr-control style3">
+                          {$individu_editcontrol}
+                        </SPAN>
+                      </DIV>
+                    {END individu_fieldblock}
+                    {BEGIN bahagian_fieldblock}
+                      <DIV class="rnr-field style1 {$fielddispclass_bahagian}" data-fieldname="bahagian">
+                        <SPAN class="rnr-label">
+                          {BEGIN bahagian_label}
+                            Bahagian
+                          {END bahagian_label}
+                        </SPAN>
+                        <SPAN class="rnr-control style3">
+                          {$bahagian_editcontrol}
+                        </SPAN>
+                      </DIV>
+                    {END bahagian_fieldblock}
+                    {BEGIN jawatan_fieldblock}
+                      <DIV class="rnr-field style1 {$fielddispclass_jawatan}" data-fieldname="jawatan">
+                        <SPAN class="rnr-label">
+                          {BEGIN jawatan_label}
+                            Jawatan
+                          {END jawatan_label}
+                        </SPAN>
+                        <SPAN class="rnr-control style3">
+                          {$jawatan_editcontrol}
+                        </SPAN>
+                      </DIV>
+                    {END jawatan_fieldblock}
+                  </DIV>
+                </DIV>
+                {BEGIN editbuttons}
+                  <DIV class="rnr-brickcontents style2 rnr-b-editbuttons {$brickclass_editbuttons}">
+                    <DIV class="rnr-buttons-right">
+                    </DIV>
+                    <DIV class="rnr-buttons-left">
+                      {BEGIN save_button}
+                        <A class="rnr-button main" href="#" {$savebutton_attrs}>
+                          Simpan
+                        </A>
+                      {END save_button}
+                    </DIV>
+                    <A class="rnr-button button" id="Kembali31" href="#" typeid="ib">
+                      Kembali
+                    </A>
+                  </DIV>
+                {END editbuttons}
+              </DIV>
+            {END container_fields}
+          </DIV>
+          <DIV class="rnr-middle">
+            <DIV class="rnr-left {$blockclass_left}">
+            </DIV>
+            <DIV class="rnr-center {$blockclass_center}">
+            </DIV>
+            <DIV class="rnr-right {$blockclass_right}">
+            </DIV>
+          </DIV>
+          <DIV class="rnr-bottom {$blockclass_bottom}">
+          </DIV>
+        </DIV>
+        {$footer}
+{END body}      </BODY>
+      </HTML>

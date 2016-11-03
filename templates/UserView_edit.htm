@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
+<META content=IE=7 http-equiv=X-UA-Compatible>
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
+<META name=GENERATOR content="MSHTML 8.00.7600.16625"></HEAD>
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}{$header} 
+<P></P>
+{BEGIN container_details}<TABLE class="runner-c runner-c-details" cellPadding=0><TR class="{$cheaderclass_details}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+    <TD class=runner-cc></TD>
+    <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+  {BEGIN detail_tables}<TR class="runner-row style1 runner-b-editdetails {$brickclass_editdetails}"><TD class=runner-cl></TD>
+    <TD class="runner-cc runner-brickcontents"></TD>
+    <TD class=runner-cr></TD></TR>
+  {END detail_tables}<TR class="{$cfooterclass_details}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+    <TD class=runner-cc></TD>
+    <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_details}
+<P><FONT size=4>Kandungan dan penerima surat.&nbsp;({$event UserView_snippet8})</FONT></P>
+<P><FONT size=2>Sila lengkapkan maklumat dibawah.</FONT></P>
+<HR>
+
+<P>&nbsp;</P>
+<TABLE style="WIDTH: 80%" class=runner-toptable cellPadding=0><TR class=runner-footer><TD class=runner-bottom colSpan=3><P><STRONG><FONT size=3>1. Maklumat Surat</FONT></STRONG></P>
+      <P>{$event UserView_snippet4}</P>
+      <P>&nbsp;</P></TD></TR>
+  <TR class=runner-footer><TD class=runner-bottom colSpan=3><P><STRONG><FONT size=3>2. Maklumat Penghantar</FONT></STRONG></P>
+      <P>{$event UserView_snippet5}</P>
+      <P>&nbsp;</P></TD></TR>
+  <TR class=runner-footer><TD class=runner-bottom colSpan=3><!--%%bottom%%-->
+      <P><FONT size=4><FONT size=3><STRONG>3. Imbasan Digital 
+      Surat</STRONG></FONT></FONT></P>
+      <P></P></FONT>
+      <P>{$event UserView_snippet6}</P>
+      <P><FONT size=4></FONT>&nbsp;</P>
+      <P><STRONG><FONT size=3>4. Penerima Surat</FONT></STRONG></P>
+      <P></P>
+      <P>{$event UserView_snippet7}</P>
+      <P><HR>
+
+      <P><STRONG><FONT size=3>5. Pergerakkan&nbsp;Surat</FONT></STRONG></P>
+      <P>{$displayDetailTable_pergerakan}</P>
+      <P>&nbsp;</P></TD></TR></TABLE>
+<P>&nbsp;</P>
+<P>&nbsp;</P>
+<P><SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A id=Kembali3 class=runner-button href="#" typeid="ib">Kembali</A></SPAN></P>
+<P>&nbsp;</P>
+<P>{$footer} </P>{END body}</BODY></HTML>

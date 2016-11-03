@@ -1,0 +1,522 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}
+		<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}
+		<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}
+		<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<body class="{$stylename} function-list" {$bodyattrs}>
+	{BEGIN body}
+		{$header}
+	<div class="rnr-page">
+		<div class="rnr-top {$blockclass_top}">
+			
+
+
+
+{BEGIN container_hmenu}
+<div class="rnr-c rnr-ch rnr-c-hmenu">
+
+{BEGIN searchform_block}
+<div  class="style1 rnr-bl rnr-b-search {$brickclass_search}">	<span>
+		{BEGIN searchform_text}
+		<input type="text" {$searchfor_attrs} size="25">
+		{END searchform_text}
+		{BEGIN searchform_search}
+			<a href="#" class="rnr-button img" data-icon="search" {$searchbutton_attrs}></a>
+		{END searchform_search}
+		{BEGIN searchform_showall}	
+		<a href="#" class="rnr-button" {$showAllCont_attrs} {$showallbutton_attrs}>Tunjuk semua</a>
+		{END searchform_showall}
+	</span>
+</div>
+{END searchform_block}
+
+
+{BEGIN searchformbuttons_block}
+<div  class="style1 rnr-bl rnr-b-search_buttons {$brickclass_search_buttons}">{BEGIN searchPanelTopButtons}
+<span>
+	<a href="#" class="rnr-button img" id="showSrchWin{$id}" data-icon="panelfloat" {$showHideSearchWin_attrs}></a>
+	<a href="#" class="rnr-button img" id="showOptPanel{$id}" data-icon="paneldown" {$showHideSearchPanel_attrs}></a>
+</span>
+{END searchPanelTopButtons}
+</div>
+{END searchformbuttons_block}
+
+
+{BEGIN searchsaving_block}
+<div  class="style1 rnr-bl rnr-b-search_saving_buttons {$brickclass_search_saving_buttons}"></div>
+{END searchsaving_block}
+
+<div class="rnr-hfiller"></div>
+
+<div  class="style1 rnr-br rnr-b-printpanel {$brickclass_printpanel}"></div>
+
+
+
+</div>
+{END container_hmenu}
+
+
+		</div>
+		<div class="rnr-middle">
+			<div class="rnr-left {$blockclass_left}">
+				
+
+{BEGIN container_recordcontrols}
+<div class="rnr-c rnr-ch rnr-c-recordcontrols">
+
+{BEGIN newrecord_controls_block}
+<div  class="style1 rnr-bl rnr-b-recordcontrols_new {$brickclass_recordcontrols_new}">		{BEGIN add_link}
+		<a href="surat_add.php{$addlink_getparams}" class="rnr-button" {$addlink_attrs}>Tambah baru</a>
+	{END add_link}
+
+	
+
+</div>
+{END newrecord_controls_block}
+
+
+{BEGIN record_controls_block}
+<div  class="style1 rnr-bl rnr-b-recordcontrol {$brickclass_recordcontrol}">{BEGIN widhtSelected}
+<span class="rnr-buttons-group">
+<a class="rnr-button {$withSelectedClass}" href="#" id="selectButtonsToggler{$id}">With selected...</a>
+<ul class="rnr-list" id="selectButtonsGroup{$id}">
+
+	
+		{BEGIN deleteselected_link}
+<li>
+		<a href="#" class="rnr-button link" {$deleteselectedlink_attrs} {$deleteselectedlink_span}>Delete</a>
+</li>
+	{END deleteselected_link}
+
+	
+</ul>
+</span>
+{END widhtSelected}
+	</div>
+{END record_controls_block}
+
+
+{BEGIN more_list}
+<div  class="style1 rnr-bl rnr-b-toplinks {$brickclass_toplinks}"><span class="rnr-buttons-group">
+{BEGIN moreButtons}
+<a class="rnr-button" id="extraButtonsToggler{$id}" href="#">Lagi...</a>
+<ul class="rnr-list rnr-buttons-group" id="extraButtonsGroup{$id}">
+
+{BEGIN asearch_link}
+<li>
+	<a href="surat_search.php" class="rnr-button link" {$advsearchlink_attrs}>Carian maju</a>
+</li>
+{END asearch_link}
+
+
+</ul>
+{END moreButtons}
+</span></div>
+{END more_list}
+
+<div class="rnr-hfiller"></div>
+</div>
+{END container_recordcontrols}
+
+
+
+{BEGIN container_message}
+<div class="rnr-c rnr-ch rnr-c-message">
+
+{BEGIN message_block}
+<div  class="style1 rnr-bc rnr-b-message {$brickclass_message}"><div class="rnr-message">{$message}</div></div>
+{END message_block}
+
+
+</div>
+{END container_message}
+
+
+
+{BEGIN container_pagination}
+<div class="rnr-c rnr-ch rnr-multialign rnr-c-pagination">
+
+{BEGIN pagination_block}
+<div  class="style1 rnr-bc rnr-b-pagination {$brickclass_pagination}">{$pagination}</div>
+{END pagination_block}
+
+<div class="rnr-leftbricks">
+{BEGIN details_block}
+<div  class="style1 rnr-bl rnr-b-details_found {$brickclass_details_found}">	<span {$details_attrs}>
+			Perincian dijumpai: <b><span class="rnr-details_found_count">{$records_found}</span></b>
+	</span>
+</div>
+{END details_block}
+
+</div><div class="rnr-rightbricks">
+{BEGIN pages_block}
+<div  class="style1 rnr-br rnr-b-page_of {$brickclass_page_of}">	<span {$pages_attrs}>
+		Halaman <b>{$page}</b> dari <b>{$maxpages}</b>
+	</span>
+
+</div>
+{END pages_block}
+
+
+{BEGIN recordspp_block}
+<div  class="style1 rnr-br rnr-b-recsperpage {$brickclass_recsperpage}">	<span id="recordspp_block{$id}" name="recordspp_block{$id}">
+			Rekod per halaman:&nbsp;{$recsPerPage}
+	</span>	
+</div>
+{END recordspp_block}
+
+</div>
+</div>
+{END container_pagination}
+
+
+
+{BEGIN container_grid}
+
+
+{BEGIN grid_block}
+						<table class="rnr-c rnr-cont rnr-c-grid rnr-b-grid rnr-gridtable  hoverable " cellpadding="0" >
+						<thead>
+															{BEGIN grid_header}
+								<tr class="rnr-toprow style1 {$gridHeader_class}" >
+									{BEGIN record_header}
+									{BEGIN listIcons_column}
+									<th iEditCont="all">&nbsp;</th>
+									{END listIcons_column}	
+
+																		{BEGIN checkbox_column}
+									<th class="rnr-bc">
+										<input type="checkbox" {$checkboxheader_attrs}>
+									</th>
+									{END checkbox_column}
+
+																		{BEGIN surat_dtable_column}
+									<th >&nbsp;</th>
+									{END surat_dtable_column}
+																										{BEGIN TindakanTotal_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$TindakanTotal_class}">
+									{BEGIN TindakanTotal_fieldheader}
+																				<span {$TindakanTotal_orderlinkattrs}>
+											{$label surat TindakanTotal}
+										</span>
+									{END TindakanTotal_fieldheader}
+									</th>
+									{END TindakanTotal_fieldheadercolumn}
+
+																	{BEGIN tarikhKemasukkan_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$tarikhKemasukkan_class}">
+									{BEGIN tarikhKemasukkan_fieldheader}
+																				<span {$tarikhKemasukkan_orderlinkattrs}>
+											{$label surat tarikhKemasukkan}
+										</span>
+									{END tarikhKemasukkan_fieldheader}
+									</th>
+									{END tarikhKemasukkan_fieldheadercolumn}
+
+																	{BEGIN tarikhSurat_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$tarikhSurat_class}">
+									{BEGIN tarikhSurat_fieldheader}
+																				<span {$tarikhSurat_orderlinkattrs}>
+											{$label surat tarikhSurat}
+										</span>
+									{END tarikhSurat_fieldheader}
+									</th>
+									{END tarikhSurat_fieldheadercolumn}
+
+																	{BEGIN pendaftar_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$pendaftar_class}">
+									{BEGIN pendaftar_fieldheader}
+																				<span {$pendaftar_orderlinkattrs}>
+											{$label surat pendaftar}
+										</span>
+									{END pendaftar_fieldheader}
+									</th>
+									{END pendaftar_fieldheadercolumn}
+
+																	{BEGIN rujukanSurat_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$rujukanSurat_class}">
+									{BEGIN rujukanSurat_fieldheader}
+																				<span {$rujukanSurat_orderlinkattrs}>
+											{$label surat rujukanSurat}
+										</span>
+									{END rujukanSurat_fieldheader}
+									</th>
+									{END rujukanSurat_fieldheadercolumn}
+
+																	{BEGIN RingkasanKandungan_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$RingkasanKandungan_class}">
+									{BEGIN RingkasanKandungan_fieldheader}
+																				<span {$RingkasanKandungan_orderlinkattrs}>
+											{$label surat RingkasanKandungan}
+										</span>
+									{END RingkasanKandungan_fieldheader}
+									</th>
+									{END RingkasanKandungan_fieldheadercolumn}
+
+																	{BEGIN Jenis_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$Jenis_class}">
+									{BEGIN Jenis_fieldheader}
+																				<span {$Jenis_orderlinkattrs}>
+											{$label surat Jenis}
+										</span>
+									{END Jenis_fieldheader}
+									</th>
+									{END Jenis_fieldheadercolumn}
+
+																	{BEGIN kategori_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$kategori_class}">
+									{BEGIN kategori_fieldheader}
+																				<span {$kategori_orderlinkattrs}>
+											{$label surat kategori}
+										</span>
+									{END kategori_fieldheader}
+									</th>
+									{END kategori_fieldheadercolumn}
+
+																	{BEGIN tindakan_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$tindakan_class}">
+									{BEGIN tindakan_fieldheader}
+																				<span {$tindakan_orderlinkattrs}>
+											{$label surat tindakan}
+										</span>
+									{END tindakan_fieldheader}
+									</th>
+									{END tindakan_fieldheadercolumn}
+
+																	{BEGIN tarikhTerima_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$tarikhTerima_class}">
+									{BEGIN tarikhTerima_fieldheader}
+																				<span {$tarikhTerima_orderlinkattrs}>
+											{$label surat tarikhTerima}
+										</span>
+									{END tarikhTerima_fieldheader}
+									</th>
+									{END tarikhTerima_fieldheadercolumn}
+
+																	{BEGIN pilihan_fieldheadercolumn}
+									<th class="rnr-gridfieldlabel {$pilihan_class}">
+									{BEGIN pilihan_fieldheader}
+																				<span {$pilihan_orderlinkattrs}>
+											{$label surat pilihan}
+										</span>
+									{END pilihan_fieldheader}
+									</th>
+									{END pilihan_fieldheadercolumn}
+
+
+									
+									<th class="rnr-edge">&nbsp;</th>
+									{BEGIN endrecordheader_block}
+									<th class="rnr-cs">&nbsp;</th>
+									
+									{END endrecordheader_block}
+									
+									{END record_header}
+									
+								</tr>
+								{END grid_header}
+
+						</thead>
+						<tbody>	
+															{BEGIN grid_row}
+								<tr class="rnr-row style1 {$rowclass}" {$rowattrs} {$rowstyle}>
+									{BEGIN grid_record}
+									{BEGIN listIcons_column}
+									<td class="rnr-cc rnr-bc rnr-icons" iEditCont="all" {$rowstyle} {$recordattrs}>
+																		{BEGIN edit_column}
+									{BEGIN edit_link}
+																			<a class="rnr-button-img" {$editlink_attrs} data-icon="edit" title="Sunting"></a>
+									{END edit_link}
+									{END edit_column}
+
+									
+									
+																		{BEGIN view_column}
+									{BEGIN view_link}
+																			<a class="rnr-button-img" {$viewlink_attrs} data-icon="view" title="Lihat"></a>
+									{END view_link}
+									{END view_column}
+									</td>	
+									{END listIcons_column}	
+
+																		{BEGIN checkbox_column}
+									<td class="rnr-bc" iEditCont="checkBox" {$rowstyle} {$recordattrs}>
+									{BEGIN checkbox}
+									<input type="checkbox" {$checkbox_attrs}>
+									{END checkbox}
+									</td>
+									{END checkbox_column}
+
+																		{BEGIN surat_dtable_column}
+									<td class="rnr-nowrap" {$rowstyle} {$recordattrs}>
+
+																		{BEGIN surat_individu_dtable_link}
+									<span>
+									<a {$surat_individu_dtablelink_attrs}>
+										Surat Individu
+																				<span {$surat_individu_childnumber_attr} dir="ltr">{BEGIN surat_individu_childcount}({$surat_individu_childnumber}){END surat_individu_childcount}</span>
+									</a>
+																		&nbsp;
+									</span>
+									{END surat_individu_dtable_link}
+									
+									</td>
+									{END surat_dtable_column}
+
+										{BEGIN TindakanTotal_fieldcolumn}
+	<td class="{$TindakanTotal_class}" {$TindakanTotal_style} {$recordattrs}>
+		{$TindakanTotal_value}
+	</td>
+{END TindakanTotal_fieldcolumn}
+
+	{BEGIN tarikhKemasukkan_fieldcolumn}
+	<td class="{$tarikhKemasukkan_class}" {$tarikhKemasukkan_style} {$recordattrs}>
+		{$tarikhKemasukkan_value}
+	</td>
+{END tarikhKemasukkan_fieldcolumn}
+
+	{BEGIN tarikhSurat_fieldcolumn}
+	<td class="{$tarikhSurat_class}" {$tarikhSurat_style} {$recordattrs}>
+		{$tarikhSurat_value}
+	</td>
+{END tarikhSurat_fieldcolumn}
+
+	{BEGIN pendaftar_fieldcolumn}
+	<td class="{$pendaftar_class}" {$pendaftar_style} {$recordattrs}>
+		{$pendaftar_value}
+	</td>
+{END pendaftar_fieldcolumn}
+
+	{BEGIN rujukanSurat_fieldcolumn}
+	<td class="{$rujukanSurat_class}" {$rujukanSurat_style} {$recordattrs}>
+		{$rujukanSurat_value}
+	</td>
+{END rujukanSurat_fieldcolumn}
+
+	{BEGIN RingkasanKandungan_fieldcolumn}
+	<td class="{$RingkasanKandungan_class}" {$RingkasanKandungan_style} {$recordattrs}>
+		{$RingkasanKandungan_value}
+	</td>
+{END RingkasanKandungan_fieldcolumn}
+
+	{BEGIN Jenis_fieldcolumn}
+	<td class="{$Jenis_class}" {$Jenis_style} {$recordattrs}>
+		{$Jenis_value}
+	</td>
+{END Jenis_fieldcolumn}
+
+	{BEGIN kategori_fieldcolumn}
+	<td class="{$kategori_class}" {$kategori_style} {$recordattrs}>
+		{$kategori_value}
+	</td>
+{END kategori_fieldcolumn}
+
+	{BEGIN tindakan_fieldcolumn}
+	<td class="{$tindakan_class}" {$tindakan_style} {$recordattrs}>
+		{$tindakan_value}
+	</td>
+{END tindakan_fieldcolumn}
+
+	{BEGIN tarikhTerima_fieldcolumn}
+	<td class="{$tarikhTerima_class}" {$tarikhTerima_style} {$recordattrs}>
+		{$tarikhTerima_value}
+	</td>
+{END tarikhTerima_fieldcolumn}
+
+	{BEGIN pilihan_fieldcolumn}
+	<td class="{$pilihan_class}" {$pilihan_style} {$recordattrs}>
+		{$pilihan_value}
+	</td>
+{END pilihan_fieldcolumn}
+
+
+									<td class="rnr-edge" {$recordattrs}>&nbsp;</td>
+									{BEGIN endrecord_block}
+									<td class="rnr-cs" {$endrecordblock_attrs}>&nbsp;</td>
+									{END endrecord_block}
+																	
+									{END grid_record}
+
+								</tr>
+								{END grid_row}
+															
+						</tbody>
+					</table>
+					
+
+{END grid_block}
+
+
+
+{END container_grid}
+
+
+
+{BEGIN container_pagination_bottom}
+<div class="rnr-c rnr-ch rnr-multialign rnr-c-pagination_bottom">
+
+{BEGIN pagination_block}
+<div  class="style1 rnr-bc rnr-b-pagination {$brickclass_pagination}">{$pagination}</div>
+{END pagination_block}
+
+<div class="rnr-leftbricks">
+{BEGIN details_block}
+<div  class="style1 rnr-bl rnr-b-details_found {$brickclass_details_found}">	<span {$details_attrs}>
+			Perincian dijumpai: <b><span class="rnr-details_found_count">{$records_found}</span></b>
+	</span>
+</div>
+{END details_block}
+
+</div><div class="rnr-rightbricks">
+{BEGIN pages_block}
+<div  class="style1 rnr-br rnr-b-page_of {$brickclass_page_of}">	<span {$pages_attrs}>
+		Halaman <b>{$page}</b> dari <b>{$maxpages}</b>
+	</span>
+
+</div>
+{END pages_block}
+
+
+{BEGIN recordspp_block}
+<div  class="style1 rnr-br rnr-b-recsperpage {$brickclass_recsperpage}">	<span id="recordspp_block{$id}" name="recordspp_block{$id}">
+			Rekod per halaman:&nbsp;{$recsPerPage}
+	</span>	
+</div>
+{END recordspp_block}
+
+</div>
+</div>
+{END container_pagination_bottom}
+
+
+			</div>
+			<div class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<div class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<div class="rnr-bottom {$blockclass_bottom}">
+			<!--%%bottom%%-->
+		</div>
+	</div>
+		
+		{$footer}
+	{END body}
+	</body>
+</html>

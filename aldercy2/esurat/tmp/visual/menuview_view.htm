@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE> 
+<META http-equiv="X-UA-Compatible" content="IE=Edge"> 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8"><LINK href="styles/default.css" rel="stylesheet" type="text/css">{BEGIN rtlCSS}<LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK href="{$stylepath}" rel="stylesheet" type="text/css">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]--> 
+<META name="GENERATOR" content="MSHTML 11.00.9600.16412"></HEAD> 
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}
+
+{$header} 
+<TABLE class="runner-toptable" cellpadding="0">
+  <TBODY>
+  <TR class="runner-header">
+    <TD class="runner-top" colspan="3">
+      {BEGIN container_view}
+      <TABLE align="left" class="runner-c runner-c-view" cellpadding="0">
+        <TBODY>
+        <TR class="runner-toprow style2 header">
+          <TD class="runner-cl"><IMG src="images/spacer.gif"></TD>
+          <TD class="runner-cc">
+            
+            <DIV class="runner-b-viewheader {$brickclass_viewheader}">Surat, 
+            Lihat rekod [ Pilihan: 
+            {$show_key1}       
+            ]</DIV></TD>
+          <TD class="runner-cr"><IMG src="images/spacer.gif"></TD></TR>
+        <TR class="runner-row style1 runner-b-wrapper {$wrapperclass_fields}">
+          <TD class="runner-cl"></TD>
+          <TD class="runner-cc runner-brickcontents runner-wrapper">
+            
+            {BEGIN container_fields}
+            <TABLE class="runner-c runner-c-fields" cellpadding="0">
+              <TBODY>
+              {BEGIN tarikhSurat_fieldblock}<TR class="runner-toprow header style1 runner-b-viewfields">
+                <TD class="runner-cl"><IMG src="images/spacer.gif"></TD>
+                <TD class="runner-cc runner-cc1">
+                  
+                  <DIV class="fieldlabel_tarikhSurat {$fielddispclass_tarikhSurat}"><B>Tarikh 
+                                    Surat</B> </DIV></TD>
+                <TD class="runner-cc alt">
+                  
+                  <DIV class="fieldvalue_tarikhSurat {$fielddispclass_tarikhSurat}">
+                  {$tarikhSurat_value}&nbsp; 
+                  </DIV></TD>
+                <TD class="runner-cr alt"><IMG src="images/spacer.gif"></TD></TR>
+              {END tarikhSurat_fieldblock}{BEGIN tarikhTerima_fieldblock}<TR class="runner-row style1 runner-b-viewfields">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc runner-cc1">
+                  
+                  <DIV class="fieldlabel_tarikhTerima {$fielddispclass_tarikhTerima}"><B>Tarikh 
+                                    Terima</B> </DIV></TD>
+                <TD class="runner-cc alt">
+                  
+                  <DIV class="fieldvalue_tarikhTerima {$fielddispclass_tarikhTerima}">
+                  {$tarikhTerima_value}&nbsp; 
+                  </DIV></TD>
+                <TD class="runner-cr alt"></TD></TR>
+              {END tarikhTerima_fieldblock}{BEGIN rujukanSurat_fieldblock}<TR class="runner-row style1 runner-b-viewfields">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc runner-cc1">
+                  
+                  <DIV class="fieldlabel_rujukanSurat {$fielddispclass_rujukanSurat}"><B>No 
+                                    Rujukan Surat</B> </DIV></TD>
+                <TD class="runner-cc alt">
+                  
+                  <DIV class="fieldvalue_rujukanSurat {$fielddispclass_rujukanSurat}">
+                  {$rujukanSurat_value}&nbsp; 
+                  </DIV></TD>
+                <TD class="runner-cr alt"></TD></TR>
+              {END rujukanSurat_fieldblock}{BEGIN RingkasanKandungan_fieldblock}<TR class="runner-row style1 runner-b-viewfields">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc runner-cc1">
+                  
+                  <DIV class="fieldlabel_RingkasanKandungan {$fielddispclass_RingkasanKandungan}"><B>Ringkasan 
+                  Kandungan</B> </DIV></TD>
+                <TD class="runner-cc alt">
+                  
+                  <DIV class="fieldvalue_RingkasanKandungan {$fielddispclass_RingkasanKandungan}">
+                  {$RingkasanKandungan_value}&nbsp;
+                  </DIV></TD>
+                <TD class="runner-cr alt"></TD></TR>
+              {END RingkasanKandungan_fieldblock}{BEGIN Jenis_fieldblock}<TR class="runner-row style1 runner-b-viewfields">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc runner-cc1">
+                  
+                  <DIV class="fieldlabel_Jenis {$fielddispclass_Jenis}"><B>Jenis</B> 
+                  </DIV></TD>
+                <TD class="runner-cc alt">
+                  
+                  <DIV class="fieldvalue_Jenis {$fielddispclass_Jenis}">
+                  {$Jenis_value}&nbsp; </DIV></TD>
+                <TD class="runner-cr alt"></TD></TR>
+              {END Jenis_fieldblock}{BEGIN kategori_fieldblock}<TR class="runner-row style1 runner-b-viewfields">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc runner-cc1">
+                  
+                  <DIV class="fieldlabel_kategori {$fielddispclass_kategori}"><B>Kategori</B> 
+                  </DIV></TD>
+                <TD class="runner-cc alt">
+                  
+                  <DIV class="fieldvalue_kategori {$fielddispclass_kategori}">
+                  {$kategori_value}&nbsp; 
+                </DIV></TD>
+                <TD class="runner-cr alt"></TD></TR>
+              {END kategori_fieldblock}<TR class="runner-row style1">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc" colspan="2">
+                  
+                  {$TabGroup PTG1}&nbsp;	</TD>
+                <TD class="runner-cr"></TD></TR>
+              <TR class="runner-row style1">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc" colspan="2">
+                  
+                  {$TabGroup Agensi1}&nbsp;	</TD>
+                <TD class="runner-cr"></TD></TR>
+              <TR class="runner-row style1">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc" colspan="2">
+                  
+                  {$TabGroup Awam1}&nbsp;	</TD>
+                <TD class="runner-cr"></TD></TR>
+              <TR class="runner-row style2 runner-b-viewbuttons {$brickclass_viewbuttons}">
+                <TD class="runner-cl"></TD>
+                <TD class="runner-cc runner-brickcontents" colspan="2">
+                  {BEGIN back_button}<SPAN class="runner-btnframe"><SPAN class="runner-btnleft"></SPAN><SPAN class="runner-btnright"></SPAN><A class="runner-button" onclick="window.location.href='surat_list.php?a=return'" href="#" {$backbutton_attrs}>Kembali 
+                  ke senarai</A> </SPAN>{END back_button}</TD>
+                <TD class="runner-cr"></TD></TR>
+              <TR class="{$cfooterclass_fields}">
+                <TD class="runner-cl"><IMG src="images/spacer.gif"></TD>
+                <TD class="runner-cc"></TD>
+                <TD class="runner-cc"></TD>
+                <TD class="runner-cr"><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_fields}</TD>
+          <TD class="runner-cr"></TD></TR>
+        <TR class="{$cfooterclass_view}">
+          <TD class="runner-cl"><IMG src="images/spacer.gif"></TD>
+          <TD class="runner-cc"></TD>
+          <TD class="runner-cr"><IMG src="images/spacer.gif"></TD></TR></TBODY></TABLE>{END container_view}</TD></TR>
+  <TR class="runner-body">
+    <TD class="runner-left {$blockclass_left}"></TD>
+    <TD class="runner-center {$blockclass_center}"></TD>
+    <TD class="runner-right {$blockclass_right}"></TD></TR>
+  <TR class="runner-footer">
+    <TD class="runner-bottom" colspan="3">
+      <P>&nbsp;</P>
+      <P><FONT size="4">Kepada / Penerima</FONT></P>
+      <P></P>
+      <P></P>
+      <P><FONT size="4"></FONT>
+      {$displayDetailTable_surat_individu}
+      <P></P>
+      <P><FONT size="4"></FONT>&nbsp;</P>
+      <P><FONT size="4">Salinan Digital Surat</FONT></P>
+      <P>&nbsp;</P>
+      <P>
+      {$displayDetailTable_document}
+      <P></P>
+      <P>&nbsp;</P>
+      <P><FONT size="4">Pergerakkan&nbsp;Surat</FONT> 
+      <P>
+      {$displayDetailTable_pergerakan}
+      <P></P>
+      <P>&nbsp;</P><!--%%bottom%%--></TD></TR></TBODY></TABLE>
+{$footer}&nbsp; {END body}</BODY></HTML>

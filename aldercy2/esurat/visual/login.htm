@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}>
+  <HEAD>
+    <META http-equiv="X-UA-Compatible" content="IE=Edge">
+    <TITLE>
+      {$pagetitle}
+    </TITLE>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <LINK href="styles/default.css" rel="stylesheet" type="text/css">
+    {BEGIN rtlCSS}
+      <LINK href="styles/defaultRTL.css" rel="stylesheet" type="text/css">
+    {END rtlCSS}
+    {BEGIN styleCSSFiles}
+      <LINK href="{$stylepath}" rel="stylesheet" type="text/css">
+    {END styleCSSFiles}
+    {BEGIN pageCSSFiles}
+      <LINK href="{$pagestylepath}" rel="stylesheet" type="text/css">
+    {END pageCSSFiles}
+    <META name="GENERATOR" content="MSHTML 11.00.9600.16412">
+  </HEAD>
+  <BODY class="{$stylename} function-login" {$bodyattrs}>
+    {BEGIN body}
+      {$header}
+      <TABLE width="100%" border="0" cellspacing="1" cellpadding="1">
+        <TBODY>
+          <TR>
+            <TD class="runner-top runner-cc" valign="top">
+              <IMG src="main.jpg">
+            </TD>
+            <TD>
+              <DIV class="rnr-page">
+                <DIV class="rnr-top {$blockclass_top}">
+                  {BEGIN container_login}
+                    <DIV class="rnr-c rnr-cv rnr-c-login">
+                      {BEGIN loginheader}
+                        <DIV class="rnr-brickcontents style2 rnr-b-loginheader {$brickclass_loginheader}">
+                          <SPAN>
+                            <H1>
+                              {$pagetitlelabel login}
+                            </H1>
+                          </SPAN>
+                        </DIV>
+                      {END loginheader}
+                      {BEGIN message_block}
+                        <DIV class="rnr-brickcontents style1 rnr-b-message {$brickclass_message}">
+                          <DIV class="rnr-message">
+                            {$message}
+                          </DIV>
+                        </DIV>
+                      {END message_block}
+                      <DIV class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+                        {BEGIN container_fields}
+                          <DIV class="rnr-c rnr-cv rnr-c-fields">
+                            <DIV class="rnr-brickcontents style1 rnr-b-loginfields {$brickclass_loginfields}">
+                              <TABLE class="fieldGrid">
+                                <TBODY>
+                                  <TR>
+                                    <TD>
+                                      {BEGIN username_label}
+                                        Nama Pengguna:
+                                      {END username_label}
+                                    </TD>
+                                    <TD class="rnr-control">
+                                      <INPUT name="username" type="text" {$username_attrs}>
+                                    </TD>
+                                  </TR>
+                                  <TR>
+                                    <TD>
+                                      {BEGIN password_label}
+                                        Katalaluan:
+                                      {END password_label}
+                                    </TD>
+                                    <TD class="rnr-control">
+                                      <INPUT name="password" type="password" {$password_attrs}>
+                                    </TD>
+                                  </TR>
+                                  <TR>
+                                    <TD>
+                                      {BEGIN remember_password_label}
+                                        Ingat Katalaluan:
+                                      {END remember_password_label}
+                                    </TD>
+                                    <TD>
+                                      <INPUT type="checkbox" {$rememberbox_attrs}>
+                                    </TD>
+                                  </TR>
+                                </TBODY>
+                              </TABLE>
+                            </DIV>
+                            {BEGIN loginbuttons}
+                              <DIV class="rnr-brickcontents style2 rnr-b-loginbuttons {$brickclass_loginbuttons}">
+                                <A class="rnr-button main" href="#" {$loginlink_attrs}>
+                                  Hantar
+                                </A>
+                                {BEGIN continue_button}
+                                  <A class="rnr-button" href="#" {$continuebutton_attrs}>
+                                    Continue
+                                  </A>
+                                {END continue_button}
+                              </DIV>
+                            {END loginbuttons}
+                          </DIV>
+                        {END container_fields}
+                      </DIV>
+                    </DIV>
+                  {END container_login}
+                </DIV>
+                <DIV class="rnr-middle">
+                  <DIV class="rnr-left {$blockclass_left}">
+                  </DIV>
+                  <DIV class="rnr-center {$blockclass_center}">
+                  </DIV>
+                  <DIV class="rnr-right {$blockclass_right}">
+                  </DIV>
+                </DIV>
+                <DIV class="rnr-bottom {$blockclass_bottom}">
+                </DIV>
+              </DIV>
+            </TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      {$footer}
+    {END body}
+  </BODY>
+</HTML>

@@ -1,0 +1,45 @@
+<div {$pageattrs}>
+
+{BEGIN container_1}
+
+
+
+<table class="fieldGrid">
+{BEGIN individu_tabfieldblock}
+<tr class="{$fielddispclass_individu}" data-fieldname="individu">
+	<td class="style1 rnr-label">
+		{BEGIN individu_label}{$label menuview individu}{END individu_label}
+	</td>
+	<td class="rnr-control style3">
+		{$individu_editcontrol}&nbsp;
+	</td>
+</tr>
+{END individu_tabfieldblock}
+{BEGIN bahagian_tabfieldblock}
+<tr class="{$fielddispclass_bahagian}" data-fieldname="bahagian">
+	<td class="style1 rnr-label">
+		{BEGIN bahagian_label}{$label menuview bahagian}{END bahagian_label}
+	</td>
+	<td class="rnr-control style3">
+		{$bahagian_editcontrol}&nbsp;
+	</td>
+</tr>
+{END bahagian_tabfieldblock}
+{BEGIN jawatan_tabfieldblock}
+<tr class="{$fielddispclass_jawatan}" data-fieldname="jawatan">
+	<td class="style1 rnr-label">
+		{BEGIN jawatan_label}{$label menuview jawatan}{END jawatan_label}
+	</td>
+	<td class="rnr-control style3">
+		{$jawatan_editcontrol}&nbsp;
+	</td>
+</tr>
+{END jawatan_tabfieldblock}
+</table>
+
+
+
+
+{END container_1}
+
+</div>

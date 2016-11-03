@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<HTML {$html_attrs}><HEAD><TITLE>{$pagetitle}</TITLE>
+<META http-equiv="X-UA-Compatible" content="IE=Edge">
+<META content="text/html; charset=utf-8" http-equiv=Content-Type><LINK rel=stylesheet type=text/css href="styles/default.css">{BEGIN rtlCSS}<LINK rel=stylesheet type=text/css href="styles/defaultRTL.css">{END rtlCSS}{BEGIN styleCSSFiles}<LINK rel=stylesheet type=text/css href="{$stylepath}">{END styleCSSFiles}{BEGIN pageCSSFiles}<LINK rel=stylesheet type=text/css href="{$pagestylepath}">{END pageCSSFiles}<!--[if IE]><LINK rel=stylesheet type=text/css href="styles/defaultIE.css">{BEGIN IEcssFiles}<LINK rel=stylesheet type=text/css href="{$stylepathIE}">{END IEcssFiles}<![endif]-->
+<META name=GENERATOR content="MSHTML 8.00.7600.16625"></HEAD>
+<BODY class="{$stylename}" {$bodyattrs}>{BEGIN body}{$header} 
+<TABLE class=runner-toptable cellPadding=0><TR class=runner-header><TD class=runner-top colSpan=3>{BEGIN container_edit}<TABLE class="runner-c runner-c-edit" cellPadding=0 align=center><TR class="runner-toprow style2 header"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc><DIV class="runner-b-editheader {$brickclass_editheader}">Surat 
+            Individu, Kemaskini rekod [ Siid: {$show_key1} 
+          ]</DIV></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR>
+        {BEGIN message_block}<TR class="runner-row style1 runner-b-message {$brickclass_message}"><TD class=runner-cl></TD>
+          <TD class="runner-cc runner-brickcontents"><DIV class=runner-message>{$message}</DIV></TD>
+          <TD class=runner-cr></TD></TR>
+        {END message_block}<TR class="runner-row style1 runner-b-wrapper {$wrapperclass_fields}"><TD class=runner-cl></TD>
+          <TD class="runner-cc runner-brickcontents runner-wrapper">{BEGIN container_fields}<TABLE class="runner-c runner-c-fields" cellPadding=0>{BEGIN iid_fieldblock}<tr class="runner-toprow header style1 runner-b-editfields"><TD class=runner-cl><img src="images/spacer.gif"></TD>
+                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_iid {$fielddispclass_iid}">{BEGIN iid_label}Nama {END iid_label}</DIV></TD>
+                <TD class="runner-cc alt runner-fixedcell"><DIV class="fieldcontrol_iid {$fielddispclass_iid}">{$iid_editcontrol}&nbsp; </DIV></TD>
+                <TD class="runner-cr alt"><img src="images/spacer.gif"></TD></tr>
+              {END iid_fieldblock}
+	{BEGIN Bahagian_fieldblock}<tr class="runner-row style1 runner-b-editfields"><TD class=runner-cl></TD>
+                <TD class="runner-cc runner-cc1"><DIV class="fieldlabel_Bahagian {$fielddispclass_Bahagian}">{BEGIN Bahagian_label}Bahagian {END Bahagian_label}</DIV></TD>
+                <TD class="runner-cc alt runner-fixedcell"><DIV 
+                  class="fieldcontrol_Bahagian {$fielddispclass_Bahagian}">{$Bahagian_editcontrol}&nbsp; 
+                </DIV></TD>
+                <TD class="runner-cr alt"></TD></tr>
+              {END Bahagian_fieldblock}
+	{BEGIN Jawatan_fieldblock}<tr class="runner-row style1 runner-b-editfields"><td class="runner-cl"></td>
+		<td class="runner-cc runner-cc1"><div class="fieldlabel_Jawatan {$fielddispclass_Jawatan}">{BEGIN Jawatan_label}Jawatan{END Jawatan_label}
+			</div>
+		</td>
+		<td class="runner-cc alt runner-fixedcell"><div class="fieldcontrol_Jawatan {$fielddispclass_Jawatan}">{$Jawatan_editcontrol}&nbsp;
+			</div>
+		</td>
+	<td class="runner-cr alt"></td></tr>
+{END Jawatan_fieldblock}
+	{BEGIN legend}<TR class="runner-row style3 runner-b-legend {$brickclass_legend}"><TD class=runner-cl></TD>
+                <TD class="runner-cc runner-brickcontents" colSpan=2><SPAN id=required_block{$id}><IMG alt=bullet src="images/icon_required.gif"> - Medan Perlu </SPAN></TD>
+                <TD class=runner-cr></TD></TR>
+              {END legend}<TR 
+              class="runner-row style2 runner-b-editbuttons {$brickclass_editbuttons}"><TD class=runner-cl></TD>
+                <TD class="runner-cc runner-brickcontents" colSpan=2>{BEGIN save_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$savebutton_attrs}>Simpan</A> 
+                  </SPAN>{END save_button}{BEGIN reset_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$resetbutton_attrs}>Set 
+                  semula</A> </SPAN>{END reset_button}{BEGIN prev_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$prevbutton_attrs}>&nbsp;&lt;&lt;&lt;&nbsp;</A> </SPAN>{END prev_button}{BEGIN back_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$backbutton_attrs}>Kembali ke 
+                  senarai</A> </SPAN>{END back_button}{BEGIN next_button}<SPAN class=runner-btnframe><SPAN class=runner-btnleft></SPAN><SPAN class=runner-btnright></SPAN><A class=runner-button href="#" {$nextbutton_attrs}>&nbsp;&gt;&gt;&gt;&nbsp;</A> 
+                </SPAN>{END next_button}</TD>
+                <TD class=runner-cr></TD></TR>
+              <TR class="{$cfooterclass_fields}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cc></TD>
+                <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_fields}</TD>
+          <TD class=runner-cr></TD></TR>
+        <TR class="{$cfooterclass_edit}"><TD class=runner-cl><IMG src="images/spacer.gif"></TD>
+          <TD class=runner-cc></TD>
+          <TD class=runner-cr><IMG src="images/spacer.gif"></TD></TR></TABLE>{END container_edit}</TD></TR>
+  <TR class=runner-body><TD class="runner-left {$blockclass_left}"></TD>
+    <TD class="runner-center {$blockclass_center}"></TD>
+    <TD class="runner-right {$blockclass_right}"></TD></TR>
+  <TR class=runner-footer><TD class=runner-bottom 
+colSpan=3><!--%%bottom%%--></TD></TR></TABLE>{$footer}{END body} </BODY></HTML>

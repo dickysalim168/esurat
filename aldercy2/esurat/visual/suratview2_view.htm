@@ -1,0 +1,207 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<title>{$pagetitle}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link REL="stylesheet" href="styles/default.css" type="text/css">
+		{BEGIN rtlCSS}<link REL="stylesheet" href="styles/defaultRTL.css" type="text/css">
+		{END rtlCSS}
+		{BEGIN styleCSSFiles}<link REL="stylesheet" href="{$stylepath}" type="text/css">
+		{END styleCSSFiles}
+		{BEGIN pageCSSFiles}<link REL="stylesheet" href="{$pagestylepath}" type="text/css">
+		{END pageCSSFiles}
+	</head>
+	
+	<BODY class="{$stylename} function-view" {$bodyattrs}>
+	{BEGIN body}{$header}
+	<DIV class="rnr-page">
+		<DIV class="rnr-top {$blockclass_top}">
+			
+
+{BEGIN container_all}<DIV class="rnr-c rnr-cv rnr-c-all">
+
+
+<DIV class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_main} rnr-wrapper rnr-cbw-main">
+
+{BEGIN container_main}<DIV class="rnr-c rnr-cv rnr-c-main">
+
+
+
+<DIV class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_view} rnr-wrapper rnr-cbw-view">
+
+{BEGIN container_view}<DIV class="rnr-c rnr-cv rnr-c-view">
+
+{BEGIN viewheader}<DIV class="rnr-brickcontents style2 rnr-b-viewheader {$brickclass_viewheader}"><span>	<h1>{$pagetitlelabel suratview2 view}</h1>
+</span></div>{END viewheader}
+
+
+
+<DIV class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_fields} rnr-wrapper rnr-cbw-fields">
+
+{BEGIN container_fields}<DIV class="rnr-c rnr-cv rnr-c-fields">
+
+
+<DIV class="rnr-brickcontents style1 rnr-b-viewfields {$brickclass_viewfields}"><TABLE class="fieldGrid">
+	{BEGIN tarikhSurat_fieldblock}<TR class="{$fielddispclass_tarikhSurat}" data-fieldname="tarikhSurat">
+	<TD class="rnr-label">
+		{$label suratview2 tarikhSurat}
+	</td>
+	<TD class="rnr-control style3">
+		{$tarikhSurat_value}&nbsp;
+	</td>
+</tr>
+{END tarikhSurat_fieldblock}
+	{BEGIN tarikhTerima_fieldblock}<TR class="{$fielddispclass_tarikhTerima}" data-fieldname="tarikhTerima">
+	<TD class="rnr-label">
+		{$label suratview2 tarikhTerima}
+	</td>
+	<TD class="rnr-control style3">
+		{$tarikhTerima_value}&nbsp;
+	</td>
+</tr>
+{END tarikhTerima_fieldblock}
+	{BEGIN rujukanSurat_fieldblock}<TR class="{$fielddispclass_rujukanSurat}" data-fieldname="rujukanSurat">
+	<TD class="rnr-label">
+		{$label suratview2 rujukanSurat}
+	</td>
+	<TD class="rnr-control style3">
+		{$rujukanSurat_value}&nbsp;
+	</td>
+</tr>
+{END rujukanSurat_fieldblock}
+	{BEGIN RingkasanKandungan_fieldblock}<TR class="{$fielddispclass_RingkasanKandungan}" data-fieldname="RingkasanKandungan">
+	<TD class="rnr-label">
+		{$label suratview2 RingkasanKandungan}
+	</td>
+	<TD class="rnr-control style3">
+		{$RingkasanKandungan_value}&nbsp;
+	</td>
+</tr>
+{END RingkasanKandungan_fieldblock}
+	{BEGIN Jenis_fieldblock}<TR class="{$fielddispclass_Jenis}" data-fieldname="Jenis">
+	<TD class="rnr-label">
+		{$label suratview2 Jenis}
+	</td>
+	<TD class="rnr-control style3">
+		{$Jenis_value}&nbsp;
+	</td>
+</tr>
+{END Jenis_fieldblock}
+	{BEGIN kategori_fieldblock}<TR class="{$fielddispclass_kategori}" data-fieldname="kategori">
+	<TD class="rnr-label">
+		{$label suratview2 kategori}
+	</td>
+	<TD class="rnr-control style3">
+		{$kategori_value}&nbsp;
+	</td>
+</tr>
+{END kategori_fieldblock}
+	<tr>
+	<td colspan="2">
+		{$Section PTG1}&nbsp;	
+	</td>
+</tr>
+
+	<tr>
+	<td colspan="2">
+		{$Section Agensi1}&nbsp;	
+	</td>
+</tr>
+
+	<tr>
+	<td colspan="2">
+		{$Section Awam1}&nbsp;	
+	</td>
+</tr>
+
+</table></div>
+
+
+{BEGIN viewbuttons}<DIV class="rnr-brickcontents style2 rnr-b-viewbuttons {$brickclass_viewbuttons}"><DIV class="rnr-buttons-right">
+{BEGIN prev_button}<A href="#" class="rnr-button {$prevbutton_class}" {$prevbutton_attrs}>&lt;&lt;&lt;</a>
+{END prev_button}
+{BEGIN next_button}<A href="#" class="rnr-button {$nextbutton_class}" {$nextbutton_attrs}>&gt;&gt;&gt;</a>
+{END next_button}
+</div>
+<DIV class="rnr-buttons-left">
+{BEGIN back_button}<A href="#" class="rnr-button" {$backbutton_attrs}>Kembali ke senarai</a>
+{END back_button}
+{BEGIN close_button}<A href="#" class="rnr-button" {$closebutton_attrs}>Tutup tetingkap</a>
+{END close_button}
+{BEGIN edit_page_button}<A href="#" class="rnr-button" {$edit_page_button_attrs}>Sunting</a>
+{END edit_page_button}
+</div>
+</div>{END viewbuttons}
+
+
+</div>
+{END container_fields}
+
+</div>
+
+
+</div>
+{END container_view}
+
+</div>
+
+
+</div>
+{END container_main}
+
+</div>
+
+
+
+<DIV class="rnr-brickcontents style1 rnr-b-wrapper {$wrapperclass_details} rnr-wrapper rnr-cbw-details">
+
+{BEGIN container_details}<DIV class="rnr-c rnr-cv rnr-c-details">
+
+{BEGIN detail_tables}{BEGIN details_surat_individu}<DIV class="rnr-cw-detailssurat_individu rnr-s-empty aslinks {$pageStyleName}">
+<DIV class="rnr-c rnr-cv rnr-c-detailssurat_individu rnr-c-details">
+<DIV class="rnr-brickcontents style1 rnr-b-viewdetailssurat_individu rnr-b-viewdetails">
+
+	<DIV class="rnr-dcaption">
+		Surat Individu
+	</div>
+	{$displayDetailTable_surat_individu}
+</div>
+</div>
+</div>
+	{END details_surat_individu}
+{END detail_tables}
+
+
+</div>
+{END container_details}
+
+</div>
+
+
+</div>
+{END container_all}
+
+
+		</div>
+		<DIV class="rnr-middle">
+			<DIV class="rnr-left {$blockclass_left}">
+				
+			</div>
+			<DIV class="rnr-center {$blockclass_center}">
+				
+			</div>
+			<DIV class="rnr-right {$blockclass_right}">
+				
+			</div>
+		</div>
+		<DIV class="rnr-bottom {$blockclass_bottom}">
+			
+		</div>
+	</div>
+		
+		{$footer}
+	Kepada / Penerima{$displayDetailTable_surat_individu}Salinan Digital Surat{$displayDetailTable_document}Pergerakkan&nbsp;Surat{$displayDetailTable_pergerakan}{END body}
+	</body>
+</html>
